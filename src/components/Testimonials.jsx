@@ -3,7 +3,6 @@ import Book_Appointment from "../components/Appointment/Book_Appointment";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import videoUrls from "../config/videoUrls";
 
 function Testimonials() {
   const [isFullScreen, setIsFullScreen] = useState(false);
@@ -45,12 +44,12 @@ function Testimonials() {
       title: "Ayurvedic Treatment for Digestive Issues"
     },
     {
-      src: videoUrls.testimonials.testimonial3,
+      src: "https://drive.google.com/file/d/1rhbwNGhwobtnts3W0O7Vc4cFWUg3a18m/view?usp=sharing",
       thumbnail: "/testimonials/thumbnails/thumb_3.png",
       title: "Panchakarma Experience"
     },
     {
-      src: videoUrls.testimonials.testimonial4,
+      src: "https://drive.google.com/file/d/1vL_Eu7uMlc-fp1nXEhOQ4ooVUCTJxqEV/view?usp=drive_link",
       thumbnail: "/testimonials/thumbnails/thumb_4.png",
       title: "Stress Management Success"
     },
@@ -71,17 +70,32 @@ function Testimonials() {
     autoplaySpeed: 3000,
     responsive: [
       {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: true,
+        }
+      },
+      {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          arrows: false,
         }
       }
     ]
   };
 
   const handleThumbnailClick = (videoSrc) => {
-    setCurrentVideo(videoSrc);
+    // Convert Google Drive link to embeddable format if needed
+    let processedSrc = videoSrc;
+    if (videoSrc.includes('drive.google.com')) {
+      const fileId = videoSrc.split('/')[5];
+      processedSrc = `https://drive.google.com/file/d/${fileId}/preview`;
+    }
+    setCurrentVideo(processedSrc);
     setIsFullScreen(true);
   };
 
@@ -146,31 +160,33 @@ function Testimonials() {
             Real experiences from our valued patients
           </p>
         </div>
-        <Slider {...sliderSettings}>
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="px-4">
-              <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 h-[300px] flex flex-col transform hover:-translate-y-1">
-                <div className="flex items-center mb-6">
-                  <div className="w-14 h-14 rounded-full bg-[#5FA02E]/10 flex items-center justify-center mr-4">
-                    <span className="text-[#5FA02E] font-semibold text-xl">
-                      {testimonial.name.charAt(0)}
-                    </span>
+        <div className="relative">
+          <Slider {...sliderSettings}>
+            {testimonials.map((testimonial, index) => (
+              <div key={index} className="px-4">
+                <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 h-[300px] flex flex-col transform hover:-translate-y-1">
+                  <div className="flex items-center mb-6">
+                    <div className="w-14 h-14 rounded-full bg-[#5FA02E]/10 flex items-center justify-center mr-4">
+                      <span className="text-[#5FA02E] font-semibold text-xl">
+                        {testimonial.name.charAt(0)}
+                      </span>
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-[#394E29] text-lg">{testimonial.name}</h3>
+                      <p className="text-[#757575] text-sm">{testimonial.role}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="font-semibold text-[#394E29] text-lg">{testimonial.name}</h3>
-                    <p className="text-[#757575] text-sm">{testimonial.role}</p>
+                  <div className="relative flex-grow">
+                    <div className="absolute top-0 left-0 text-4xl text-[#5FA02E]/20 font-serif">"</div>
+                    <p className="text-[#757575] text-base pl-6 pt-2">
+                      {testimonial.review}
+                    </p>
                   </div>
-                </div>
-                <div className="relative flex-grow">
-                  <div className="absolute top-0 left-0 text-4xl text-[#5FA02E]/20 font-serif">"</div>
-                  <p className="text-[#757575] text-base pl-6 pt-2">
-                    {testimonial.review}
-                  </p>
                 </div>
               </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </section>
 
       {/* Video Testimonials Section */}
@@ -232,7 +248,7 @@ function Testimonials() {
           onClick={handleClose}
         >
           {/* Mobile View */}
-          <div className=" md:hidden h-screen w-screen flex items-center justify-center bg-[#757575]/90 backdrop-blur-md">
+          <div className="md:hidden h-screen w-screen flex items-center justify-center bg-[#757575]/90 backdrop-blur-md">
             <div className="relative w-full h-full max-w-2xl mx-auto">
               {/* Close Button */}
               <button
@@ -256,15 +272,24 @@ function Testimonials() {
               </button>
 
               {/* Video Player */}
-              <video
-                ref={videoRef}
-                src={currentVideo}
-                className="w-full h-full object-contain"
-                controls
-                autoPlay
-                playsInline
-                onEnded={handleClose}
-              ></video>
+              {currentVideo.includes('drive.google.com') ? (
+                <iframe
+                  src={currentVideo}
+                  className="w-full h-full"
+                  allow="autoplay"
+                  allowFullScreen
+                ></iframe>
+              ) : (
+                <video
+                  ref={videoRef}
+                  src={currentVideo}
+                  className="w-full h-full object-contain"
+                  controls
+                  autoPlay
+                  playsInline
+                  onEnded={handleClose}
+                ></video>
+              )}
             </div>
           </div>
 
@@ -297,13 +322,22 @@ function Testimonials() {
 
               {/* Video Player */}
               <div className="relative pt-[56.25%]">
-                <video
-                  ref={videoRef}
-                  src={currentVideo}
-                  className="absolute top-0 left-0 w-full h-full"
-                  controls
-                  onEnded={handleClose}
-                ></video>
+                {currentVideo.includes('drive.google.com') ? (
+                  <iframe
+                    src={currentVideo}
+                    className="absolute top-0 left-0 w-full h-full"
+                    allow="autoplay"
+                    allowFullScreen
+                  ></iframe>
+                ) : (
+                  <video
+                    ref={videoRef}
+                    src={currentVideo}
+                    className="absolute top-0 left-0 w-full h-full"
+                    controls
+                    onEnded={handleClose}
+                  ></video>
+                )}
               </div>
             </div>
           </div>

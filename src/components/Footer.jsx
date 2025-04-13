@@ -11,7 +11,7 @@ import SocialIcons from "./SocialIcons";
 function Footer() {
   return (
     <div className="bg-[#F3FFEA]">
-      <div className="pt-12 sm:pt-16 pb-8 sm:pb-12 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 w-full bg-[#5FA02E] rounded-t-3xl overflow-hidden ">
+      <div className="pt-12 sm:pt-16 pb-8 sm:pb-12 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 w-full bg-[#5FA02E] rounded-t-3xl overflow-hidden">
         {/* Decorative Elements */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 right-0 w-48 sm:w-64 h-48 sm:h-64 bg-[#394E29]/10 rounded-full blur-3xl"></div>
@@ -19,10 +19,10 @@ function Footer() {
         </div>
 
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-10 xl:gap-12 text-white sm:py-1 py-12">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 xl:gap-16 text-white">
             {/* About Section */}
-            <div className="space-y-4 sm:space-y-6">
-              <img src={assets.header_logo} alt="Logo" className="" />
+            <div className="flex-1 mt-12 sm:mt-0 space-y-4 sm:space-y-6">
+              <img src={assets.header_logo} alt="Logo" className="w-40 sm:w-56" />
               <p className="text-white/90 text-sm sm:text-base leading-relaxed max-w-sm">
                 At Agni Ayurved Hospital, we uphold Ayurveda's rich legacy with
                 quality, ethics, and a mission to build a healthier community.
@@ -33,7 +33,7 @@ function Footer() {
             </div>
 
             {/* Main Links Section */}
-            <div className="space-y-4 sm:space-y-6">
+            <div className="flex-1 space-y-4 sm:space-y-6">
               <h3 className="text-lg sm:text-xl font-semibold">Main Links</h3>
               <ul className="space-y-2 sm:space-y-3">
                 {[
@@ -57,13 +57,13 @@ function Footer() {
               </ul>
             </div>
 
-            {/* Timings Section */}
-            <div className="space-y-4 sm:space-y-6">
+            {/* Hospital Timings Section */}
+            <div className="flex-1 space-y-4 sm:space-y-6">
               <h3 className="text-lg sm:text-xl font-semibold">
                 Hospital Timings
               </h3>
-              <div className="space-y-3 sm:space-y-4">
-                <div>
+              <div className="flex flex-col gap-4">
+                <div className="bg-white/10 p-4 rounded-lg">
                   <h4 className="text-base sm:text-lg font-medium">
                     Monday to Saturday
                   </h4>
@@ -71,19 +71,22 @@ function Footer() {
                     8:00 AM to 9:00 PM
                   </p>
                 </div>
-                <div>
+                <div className="bg-white/10 p-4 rounded-lg">
                   <h4 className="text-base sm:text-lg font-medium">Sunday</h4>
                   <p className="text-white/90 text-sm sm:text-base">
                     8:00 AM to 1:00 PM
                   </p>
                 </div>
               </div>
+            </div>
 
-              <div className="space-y-3 sm:space-y-4">
-                <h3 className="text-lg sm:text-xl font-semibold">
-                  OPD Timings
-                </h3>
-                <div>
+            {/* OPD Timings Section */}
+            <div className="flex-1 space-y-4 sm:space-y-6">
+              <h3 className="text-lg sm:text-xl font-semibold">
+                OPD Timings
+              </h3>
+              <div className="flex flex-col gap-4">
+                <div className="bg-white/10 p-4 rounded-lg">
                   <h4 className="text-base sm:text-lg font-medium">
                     Monday to Saturday
                   </h4>
@@ -94,7 +97,7 @@ function Footer() {
                     5:00 PM to 8:00 PM
                   </p>
                 </div>
-                <div>
+                <div className="bg-white/10 p-4 rounded-lg">
                   <h4 className="text-base sm:text-lg font-medium">Sunday</h4>
                   <p className="text-white/90 text-sm sm:text-base">
                     8:00 AM to 1:00 PM
@@ -104,10 +107,10 @@ function Footer() {
             </div>
 
             {/* Contact Section */}
-            <div className="space-y-4 sm:space-y-6">
+            <div className="flex-1 space-y-4 sm:space-y-6">
               <h3 className="text-lg sm:text-xl font-semibold">Contact Us</h3>
-              <div className="space-y-3 sm:space-y-4">
-                <div className="flex items-start space-x-3 sm:space-x-4">
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3 sm:space-x-4 bg-white/10 p-4 rounded-lg">
                   <FontAwesomeIcon
                     icon={faLocationDot}
                     className="text-white/90 mt-1 text-sm sm:text-base"
@@ -124,12 +127,12 @@ function Footer() {
                     </a>
                   </p>
                 </div>
-                <div className="flex items-center space-x-3 sm:space-x-4">
+                <div className="flex items-center space-x-3 sm:space-x-4 bg-white/10 p-4 rounded-lg">
                   <FontAwesomeIcon
                     icon={faPhone}
                     className="text-white/90 text-sm sm:text-base"
                   />
-                  <div className="space-y-0.5 sm:space-y-1">
+                  <div className="space-y-1">
                     <p className="text-white/90 text-sm sm:text-base">
                       <a href="tel:+918980003635" className="hover:underline">
                         +91 89800 03635
@@ -142,7 +145,7 @@ function Footer() {
                     </p>
                   </div>
                 </div>
-                <div className="flex items-center space-x-3 sm:space-x-4">
+                <div className="flex items-center space-x-3 sm:space-x-4 bg-white/10 p-4 rounded-lg">
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     className="text-white/90 text-sm sm:text-base"
@@ -153,7 +156,7 @@ function Footer() {
                       className="hover:underline"
                     >
                       agniayurvedhospital@gmail.com
-                    </a>{" "}
+                    </a>
                   </p>
                 </div>
               </div>

@@ -28,15 +28,15 @@ function Gallary() {
   ];
   const videos = [
     {
-      src: "/gallary/videos/agni_aayurved.mp4",
+      src: "https://drive.google.com/file/d/1oFM5ncH-HrxfZZcFUfYFH6ptCa-o6OOX/preview",
       thumbnail: "/gallary/thumbnail/thumb_1.png",
     },
     {
-      src: "/gallary/videos/mukh_lepan.mp4",
+      src: "https://drive.google.com/file/d/1gPF2_STnkdgo7tVgBK1MPE3Az6VANxr3/preview",
       thumbnail: "/gallary/thumbnail/thumb_2.png",
     },
     {
-      src: "/gallary/videos/shirodhara.mp4",
+      src: "https://drive.google.com/file/d/1W47_WrFD7CZgz1prdKoa0mvSNsQyyZJG/preview",
       thumbnail: "/gallary/thumbnail/thumb_3.png",
     },
   ];
@@ -45,14 +45,14 @@ function Gallary() {
   const videoRef = useRef(null);
 
   const handleThumbnailClick = (videoSrc) => {
-    setCurrentVideo(videoSrc);
+    // Convert Google Drive link to embeddable format if needed
+    let processedSrc = videoSrc;
+    if (videoSrc.includes('drive.google.com')) {
+      const fileId = videoSrc.split('/')[5];
+      processedSrc = `https://drive.google.com/file/d/${fileId}/preview`;
+    }
+    setCurrentVideo(processedSrc);
     setIsFullScreen(true);
-
-    setTimeout(() => {
-      if (videoRef.current) {
-        videoRef.current.play();
-      }
-    }, 100);
   };
 
   const handleClose = () => {
@@ -256,7 +256,7 @@ function Gallary() {
       {isFullScreen && (
         <div className="fixed inset-0 z-50" onClick={handleClose}>
           {/* Mobile View */}
-          <div className=" md:hidden h-screen w-screen flex items-center justify-center bg-[#757575]/90 backdrop-blur-md">
+          <div className="md:hidden h-screen w-screen flex items-center justify-center bg-[#757575]/90 backdrop-blur-md">
             <div className="relative w-full h-full max-w-2xl mx-auto">
               {/* Close Button */}
               <button
@@ -280,15 +280,25 @@ function Gallary() {
               </button>
 
               {/* Video Player */}
-              <video
-                ref={videoRef}
-                src={currentVideo}
-                className="w-full h-full object-contain"
-                controls
-                autoPlay
-                playsInline
-                onEnded={handleClose}
-              ></video>
+              {currentVideo.includes('drive.google.com') ? (
+                <iframe
+                  src={currentVideo}
+                  className="w-full h-full"
+                  allow="autoplay; fullscreen"
+                  allowFullScreen
+                  frameBorder="0"
+                ></iframe>
+              ) : (
+                <video
+                  ref={videoRef}
+                  src={currentVideo}
+                  className="w-full h-full object-contain"
+                  controls
+                  autoPlay
+                  playsInline
+                  onEnded={handleClose}
+                ></video>
+              )}
             </div>
           </div>
 
@@ -321,13 +331,23 @@ function Gallary() {
 
               {/* Video Player */}
               <div className="relative pt-[56.25%]">
-                <video
-                  ref={videoRef}
-                  src={currentVideo}
-                  className="absolute top-0 left-0 w-full h-full"
-                  controls
-                  onEnded={handleClose}
-                ></video>
+                {currentVideo.includes('drive.google.com') ? (
+                  <iframe
+                    src={currentVideo}
+                    className="absolute top-0 left-0 w-full h-full"
+                    allow="autoplay; fullscreen"
+                    allowFullScreen
+                    frameBorder="0"
+                  ></iframe>
+                ) : (
+                  <video
+                    ref={videoRef}
+                    src={currentVideo}
+                    className="absolute top-0 left-0 w-full h-full"
+                    controls
+                    onEnded={handleClose}
+                  ></video>
+                )}
               </div>
             </div>
           </div>

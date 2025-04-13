@@ -50,21 +50,21 @@ function Home() {
         style={{ backgroundImage: `url(/hero_image/bg_image.png)` }}
         id="Header"
       >
-        <div className="flex flex-col justify-center text-center mx-auto py-20 px-12 xl:px-36 text-white">
-          <h1 className="text-[64px] font-semibold text-center mx-auto leading-tight">
-            Rediscover The <br /> Healing Power of Nature
+        <div className="flex flex-col justify-center items-center text-center mx-auto py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-36 text-white">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[64px] font-semibold text-center mx-auto leading-tight max-w-4xl">
+            Rediscover The <br className="hidden sm:block" /> Healing Power of Nature
           </h1>
 
-          <div className="pt-5 text-center">
-            <p className="mx-auto max-w-fit text-lg">
+          <div className="pt-4 sm:pt-5 text-center">
+            <p className="mx-auto max-w-2xl text-base sm:text-lg px-4">
               Experience holistic care through traditional Ayurvedic therapies
-              tailored to <br /> rejuvenate your body, mind, and spirit.
+              tailored to <br className="hidden sm:block" /> rejuvenate your body, mind, and spirit.
             </p>
           </div>
 
-          <div className="mt-10">
+          <div className="mt-6 sm:mt-8 md:mt-10">
             <button
-              className="bg-white border border-[#5FA02E] px-4 py-2 rounded-full text-[#5FA02E] font-bold hover:bg-[#5FA02E] hover:text-white transition-all duration-300"
+              className="bg-white border border-[#5FA02E] px-4 py-2 rounded-full text-[#5FA02E] font-bold hover:bg-[#5FA02E] hover:text-white transition-all duration-300 text-sm sm:text-base"
               onClick={() => handleButtonClick("form1")}
             >
               Book Appointment
