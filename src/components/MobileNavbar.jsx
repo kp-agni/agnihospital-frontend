@@ -124,10 +124,9 @@ function MobileNavbar() {
                 setShowSecondMobileMenu(!showSecondMobileMenu);
                 setShowFirstMobileMenu(false);
               }}
-              className="text-white focus:outline-none px-4 py-2 rounded-full bg-green-600 hover:bg-green-700 transition-colors shadow-md"
+              className="text-white focus:outline-none px-4 py-2 rounded-full border-2 border-white bg-transparent hover:bg-[#394E29] transition-all duration-300"
               aria-label="Toggle secondary menu"
             >
-            {/* <FontAwesomeIcon icon={faPhone} className="mr-2" /> */}
               Contact
             </button>
           </div>
@@ -366,7 +365,7 @@ function MobileNavbar() {
             <div className="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-sm">
               <FontAwesomeIcon icon={faClock} className="text-[#5FA02E] text-xl" />
               <div>
-                <h3 className="font-semibold text-[#5FA02E]">OPD Timing</h3>
+                <p className="font-semibold text-[#5FA02E]">OPD Timing</p>
                 <p className="text-sm text-gray-600">9:00 AM to 1:00 PM</p>
                 <p className="text-sm text-gray-600">5:00 PM to 9:00 PM</p>
               </div>
@@ -375,7 +374,7 @@ function MobileNavbar() {
             <div className="flex items-center space-x-4 bg-white p-4 rounded-lg shadow-sm">
               <FontAwesomeIcon icon={faPhone} className="text-[#5FA02E] text-xl" />
               <div>
-                <h3 className="font-semibold text-[#5FA02E]">Contact us</h3>
+                <p className="font-semibold text-[#5FA02E]">Contact us</p>
                 <p className="text-sm">
                   <a href="tel:+918980003635" className="text-gray-600 hover:text-[#5FA02E] transition-colors">
                     +91 89800 03635
@@ -390,12 +389,6 @@ function MobileNavbar() {
             </div>
 
             <div className="flex flex-col space-y-4">
-              <button
-                className="w-full rounded-full px-6 py-3 bg-[#5FA02E] text-white hover:bg-green-600 transition-all duration-300 transform hover:scale-105 shadow-md"
-                onClick={() => setShowSecondMobileMenu(false)}
-              >
-                Call Now
-              </button>
               <button
                 className="w-full rounded-full px-6 py-3 border-2 border-[#5FA02E] text-[#5FA02E] hover:bg-[#5FA02E] hover:text-white transition-all duration-300 transform hover:scale-105"
                 onClick={handleButtonClick}
