@@ -3,6 +3,7 @@ import Book_Appointment from "../components/Appointment/Book_Appointment";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import videoUrls from "../config/videoUrls";
 
 function Testimonials() {
   const [isFullScreen, setIsFullScreen] = useState(false);
@@ -44,12 +45,12 @@ function Testimonials() {
       title: "Ayurvedic Treatment for Digestive Issues"
     },
     {
-      src: "/testimonials/videos/testimonial3.mp4",
+      src: videoUrls.testimonials.testimonial3,
       thumbnail: "/testimonials/thumbnails/thumb_3.png",
       title: "Panchakarma Experience"
     },
     {
-      src: "/testimonials/videos/testimonial4.mp4",
+      src: videoUrls.testimonials.testimonial4,
       thumbnail: "/testimonials/thumbnails/thumb_4.png",
       title: "Stress Management Success"
     },

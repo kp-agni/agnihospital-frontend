@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import Modal from "react-modal";
 // import { assets } from "../assets/assets";
 import Book_Appointment from "../components/Appointment/Book_Appointment";
+import videoUrls from "../config/videoUrls";
 
 function Gallary() {
   const images = [
@@ -28,15 +29,15 @@ function Gallary() {
   ];
   const videos = [
     {
-      src: "/gallary/videos/agni_aayurved.mp4",
+      src: videoUrls.gallery.agniAayurved,
       thumbnail: "/gallary/thumbnail/thumb_1.png",
     },
     {
-      src: "/gallary/videos/mukh_lepan.mp4",
+      src: videoUrls.gallery.mukhLepan,
       thumbnail: "/gallary/thumbnail/thumb_2.png",
     },
     {
-      src: "/gallary/videos/shirodhara.mp4",
+      src: videoUrls.gallery.shirodhara,
       thumbnail: "/gallary/thumbnail/thumb_3.png",
     },
   ];
