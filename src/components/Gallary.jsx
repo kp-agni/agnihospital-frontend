@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import Modal from "react-modal";
 // import { assets } from "../assets/assets";
 import Book_Appointment from "../components/Appointment/Book_Appointment";
-import videoUrls from "../config/videoUrls";
 
 function Gallary() {
   const images = [
@@ -29,15 +28,15 @@ function Gallary() {
   ];
   const videos = [
     {
-      src: videoUrls.gallery.agniAayurved,
+      src: "/gallary/videos/agni_aayurved.mp4",
       thumbnail: "/gallary/thumbnail/thumb_1.png",
     },
     {
-      src: videoUrls.gallery.mukhLepan,
+      src: "/gallary/videos/mukh_lepan.mp4",
       thumbnail: "/gallary/thumbnail/thumb_2.png",
     },
     {
-      src: videoUrls.gallery.shirodhara,
+      src: "/gallary/videos/shirodhara.mp4",
       thumbnail: "/gallary/thumbnail/thumb_3.png",
     },
   ];
@@ -104,7 +103,7 @@ function Gallary() {
     <div className="w-full mx-auto bg-[#F3FFEA]">
      <section className="py-16 px-4 sm:px-8 md:px-12 xl:px-40 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-[#5FA02E]/10 to-transparent"></div>
-        <div className="relative z-10">
+        <div className="relative ">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#394E29] mb-6">
             A Glimpse into Holistic Wellness
           </h1>

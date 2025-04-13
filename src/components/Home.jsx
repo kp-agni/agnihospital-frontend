@@ -257,7 +257,7 @@ function Home() {
         </div>
         <div className="flex justify-center pb-20 mx-auto px-12 xl:px-40">
             <a
-              href="/gallery"
+              href="/gallary"
               className="px-6 py-3 bg-[#5FA02E] text-white rounded-full hover:bg-[#4a7d24] transition-colors duration-300 text-lg font-medium"
             >
               Show More
