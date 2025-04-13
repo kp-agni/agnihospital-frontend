@@ -1,2 +1,0 @@
-public/gallary/videos/*.mp4 filter=lfs diff=lfs merge=lfs -text
-public/testimonials/videos/*.mp4 filter=lfs diff=lfs merge=lfs -text
