@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Inter', sans-serif;
+}
+/* Ensure all headers use the Krub font and font size 38px */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Krub', sans-serif;
+  font-size: 38px;
+}
+
+/* Ensure all paragraph tags use the Inter font and font size 24px */
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+}
+span {
+  font-family: 'Inter', sans-serif;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #5FA02E!important;
+}
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #5FA02E;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #4a7d24;
+}

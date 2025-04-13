@@ -1,0 +1,143 @@
+import React from "react";
+import { assets } from "../../assets/assets";
+import { useNavigate } from "react-router-dom";
+import Book_Appointment from "../../components/Appointment/Book_Appointment";
+import useAppointmentForm from "../../hook/useAppointmentForm";
+
+function KidneyDisorder() {
+  const navigate = useNavigate();
+  const { visibleFormId, handleButtonClick, closeForm } = useAppointmentForm();
+
+  const disorders = [
+    {
+      id: "anxiety-disorder",
+      title: "Anxiety Disorder",
+      description:
+        "Anxiety disorder is a mental health condition characterized by excessive worry, fear, or nervousness that...",
+      link: "/psycatric-disorder/anxiety-disorder",
+      icon: "🍽️",
+    },
+    {
+      id: "depression",
+      title: "Depression",
+      description:
+        "Depression is a common mental health disorder characterized by persistent sadness, lack of interest or pleasure...",
+      link: "/psycatric-disorder/depression",
+      icon: "🦠",
+    },
+    {
+      id: "insomnia",
+      title: "Insomnia",
+      description:
+        "Insomnia is a sleep disorder characterized by difficulty falling asleep, staying asleep, or waking up too early...",
+      link: "/psycatric-disorder/insomnia",
+      icon: "🦠",
+    },
+    {
+        id: "epilepsy",
+        title: "Epilepsy",
+        description:
+          "Epilepsy is a neurological disorder characterized by recurrent seizures caused by abnormal electrical activity",
+        link: "/psycatric-disorder/epilepsy",
+        icon: "🦠",
+      },
+      {
+        id: "major-depressive-illness",
+        title: "Major Depressive Illness",
+        description:
+          "Major Depressive Illness, also known as Major Depressive Disorder (MDD), is a severe mental health condition...",
+        link: "/psycatric-disorder/major-depressive-illness",
+        icon: "🦠",
+      },
+  ];
+
+  return (
+    <div>
+      {/* Hero Section */}
+      <div className="relative">
+        <img
+          src={assets.treatment_hero}
+          alt="Digestive Disorders"
+          className="w-full"
+        />
+        {visibleFormId === "form1" && (
+          <div className="fixed inset-0 flex justify-center items-center z-10">
+            <div className="relative">
+              <Book_Appointment closeForm={closeForm} />
+            </div>
+          </div>
+        )}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <h1 className="text-[#394E29] font-bold  max-[450px]:text-[16px]">
+          Psychiatric Disorder
+          </h1>
+        </div>
+      </div>
+
+      {/* Introduction Section */}
+      <div className="w-full mx-auto bg-[#F3FFEA]">
+        <section className="py-20 px-12 xl:px-36">
+          <p className="text-[#757575] text-justify">
+            Psychiatric disorders, also known as mental health disorders, are
+            conditions that affect a person's thinking, mood, emotions, and
+            behavior. These disorders can range from mild to severe and may
+            interfere with daily life, relationships, and overall well-being.
+            Common psychiatric disorders include depression, anxiety disorders,
+            schizophrenia, bipolar disorder, and obsessive-compulsive disorder
+            (OCD). They can arise from a combination of genetic, biological,
+            environmental, and psychological factors. Proper diagnosis and
+            treatment, including therapy, medication, and lifestyle changes, can
+            help individuals manage their symptoms and improve their quality of
+            life.
+          </p>
+        </section>
+
+        {/* Ayurvedic Approaches Section */}
+        <section className="py-20 px-12 xl:px-36">
+          <div>
+            <h1 className="text-[#394E29] font-bold text-center">
+              Ayurvedic approaches
+            </h1>
+          </div>
+
+          {/* Dynamic Digestive Disorders Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-16 mt-12">
+            {disorders.map((disorder) => (
+              <div
+                key={disorder.id}
+                className="p-4 bg-white shadow-lg rounded-lg flex flex-col h-full justify-between items-start"
+              >
+                {/* <div className=" text-4xl mb-4">{disorder.icon}</div> */}
+                <h2 className="text-[24px] font-semibold text-[#5FA02E] mb-2">
+                  {disorder.title}
+                </h2>
+                <p className="text-[#757575] text-[20px] mb-4">
+                  {disorder.description}
+                </p>
+                <button
+                  className="text-[#5FA02E] font-medium text-[24px]"
+                  onClick={() => navigate(disorder.link)}
+                >
+                  Read more...
+                </button>
+              </div>
+            ))}
+          </div>
+        </section>
+      </div>
+      <div className="bg-[#F5F5F5] md:min-w-max max-[768px]:min-w-full max-w-fit flex flex-row mx-auto gap-8 px-10 pt-2 pb-2 rounded-full absolute left-[50%] transform -translate-x-[50%] -translate-y-[50%]">
+        <p className="text-[#5FA02E] text-xl py-2 ">
+          Rediscover the Healing Power of Nature
+        </p>
+        <button
+          className="px-5  bg-[#5FA02E] sm:py-0 rounded-full text-[#F3FFEA]"
+          onClick={() => handleButtonClick("form1")}
+        >
+          Book Appointment
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export default KidneyDisorder;
