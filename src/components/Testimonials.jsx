@@ -34,12 +34,12 @@ function Testimonials() {
 
   const videoTestimonials = [
     {
-      src: "/testimonials/videos/testimonial1.mp4",
+      src: "https://drive.google.com/file/d/1FhkY8g7lraVnT51oSLw7Me8_4TBcP-18/view?usp=sharing",
       thumbnail: "/testimonials/thumbnails/thumb_1.png",
       title: "Patient Success Story - Arthritis Treatment"
     },
     {
-      src: "/testimonials/videos/testimonial2.mp4",
+      src: "https://drive.google.com/file/d/1XzfapIeqors_ZCi9duXJAk_6SxBNacuk/view?usp=sharing",
       thumbnail: "/testimonials/thumbnails/thumb_2.png",
       title: "Ayurvedic Treatment for Digestive Issues"
     },
@@ -54,7 +54,7 @@ function Testimonials() {
       title: "Stress Management Success"
     },
     {
-      src: "/testimonials/videos/testimonial6.mp4",
+      src: "https://drive.google.com/file/d/1iH95gcz3r_cBGpn-baU22_fSsii9qdm5/view?usp=sharing",
       thumbnail: "/testimonials/thumbnails/thumb_6.png",
       title: "Skin Treatment Journey"
     }
