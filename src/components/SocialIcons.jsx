@@ -37,7 +37,7 @@ const SocialIcons = () => {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/agni-ayurved-hospital-8b8492271/?originalSubdomain=in"
+        href="https://www.linkedin.com/company/agni-ayurved-hospital/"
         target="_blank"
         rel="noopener noreferrer"
       >
