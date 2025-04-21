@@ -53,16 +53,16 @@ export const assets = {
 
 export const testimonialsData = [
   {
-    name: "Nishi Pomal",
-    alt: "Portrait of Nishi Pomal",
-    rating: 5,
-    text: "I consulted Agni Ayurveda hospital for panchkarma therapy and I got best result there under the guidance of Doctors. Panchkarma theatre was very clean and hygienic with soothing music, procedures had done very authentically One of the best Ayurvedic hospital in Ahmedabad. Thank you Dr Dharmik and Dr Darshan",
-  },
-  {
     name: "Chirag Jogani",
     alt: "Portrait of Chirag Jogani",
     rating: 4,
     text: "One of the best Ayurvedik hospital in Ahmedabad for any diagnosis. Best Dr's and staff also good, I was suffering from piles for 3 years and after coming here I got completely better within 2 months. Thankyou",
+  },
+  {
+    name: "Nishi Pomal",
+    alt: "Portrait of Nishi Pomal",
+    rating: 5,
+    text: "I consulted Agni Ayurveda hospital for panchkarma therapy and I got best result there under the guidance of Doctors. Panchkarma theatre was very clean and hygienic with soothing music, procedures had done very authentically One of the best Ayurvedic hospital in Ahmedabad. Thank you Dr Dharmik and Dr Darshan",
   },
   {
     name: "Gopal Suratwala",
