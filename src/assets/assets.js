@@ -53,27 +53,21 @@ export const assets = {
 
 export const testimonialsData = [
   {
-    name: "Donald Jackman",
-    title: "Marketing Manager",
-    image: profile_img_1,
-    alt: "Portrait of Donald Jackman",
+    name: "Nishi Pomal",
+    alt: "Portrait of Nishi Pomal",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "I consulted Agni Ayurveda hospital for panchkarma therapy and I got best result there under the guidance of Doctors. Panchkarma theatre was very clean and hygienic with soothing music, procedures had done very authentically One of the best Ayurvedic hospital in Ahmedabad. Thank you Dr Dharmik and Dr Darshan",
   },
   {
-    name: "Richard Nelson",
-    title: "UI/UX Designer",
-    image: profile_img_2,
-    alt: "Portrait of Richard Nelson",
+    name: "Chirag Jogani",
+    alt: "Portrait of Chirag Jogani",
     rating: 4,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "One of the best Ayurvedik hospital in Ahmedabad for any diagnosis. Best Dr's and staff also good, I was suffering from piles for 3 years and after coming here I got completely better within 2 months. Thankyou",
   },
   {
-    name: "James Washington",
-    title: "Co-Founder",
-    image: profile_img_3,
-    alt: "Portrait of James Washington",
+    name: "Gopal Suratwala",
+    alt: "Portrait of Gopal Suratwala",
     rating: 5,
-    text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched.",
+    text: "I really appreciate and highly recommend Dr. Rushi Sir for Piles and Fissures Ayurvedic treatment. He is very gentle& friendly . He made me comfortable in all aspects.I am really thankful and grateful to him to check my health condition almost every week.",
   },
 ];
