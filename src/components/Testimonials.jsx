@@ -201,7 +201,7 @@ function Testimonials() {
           <Slider {...sliderSettings}>
             {testimonials.map((testimonial, index) => (
               <div key={index} className="px-4">
-                <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 h-[300px] flex flex-col transform hover:-translate-y-1">
+                <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 h-[320px] flex flex-col transform hover:-translate-y-1">
                   <div className="flex items-center mb-6">
                     <div className="w-14 h-14 rounded-full bg-[#5FA02E]/10 flex items-center justify-center mr-4">
                       <span className="text-[#5FA02E] font-semibold text-xl">
@@ -246,7 +246,6 @@ function Testimonials() {
               <div className="relative aspect-video">
                 <img
                   src={video.thumbnail}
-                  alt={video.title}
                   className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -270,7 +269,6 @@ function Testimonials() {
                 </div>
               </div>
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                <h3 className="text-xl font-semibold mb-2">{video.title}</h3>
                 <p className="text-sm opacity-90">Click to watch full testimonial</p>
               </div>
             </div>
