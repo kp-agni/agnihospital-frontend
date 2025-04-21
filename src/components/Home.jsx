@@ -89,8 +89,7 @@ function Home() {
             </h2>
             <p className="text-[#757575] text-justify text-lg">
               Experience the perfect blend of traditional Ayurvedic treatments
-              and modern amenities. From serene therapy rooms to expert-led yoga
-              sessions, every detail is designed to nurture your health and
+              and panchkarma therapies (Yoga). From serene therapy rooms to expert-led Panchkarma therapies and yoga practices, every detail is designed to nurture your health and
               wellness.
             </p>
             <div className="lg:mt-36 mt-12">
@@ -150,7 +149,7 @@ function Home() {
           <div className="flex flex-col md:flex-row max-[768px]:gap-10 items-center justify-center gap-28 mt-5">
             <div className="transform hover:scale-105 transition-transform duration-300">
               <p className="text-4xl font-medium text-white">10+</p>
-              <p className="text-white">Of Healing Experience</p>
+              <p className="text-white">year Of Healing Experience</p>
             </div>
             <span className="text-white text-4xl">|</span>
             <div className="transform hover:scale-105 transition-transform duration-300">
@@ -159,7 +158,7 @@ function Home() {
             </div>
             <span className="text-white text-4xl">|</span>
             <div className="transform hover:scale-105 transition-transform duration-300">
-              <p className="text-4xl font-medium text-white">35+</p>
+              <p className="text-4xl font-medium text-white">3</p>
               <p className="text-white">Expert Ayurvedic Doctors</p>
             </div>
           </div>
@@ -290,9 +289,9 @@ const treatments = [
 ];
 const person = [
   {
-    name: `Vaidya Dharmik Kachchhi`,
+    name: `Dr.Dharmik Kachchhi`,
     img: `/person/dr_dharmik.png`,
-    designation: `Ayurvedic Gastroenterologist, Parayani Nadi Vaidya, Ayurvedacharya`,
+    designation: `Co-Founder & Ayurved Consultant,Parayani Nadi Vaidya and Ayurvedacharya`,
     src:`/dr_dharmik`,
   },
   {

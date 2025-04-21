@@ -9,7 +9,7 @@ const SocialIcons = () => {
   return (
     <div className="flex  space-x-4 mt-12">
       <a
-        href="https://www.instagram.com"
+        href="https://www.instagram.com/agni_ayurved_hospital/?igsh=aW5teGhzNDJzZGw2#"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -17,19 +17,19 @@ const SocialIcons = () => {
       </a>
 
       <a
-        href="https://www.facebook.com"
+        href="https://www.facebook.com/share/15mN4ccjjS"
         target="_blank"
         rel="noopener noreferrer"
       >
         <CiFacebook className="icon text-[#5FA02E] bg-white rounded-full sm:h-12 sm:w-12 h-8 w-8 p-1 fb bounce-animation" />
       </a>
 
-      <a href="https://wa.me" target="_blank" rel="noopener noreferrer">
+      <a href="https://wa.me/message/7N3UE7CLCG56A1" target="_blank" rel="noopener noreferrer">
         <FaWhatsapp className="icon text-[#5FA02E] bg-white rounded-full sm:h-12 sm:w-12 h-8 w-8 p-1 whatsapp flash-animation" />
       </a>
 
       <a
-        href="https://www.youtube.com"
+        href="https://www.youtube.com/@Agni_Ayurved_Hospital/featured"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -37,7 +37,7 @@ const SocialIcons = () => {
       </a>
 
       <a
-        href="https://www.linkedin.com"
+        href="https://www.linkedin.com/in/agni-ayurved-hospital-8b8492271/?originalSubdomain=in"
         target="_blank"
         rel="noopener noreferrer"
       >

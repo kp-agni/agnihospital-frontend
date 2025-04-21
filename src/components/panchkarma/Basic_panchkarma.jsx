@@ -228,7 +228,7 @@ function Basic_panchkarma() {
               helps to remove these toxins and prevent the onset of diseases. It
               also rejuvenates the mind by reducing stress and promoting
               relaxation. The therapy involves various treatments like Vaman,
-              Virechan, Vasti, Nasyam, and Raktamokshan, which work in tandem to
+              Virechan, Basti, Nasyam, and Raktamokshan, which work in tandem to
               cleanse the body of impurities, thus improving overall health.
             </p>
             <p className="mt-4 mb-4">
