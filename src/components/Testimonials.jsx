@@ -40,27 +40,32 @@ function Testimonials() {
       name: "Yanimesh Patel",
       role: "Patient",
       review: "I was suffering from hazzy vision and weak eye sight and due to my screen time burning in eyes also, Then i went to Agni Ayurved Hospital and consult Dr.Rushi he check my nadi and suggest me akshi tarpan and medicines.It gives me cooling effect in eyes also improve my eyesight. Best Ayurvedic Doctor in Ahemdabad.",
-    },{
+    },
+    {
       name: "Lubna Saiyed",
       role: "Patient",
       review: "Before 4 months i was diagnosed with Chronic Kidney Disease ,I was suffering from Swelling in feets and very often micturation urges. I can’t go to any gathering and also disturbed emotionally. Then, one of my friend suggest me about Agni Ayurvedic Hospital so I consultant to Dr.Dharmik after 15 days to medication my swelling gradually decrease also relives other symptoms.Best Ayurvedic Hospital in Ahemdabad.",
-    },{
+    },
+    {
       name: "Vishvajeetsinh Zala",
       role: "Patient",
       review: "My 10-year-old child was suffering from coughing, fever, and tonsillitis. Whenever seasonal changes happen, he develops tonsillitis. Then his teacher suggested we consult an Ayurvedic doctor because, due to his illness, he always skips his school. We went to Agni Ayurvedic Hospital, Dr.Rushi checked his nadi , prescribed medicines, and guided me for medical condition. By only taking 15 days of medicine, he is well now and also never had this complaint for 6 months. Thanks to Dr.Rushi Sir",
-    },{
+    },
+    {
       name: "Gopal Suratwala",
       role: "Patient",
       review: "Great service....doctors are very kind and helpful...if you want best treatment of panchkarma you must visit this.Cured Psoriasis within 3 months with the help of ayurvedic medicine and panchakarma.He is the best ayurvedic doctor in ahmedabad.",
-    },{
+    },
+    {
       name: "Harsh Patel",
       role: "Patient",
       review: "I really appreciate and highly recommend Dr. Rushi Sir for Piles and Fissures Ayurvedic treatment. He is very gentle& friendly . He made me comfortable in all aspects.I am really thankful and grateful to him to check my health condition almost every week.",
-    },{
+    },
+    {
       name: "Meena Jesrani",
       role: "Patient",
       review: "Very good ayurvedic hospital. Doctors have so much confidence in recovering patients, and that is absolutely true. They also help change your lifestyle in a better way.The staff is also good and very polite. They help you each and every time. The cleanliness of the hospital is also good.The doctor who treated my mother for back pain was excellent. They gave us enough time to help my mother recover and supported us like a family.Overall, I have not seen any problems.",
-    },
+    }
 
   ];
 
