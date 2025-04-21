@@ -11,25 +11,57 @@ function Testimonials() {
 
   const testimonials = [
     {
-      name: "Rahul Sharma",
+      name: "Chirag Jogani",
       role: "Patient",
-      review: "The treatment I received at Agni Ayurved was exceptional. The doctors were very knowledgeable and the staff was extremely helpful. My health has improved significantly.",
+      review: "One of the best Ayurvedik hospital in Ahmedabad for any diagnosis. Best Dr's and staff also good, I was suffering from piles for 3 years and after coming here I got completely better within 2 months. Thankyou",
     },
     {
-      name: "Priya Patel",
+      name: "Nishi Pomal",
       role: "Patient",
-      review: "I had been suffering from chronic back pain for years. After just a few sessions of Panchakarma, I feel much better. The holistic approach really works!",
+      review: "I consulted Agni Ayurveda hospital for panchkarma therapy and I got best result there under the guidance of Doctors. Panchkarma theatre was very clean and hygienic with soothing music, procedures had done very authentically One of the best Ayurvedic hospital in Ahmedabad. Thank you Dr Dharmik and Dr Darshan.",
+
     },
     {
-      name: "Amit Kumar",
+      name: "Gopal Suratwala",
       role: "Patient",
-      review: "The personalized care and attention to detail at Agni Ayurved is unmatched. They don't just treat symptoms, they treat the root cause of the problem.",
+      review: "I really appreciate and highly recommend Dr. Rushi Sir for Piles and Fissures Ayurvedic treatment. He is very gentle& friendly . He made me comfortable in all aspects.I am really thankful and grateful to him to check my health condition almost every week.",
     },
     {
-      name: "Neha Gupta",
+      name: "Sheikh Tayyab Raja",
       role: "Patient",
-      review: "The environment is so peaceful and healing. The doctors take time to understand your concerns and provide effective solutions. Highly recommended!",
-    }
+      review: "Best place for Panchkarma, the results speak for themselves. I lost about 6 kgs in about 3 weeks and the visible effect on my body is unbelievable. Dr. Darshan is an excellent professional, his attention to the smallest details is exceptional. Highly recommended for Panchakarma Treatment in Ahmedabad.",
+    },
+    {
+      name: "Mansi Patel",
+      role: "Patient",
+      review: "Visited Agni ayurved hospital in January 2024 ,I am suffering from hyper acidity, abdominal pain and vomiting since 12 years..After 3 months of treatment, I am completely fine...Dr Dharmik Kachchhi is an incredibly knowledgeable and compassionate practitioner. He took the time to listen attentively to my health concerns, thoroughly understanding my medical history and all.It was evident that Dr Dharmik Kachchhi truly cares about the wellbeing of his patients.",
+    },
+    {
+      name: "Yanimesh Patel",
+      role: "Patient",
+      review: "I was suffering from hazzy vision and weak eye sight and due to my screen time burning in eyes also, Then i went to Agni Ayurved Hospital and consult Dr.Rushi he check my nadi and suggest me akshi tarpan and medicines.It gives me cooling effect in eyes also improve my eyesight. Best Ayurvedic Doctor in Ahemdabad.",
+    },{
+      name: "Lubna Saiyed",
+      role: "Patient",
+      review: "Before 4 months i was diagnosed with Chronic Kidney Disease ,I was suffering from Swelling in feets and very often micturation urges. I can’t go to any gathering and also disturbed emotionally. Then, one of my friend suggest me about Agni Ayurvedic Hospital so I consultant to Dr.Dharmik after 15 days to medication my swelling gradually decrease also relives other symptoms.Best Ayurvedic Hospital in Ahemdabad.",
+    },{
+      name: "Vishvajeetsinh Zala",
+      role: "Patient",
+      review: "My 10-year-old child was suffering from coughing, fever, and tonsillitis. Whenever seasonal changes happen, he develops tonsillitis. Then his teacher suggested we consult an Ayurvedic doctor because, due to his illness, he always skips his school. We went to Agni Ayurvedic Hospital, Dr.Rushi checked his nadi , prescribed medicines, and guided me for medical condition. By only taking 15 days of medicine, he is well now and also never had this complaint for 6 months. Thanks to Dr.Rushi Sir",
+    },{
+      name: "Gopal Suratwala",
+      role: "Patient",
+      review: "Great service.....doctors are very kind and helpful...if you want best treatment of panchkarma you must visit this.Cured Psoriasis within 3 months with the help of ayurvedic medicine and panchakarma.He is the best ayurvedic doctor in ahmedabad.",
+    },{
+      name: "Harsh Patel",
+      role: "Patient",
+      review: "I really appreciate and highly recommend Dr. Rushi Sir for Piles and Fissures Ayurvedic treatment. He is very gentle& friendly . He made me comfortable in all aspects.I am really thankful and grateful to him to check my health condition almost every week.",
+    },{
+      name: "Meena Jesrani",
+      role: "Patient",
+      review: "Very good ayurvedic hospital. Doctors have so much confidence in recovering patients, and that is absolutely true. They also help change your lifestyle in a better way.The staff is also good and very polite. They help you each and every time. The cleanliness of the hospital is also good.The doctor who treated my mother for back pain was excellent. They gave us enough time to help my mother recover and supported us like a family.Overall, I have not seen any problems.",
+    },
+
   ];
 
   const videoTestimonials = [
