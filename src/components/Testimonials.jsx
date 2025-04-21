@@ -51,7 +51,7 @@ function Testimonials() {
     },{
       name: "Gopal Suratwala",
       role: "Patient",
-      review: "Great service.....doctors are very kind and helpful...if you want best treatment of panchkarma you must visit this.Cured Psoriasis within 3 months with the help of ayurvedic medicine and panchakarma.He is the best ayurvedic doctor in ahmedabad.",
+      review: "Great service....doctors are very kind and helpful...if you want best treatment of panchkarma you must visit this.Cured Psoriasis within 3 months with the help of ayurvedic medicine and panchakarma.He is the best ayurvedic doctor in ahmedabad.",
     },{
       name: "Harsh Patel",
       role: "Patient",
