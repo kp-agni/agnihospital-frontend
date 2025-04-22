@@ -111,7 +111,7 @@ const [message, setMessage] = useState("");
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/book-appointment", formData);
+      await axios.post("https://agnihospital-backend.vercel.app/api/book-appointment", formData);
       setMessage('Appointment booked successfully!');
       setFormData({
         name: "",
