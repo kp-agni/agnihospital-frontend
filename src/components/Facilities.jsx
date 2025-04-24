@@ -115,14 +115,7 @@ function Facilities() {
                     className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                     onClick={() => handleImageClick(src)}
                     loading="lazy"
-                    onLoad={(e) => {
-                      e.target.classList.add('opacity-100');
-                      e.target.classList.remove('opacity-0');
-                    }}
-                    onError={(e) => {
-                      e.target.src = '/placeholder.png';
-                    }}
-                    style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
+                    
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                     <p className="text-white text-lg font-semibold p-4">Reception Area</p>
@@ -158,14 +151,7 @@ function Facilities() {
                     className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                     onClick={() => handleImageClick(src)}
                     loading="lazy"
-                    onLoad={(e) => {
-                      e.target.classList.add('opacity-100');
-                      e.target.classList.remove('opacity-0');
-                    }}
-                    onError={(e) => {
-                      e.target.src = '/placeholder.png';
-                    }}
-                    style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
+                    
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                     <p className="text-white text-lg font-semibold p-4">OPD 1</p>
@@ -192,14 +178,7 @@ function Facilities() {
                     className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                     onClick={() => handleImageClick(src)}
                     loading="lazy"
-                    onLoad={(e) => {
-                      e.target.classList.add('opacity-100');
-                      e.target.classList.remove('opacity-0');
-                    }}
-                    onError={(e) => {
-                      e.target.src = '/placeholder.png';
-                    }}
-                    style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
+                    
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                     <p className="text-white text-lg font-semibold p-4">OPD 2</p>
@@ -260,14 +239,6 @@ function Facilities() {
                     className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                     onClick={() => handleImageClick(src)}
                     loading="lazy"
-                    onLoad={(e) => {
-                      e.target.classList.add('opacity-100');
-                      e.target.classList.remove('opacity-0');
-                    }}
-                    onError={(e) => {
-                      e.target.src = '/placeholder.png';
-                    }}
-                    style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                     <p className="text-white text-lg font-semibold p-4">Panchakarma Center</p>
@@ -338,14 +309,6 @@ function Facilities() {
                   className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                   onClick={() => handleImageClick("/facility/pharmacy/image_1.png")}
                   loading="lazy"
-                  onLoad={(e) => {
-                    e.target.classList.add('opacity-100');
-                    e.target.classList.remove('opacity-0');
-                  }}
-                  onError={(e) => {
-                    e.target.src = '/placeholder.png';
-                  }}
-                  style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <p className="text-white text-lg font-semibold p-4">Herbal Remedies</p>
@@ -360,14 +323,6 @@ function Facilities() {
                   className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                   onClick={() => handleImageClick("/facility/pharmacy/image_2.png")}
                   loading="lazy"
-                  onLoad={(e) => {
-                    e.target.classList.add('opacity-100');
-                    e.target.classList.remove('opacity-0');
-                  }}
-                  onError={(e) => {
-                    e.target.src = '/placeholder.png';
-                  }}
-                  style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <p className="text-white text-lg font-semibold p-4">Ayurvedic Supplements</p>
