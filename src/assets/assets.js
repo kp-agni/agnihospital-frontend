@@ -65,9 +65,15 @@ export const testimonialsData = [
     text: "I consulted Agni Ayurveda hospital for panchkarma therapy and I got best result there under the guidance of Doctors. Panchkarma theatre was very clean and hygienic with soothing music, procedures had done very authentically One of the best Ayurvedic hospital in Ahmedabad. Thank you Dr Dharmik and Dr Darshan",
   },
   {
-    name: "Gopal Suratwala",
-    alt: "Portrait of Gopal Suratwala",
+    name: "Mittal Gohil",
+    alt: "Portrait of Nishi Pomal",
     rating: 5,
-    text: "I really appreciate and highly recommend Dr. Rushi Sir for Piles and Fissures Ayurvedic treatment. He is very gentle& friendly . He made me comfortable in all aspects.I am really thankful and grateful to him to check my health condition almost every week.",
+    text: "After my second pregnancy, my body gives many diseased symptoms and for that reason I'm becoming very frustrated Then I came to know about Agni Ayurved Hospital and consulted with Dr Dharmik Kachchhi. He guided me very well about my body and give some medications, dietary changes, exercises - yoga. With help of it now I'm totally healthy. As well as He guided for my children also.Super happy to have this type of doctors.Must visit place for any kind of diseases.Agni Ayurved Hospital is the best ayurvedic hospital and best panchakarma center in Nikol, Ahmedabad.",
+  },
+  {
+    name: "Meena Jesarni",
+    alt: "Portrait of Nishi Pomal",
+    rating: 5,
+    text: "Very good ayurvedic hospital. Doctors have so much confidence in recovering patients, and that is absolutely true. They also help change your lifestyle in a better way.The staff is also good and very polite. They help you each and every time. The cleanliness of the hospital is also good.The doctor who treated my mother for back pain was excellent. They gave us enough time to help my mother recover and supported us like a family.Overall, I have not seen any problems.",
   },
 ];

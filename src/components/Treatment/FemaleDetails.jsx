@@ -101,9 +101,9 @@ function FemaleDetails() {
     },
     {
       id: "male-female-infertility",
-      title: "Male & Female Infertility",
+      title: "Infertility",
       description:
-        "Infertility is the inability to conceive after a year of regular, unprotected intercourse. It can affect both men and women due to various factors such as hormonal imbalances, poor lifestyle choices, stress, genetic conditions, and underlying health disorders. Male infertility is often linked to low sperm count, poor sperm motility, or structural issues, while female infertility can result from ovulation disorders, blocked fallopian tubes, or uterine abnormalities. Ayurveda offers a natural approach to improving reproductive health by balancing the body's energies and enhancing fertility.",
+        "Infertility is the inability to conceive after a year of regular, unprotected intercourse. It can affect both men and women due to various factors such as hormonal imbalances, poor lifestyle choices, stress, genetic conditions, and underlying health disorders. Female infertility can result from ovulation disorders, blocked fallopian tubes, or uterine abnormalities. Ayurveda offers a natural approach to improving reproductive health by balancing the body's energies and enhancing fertility.",
       ayurvedicDiscription: [
         "Ayurveda considers infertility a result of Vata, Pitta, and Kapha imbalances, leading to poor reproductive health. Panchakarma therapies help detoxify the body, regulate hormones, and enhance fertility.",
       ],
@@ -207,7 +207,7 @@ function FemaleDetails() {
       </div>
       <div className="py-20 px-12 xl:px-36">
         <p className="text-[#757575] text-[32px] font-semibold">
-          What is {disorder.title} Treatment ?
+          What is {disorder.title} ?
         </p>
         <p className="text-[#757575] text-justify mt-4">
           {disorder.description}

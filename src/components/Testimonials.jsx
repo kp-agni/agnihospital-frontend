@@ -29,7 +29,7 @@ function Testimonials() {
     {
       name: "Sheikh Tayyab Raja",
       role: "Patient",
-      review: "Best place for Panchkarma, the results speak for themselves. I lost about 6 kgs in about 3 weeks and the visible effect on my body is unbelievable. Dr. Darshan is an excellent professional, his attention to the smallest details is exceptional. Highly recommended for Panchakarma Treatment in Ahmedabad.",
+      review: "Best place for Panchkarma, the results speak for themselves. I lost about 6 kgs in about 3 weeks and the visible effect on my body is unbelievable. Dr. Darshan is an excellent professional, his attention to the smallest details is exceptional. Highly recommended for Panchkarma Treatment in Ahmedabad.",
     },
     {
       name: "Mansi Patel",
@@ -44,7 +44,7 @@ function Testimonials() {
     {
       name: "Lubna Saiyed",
       role: "Patient",
-      review: "Before 4 months i was diagnosed with Chronic Kidney Disease ,I was suffering from Swelling in feets and very often micturation urges. I can’t go to any gathering and also disturbed emotionally. Then, one of my friend suggest me about Agni Ayurvedic Hospital so I consultant to Dr.Dharmik after 15 days to medication my swelling gradually decrease also relives other symptoms.Best Ayurvedic Hospital in Ahemdabad.",
+      review: "Before 4 months i was diagnosed with Chronic Kidney Disease ,I was suffering from Swelling in feets and very often micturation urges. I can't go to any gathering and also disturbed emotionally. Then, one of my friend suggest me about Agni Ayurvedic Hospital so I consultant to Dr.Dharmik after 15 days to medication my swelling gradually decrease also relives other symptoms.Best Ayurvedic Hospital in Ahemdabad.",
     },
     {
       name: "Vishvajeetsinh Zala",
@@ -83,7 +83,7 @@ function Testimonials() {
     {
       src: "https://drive.google.com/file/d/1rhbwNGhwobtnts3W0O7Vc4cFWUg3a18m/view?usp=sharing",
       thumbnail: "/testimonials/thumbnails/thumb_3.png",
-      title: "Panchakarma Experience"
+      title: "Panchkarma Experience"
     },
     {
       src: "https://drive.google.com/file/d/1vL_Eu7uMlc-fp1nXEhOQ4ooVUCTJxqEV/view?usp=drive_link",

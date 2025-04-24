@@ -12,7 +12,7 @@ function SkinHairDetails() {
       id: "eczema",
       title: "Eczema",
       description:
-        "Eczema, also known as Vicharchika in Ayurveda, is a chronic inflammatory skin condition characterized by redness, itching, dryness, and sometimes fluid-filled blisters. It is often triggered by allergens, stress, poor digestion, and an imbalance in the body's doshas—primarily Pitta and Kapha. Ayurvedic treatments focus on detoxification, balancing doshas, and strengthening the skin’s natural barrier.",
+        "Eczema, also known as Vicharchika in Ayurveda, is a chronic inflammatory skin condition characterized by redness, itching, dryness, and sometimes fluid-filled blisters. It is often triggered by allergens, stress, poor digestion, and an imbalance in the body's doshas—primarily Pitta and Kapha. Ayurvedic treatments focus on detoxification, balancing doshas, and strengthening the skin's natural barrier.",
       ayurvedicApproach: {
         herbsremedies: [
           "Neem (Azadirachta indica): A powerful anti-inflammatory and antibacterial herb that helps soothe itching and heal skin infections.",
@@ -358,7 +358,7 @@ function SkinHairDetails() {
       </div>
       <div className="py-20 px-12 xl:px-36">
         <p className="text-[#757575] text-[32px] font-semibold">
-          What is {disorder.title} Treatment ?
+          What is {disorder.title} ?
         </p>
         <p className="text-[#757575] text-justify mt-4">
           {disorder.description}

@@ -5,6 +5,11 @@ import Book_Appointment from "../components/Appointment/Book_Appointment";
 
 function Gallary() {
   const images = [
+    { src: "/gallary/image_0.png", cols: 2, rows: 1 },
+    { src: "/gallary/image_01.png", cols: 2, rows: 1 },
+    { src: "/gallary/image_13.png", cols: 2, rows: 1 },
+    { src: "/gallary/image_15.png", cols: 2, rows: 1 },
+    { src: "/gallary/image_16.png", cols: 2, rows: 1 },
     { src: "/gallary/image_1.png", cols: 2, rows: 1 },
     { src: "/gallary/image_2.png", cols: 1, rows: 1 },
     { src: "/gallary/image_3.png", cols: 1, rows: 1 },
@@ -101,157 +106,249 @@ function Gallary() {
 
   return (
     <div className="w-full mx-auto bg-[#F3FFEA]">
-     <section className="py-16 px-4 sm:px-8 md:px-12 xl:px-40  overflow-hidden">
-        <div className=" ">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#394E29] mb-6">
-            A Glimpse into Holistic Wellness
+      {/* Hero Section */}
+      <section className="py-16 px-4 sm:px-8 md:px-12 xl:px-40 overflow-hidden">
+        <div className="max-w-6xl mx-auto">
+          <h1 className="text-3xl md:text-4xl font-bold text-[#394E29] mb-6">
+            लोकाः समस्ताः सुखिनो भवन्तु ।।
           </h1>
-          <p className="text-[#757575] text-lg sm:text-xl  leading-relaxed">
-            Step into the world of Agni Ayurved through our gallery. Explore
-            moments of care, tradition, and transformation captured in our
-            serene spaces, expert treatments, and community stories. Witness how
-            we blend ancient wisdom with modern excellence to bring holistic
-            healing to life.
+          <p className="text-[#5FA02E] text-lg sm:text-xl font-medium mb-4">
+            May all beings in all the worlds be happy.
+          </p>
+          <p className="text-[#757575] text-lg sm:text-xl leading-relaxed">
+            Discover natural healing through Ayurveda—personalized care to refresh your body, 
+            calm your mind, and uplift your spirit. Step into our world of holistic wellness, 
+            where ancient wisdom meets modern care, and every treatment is a step towards 
+            complete harmony and well-being.
           </p>
         </div>
       </section>
-      {visibleFormId === "form1" && (
-        <div className="fixed inset-0 flex justify-center items-center z-10">
-          <div className="relative">
-            <Book_Appointment closeForm={closeForm} />
-          </div>
-        </div>
-      )}
-      <section className="py-20 px-12 xl:px-40">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[150px] md:auto-rows-[200px] lg:auto-rows-[250px]">
-          {images.map((image, index) => (
-            <div
-              key={index}
-              className={`col-span-${image.cols === 2 ? "2" : "1"} row-span-${
-                image.rows === 2 ? "2" : "1"
-              } rounded-xl overflow-hidden shadow-md transform transition-transform duration-300 hover:scale-105`}
-              onClick={() => openModal(index, "gallery")}
-            >
-              <img
-                src={image.src}
-                alt={`Gallery Image ${index + 1}`}
-                className="w-full h-full object-cover rounded-lg cursor-pointer"
-                loading="lazy"
-              />
-            </div>
-          ))}
-        </div>
 
-        {modalIsOpen && (
-          <div
-            className="fixed inset-0 bg-[#757575] bg-opacity-50 flex justify-center items-center z-50"
-            onClick={closeModal}
-          >
-            <div
-              className="relative max-w-4xl w-full flex flex-col items-center p-4"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <img
-                src={
-                  activeSection === "gallery"
-                    ? images[currentIndex].src
-                    : socialimages[currentIndex].src
-                }
-                alt="Full Screen"
-                className="max-w-full max-h-full rounded-lg"
-                loading="eager"
-              />
-              <div
-                className="absolute inset-y-1/2 left-4 text-white text-3xl cursor-pointer"
-                onClick={prevImage}
-              >
-                &#9665;
-              </div>
-              <div
-                className="absolute inset-y-1/2 right-4 text-white text-3xl cursor-pointer"
-                onClick={nextImage}
-              >
-                &#9655;
-              </div>
+      {/* Trust and Recognition Section */}
+      <section className="py-20 px-12 xl:px-40 bg-gradient-to-b from-white to-[#F3FFEA]">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#394E29] mb-6">
+              Our Legacy of Trust & Excellence
+            </h2>
+            <div className="w-24 h-1 bg-[#5FA02E] mx-auto"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Trust Cards */}
+            <div className="bg-white rounded-2xl shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+              <div className="text-[#5FA02E] text-4xl mb-4">🌟</div>
+              <h3 className="text-xl font-semibold text-[#394E29] mb-4">Patient Trust and Satisfaction</h3>
+              <p className="text-[#757575] leading-relaxed">
+                With consistent positive feedback and high patient satisfaction, we have earned the trust of individuals and families both locally and internationally.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+              <div className="text-[#5FA02E] text-4xl mb-4">🌍</div>
+              <h3 className="text-xl font-semibold text-[#394E29] mb-4">International Reach</h3>
+              <p className="text-[#757575] leading-relaxed">
+                With patients visiting from USA, Japan, Australia, Ghana, and Canada, we've earned global recognition as a center for authentic, effective Ayurvedic treatment.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+              <div className="text-[#5FA02E] text-4xl mb-4">🌿</div>
+              <h3 className="text-xl font-semibold text-[#394E29] mb-4">Herbal Innovation with Traditional Roots</h3>
+              <p className="text-[#757575] leading-relaxed">
+                We formulate and use customized herbal combinations based on classical texts and modern case observations. Our internal pharmacy ensures purity and potency in every dose.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+              <div className="text-[#5FA02E] text-4xl mb-4">🧘</div>
+              <h3 className="text-xl font-semibold text-[#394E29] mb-4">Integrative Detox & Lifestyle Reset</h3>
+              <p className="text-[#757575] leading-relaxed">
+                Our signature "Ayurvedic Wellness Reset" combines Panchakarma, herbal support, sattvic diet, meditation, and lifestyle coaching — ideal for stress, burnout, and preventive wellness.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-8 transform transition-all duration-300 hover:shadow-xl hover:scale-[1.02]">
+              <div className="text-[#5FA02E] text-4xl mb-4">🏆</div>
+              <h3 className="text-xl font-semibold text-[#394E29] mb-4">Our Greatest Recognition: Patient Trust</h3>
+              <p className="text-[#757575] leading-relaxed">
+                The true honor lies in the trust of thousands of patients who return to us and recommend our care — a legacy we proudly uphold.
+              </p>
             </div>
           </div>
-        )}
-      </section>
-      <section className="py-20 px-12 xl:px-40">
-        <div className="mb-10">
-          <p className="font-bold text-[#394E29]">Social Images</p>
-        </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[150px] md:auto-rows-[200px] lg:auto-rows-[250px]">
-          {socialimages.map((socialimage, index) => (
-            <div
-              key={index}
-              className={`col-span-${
-                socialimage.cols === 2 ? "2" : "1"
-              } row-span-${
-                socialimage.rows === 2 ? "2" : "1"
-              } rounded-lg overflow-hidden shadow-md transform transition-transform duration-300 hover:scale-105`}
-              onClick={() => openModal(index, "social")}
-            >
-              <img
-                src={socialimage.src}
-                alt={`Gallery Image ${index + 1}`}
-                className="w-full h-full object-cover rounded-lg cursor-pointer"
-                loading="lazy"
-              />
-            </div>
-          ))}
         </div>
       </section>
 
+      {/* Main Gallery Section */}
       <section className="py-20 px-12 xl:px-40">
-        <div className="mb-10">
-          <p className="font-bold text-[#394E29]">
-            Know what Agni Ayurveda is with the help of Videos.
-          </p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {videos.map((video, index) => (
-            <div
-              key={index}
-              className="group relative overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02]"
-              onClick={() => handleThumbnailClick(video.src)}
-            >
-              <div className="relative aspect-video">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#394E29] mb-6">
+              Our Healing Spaces & Moments
+            </h2>
+            <div className="w-24 h-1 bg-[#5FA02E] mx-auto mb-6"></div>
+            {/* <p className="text-[#757575] text-lg max-w-3xl mx-auto leading-relaxed">
+              Explore our serene treatment rooms, state-of-the-art facilities, and the peaceful ambiance that makes Agni Ayurved a sanctuary for healing.
+            </p> */}
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[150px] md:auto-rows-[200px] lg:auto-rows-[250px]">
+            {images.map((image, index) => (
+              <div
+                key={index}
+                className={`col-span-${image.cols === 2 ? "2" : "1"} row-span-${
+                  image.rows === 2 ? "2" : "1"
+                } rounded-xl overflow-hidden shadow-md transform transition-transform duration-300 hover:scale-105`}
+                onClick={() => openModal(index, "gallery")}
+              >
                 <img
-                  src={video.thumbnail}
-                  alt={video.title}
-                  className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
+                  src={image.src}
+                  alt={`Gallery Image ${index + 1}`}
+                  className="w-full h-full object-cover rounded-lg cursor-pointer"
+                  loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="bg-[#5FA02E] text-white p-4 rounded-full transform scale-0 group-hover:scale-100 transition-transform duration-300">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={2}
-                      stroke="currentColor"
-                      className="w-8 h-8"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M5 3v18l15-9L5 3z"
-                      />
-                    </svg>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Social Gallery Section */}
+      <section className="py-20 px-12 xl:px-40 bg-gradient-to-b from-[#F3FFEA] to-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#394E29] mb-6">
+              Community & Social Moments
+            </h2>
+            <div className="w-24 h-1 bg-[#5FA02E] mx-auto mb-6"></div>
+            {/* <p className="text-[#757575] text-lg max-w-3xl mx-auto leading-relaxed">
+              Join us in celebrating the vibrant community that makes Agni Ayurved special. These moments reflect our shared journey towards wellness.
+            </p> */}
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[150px] md:auto-rows-[200px] lg:auto-rows-[250px]">
+            {socialimages.map((socialimage, index) => (
+              <div
+                key={index}
+                className={`col-span-${
+                  socialimage.cols === 2 ? "2" : "1"
+                } row-span-${
+                  socialimage.rows === 2 ? "2" : "1"
+                } rounded-lg overflow-hidden shadow-md transform transition-transform duration-300 hover:scale-105`}
+                onClick={() => openModal(index, "social")}
+              >
+                <img
+                  src={socialimage.src}
+                  alt={`Social Image ${index + 1}`}
+                  className="w-full h-full object-cover rounded-lg cursor-pointer"
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Video Gallery Section */}
+      <section className="py-20 px-12 xl:px-40">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#394E29] mb-6">
+              Experience Agni Ayurved Through Videos
+            </h2>
+            <div className="w-24 h-1 bg-[#5FA02E] mx-auto mb-6"></div>
+            <p className="text-[#757575] text-lg max-w-3xl mx-auto leading-relaxed">
+              Watch our videos to get a deeper understanding of our treatments, facilities, and the transformative journey of our patients.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            {videos.map((video, index) => (
+              <div
+                key={index}
+                className="group relative overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-[1.02]"
+                onClick={() => handleThumbnailClick(video.src)}
+              >
+                <div className="relative aspect-video">
+                  <img
+                    src={video.thumbnail}
+                    alt={video.title}
+                    className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="bg-[#5FA02E] text-white p-4 rounded-full transform scale-0 group-hover:scale-100 transition-transform duration-300">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={2}
+                        stroke="currentColor"
+                        className="w-8 h-8"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M5 3v18l15-9L5 3z"
+                        />
+                      </svg>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                <h3 className="text-xl font-semibold mb-2">{video.title}</h3>
-                <p className="text-sm opacity-90">
-                  Click to watch full testimonial
-                </p>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
+
+      {/* Appointment Button */}
+      <div className="bg-[#F5F5F5] md:min-w-max max-[768px]:min-w-full max-w-fit flex flex-row mx-auto gap-8 px-10 pt-2 pb-2 rounded-full absolute left-[50%] transform -translate-x-[50%] -translate-y-[50%]">
+        <p className="text-[#5FA02E] text-xl py-2">
+          Rediscover the Healing Power of Nature
+        </p>
+        <button
+          className="px-5 bg-[#5FA02E] sm:py-0 rounded-full text-[#F3FFEA]"
+          onClick={() => handleButtonClick("form1")}
+        >
+          Book Appointment
+        </button>
+      </div>
+
+      {/* Modals */}
+      {modalIsOpen && (
+        <div
+          className="fixed inset-0 bg-[#757575] bg-opacity-50 flex justify-center items-center z-50"
+          onClick={closeModal}
+        >
+          <div
+            className="relative max-w-4xl w-full flex flex-col items-center p-4"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <img
+              src={
+                activeSection === "gallery"
+                  ? images[currentIndex].src
+                  : socialimages[currentIndex].src
+              }
+              alt="Full Screen"
+              className="max-w-full max-h-full rounded-lg"
+              loading="eager"
+            />
+            <div
+              className="absolute inset-y-1/2 left-4 text-white text-3xl cursor-pointer"
+              onClick={prevImage}
+            >
+              &#9665;
+            </div>
+            <div
+              className="absolute inset-y-1/2 right-4 text-white text-3xl cursor-pointer"
+              onClick={nextImage}
+            >
+              &#9655;
+            </div>
+          </div>
+        </div>
+      )}
 
       {isFullScreen && (
         <div className="fixed inset-0 z-50" onClick={handleClose}>
@@ -353,17 +450,6 @@ function Gallary() {
           </div>
         </div>
       )}
-      <div className="bg-[#F5F5F5] md:min-w-max max-[768px]:min-w-full max-w-fit flex flex-row mx-auto gap-8 px-10 pt-2 pb-2 rounded-full absolute left-[50%] transform -translate-x-[50%] -translate-y-[50%]">
-        <p className="text-[#5FA02E] text-xl py-2 ">
-          Rediscover the Healing Power of Nature
-        </p>
-        <button
-          className="px-5  bg-[#5FA02E] sm:py-0 rounded-full text-[#F3FFEA]"
-          onClick={() => handleButtonClick("form1")}
-        >
-          Book Appointment
-        </button>
-      </div>
     </div>
   );
 }

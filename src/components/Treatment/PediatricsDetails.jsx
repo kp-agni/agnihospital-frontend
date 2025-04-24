@@ -251,7 +251,7 @@ function JointDetails() {
       </div>
       <div className="py-20 px-12 xl:px-36">
         <p className="text-[#757575] text-[32px] font-semibold">
-          What is {disorder.title} Treatment ?
+          What is {disorder.title} ?
         </p>
         <p className="text-[#757575] text-justify mt-4">
           {disorder.description}

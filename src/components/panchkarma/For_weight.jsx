@@ -38,7 +38,7 @@ function For_weight() {
 
   return (
     <div>
-      <img src="/panchkarma/weight/weight.png" alt="" loading="eager" />
+      <img src="/panchakarma/weight/weight.png" alt="" loading="eager" />
       <div className="w-full mx-auto">
         {visibleFormId === "form1" && (
           <div className="fixed inset-0 flex justify-center items-center z-10">

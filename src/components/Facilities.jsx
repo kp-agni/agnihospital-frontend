@@ -28,7 +28,8 @@ function Facilities() {
     "/facility/reception/image_6.png",
 
   ];
-  const panchkarma = [
+  const panchakarma = [
+    "/facility/panchkarma/image_0.png",
     "/facility/panchkarma/image_1.png",
     "/facility/panchkarma/image_2.png",
     "/facility/panchkarma/image_3.png",
@@ -189,111 +190,59 @@ function Facilities() {
       <section className="py-20 px-12 xl:px-40 bg-gradient-to-b from-white to-[#F3FFEA]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h1 className="font-bold text-[#394E29] text-4xl md:text-5xl mb-4">Panchakarma Room</h1>
+            <h1 className="font-bold text-[#394E29] text-4xl md:text-5xl mb-4">Panchakarma Theater</h1>
             <div className="w-24 h-1 bg-[#5FA02E] mx-auto mb-6"></div>
             <p className="text-[#757575] text-lg max-w-3xl mx-auto">
-              A dedicated space for traditional Panchakarma therapies, designed with a soothing ambiance, advanced Ayurvedic treatment beds, and expert supervision to facilitate deep detoxification and rejuvenation.
+              Our comprehensive Panchakarma center combines traditional healing spaces with modern facilities, offering a complete range of Ayurvedic detoxification and rejuvenation therapies in a serene and professional environment.
             </p>
           </div>
+
+          <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
+            <h2 className="font-semibold text-[#394E29] text-2xl mb-4">Treatment Areas</h2>
+            <p className="text-[#757575] text-lg leading-relaxed mb-6">
+              Our Panchakarma center features specialized areas designed for different aspects of treatment:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-[#F3FFEA] p-6 rounded-xl">
+                <h3 className="font-semibold text-[#394E29] text-xl mb-3">Main Therapy Area</h3>
+                <ul className="list-disc list-inside text-[#757575] space-y-2">
+                  <li>Traditional wooden Droni tables for authentic treatments</li>
+                  <li>Modern steam chambers for Swedana therapy</li>
+                  <li>Comprehensive range of medicated oils and herbal medicines</li>
+                  <li>Specialized equipment for various Panchakarma procedures</li>
+                  <li>Temperature-controlled environment for optimal therapy</li>
+                </ul>
+              </div>
+              <div className="bg-[#F3FFEA] p-6 rounded-xl">
+                <h3 className="font-semibold text-[#394E29] text-xl mb-3">Recovery & Relaxation</h3>
+                <ul className="list-disc list-inside text-[#757575] space-y-2">
+                  <li>Comfortable reclining chairs and resting areas</li>
+                  <li>Peaceful ambiance with soft lighting</li>
+                  <li>Herbal tea and light refreshments</li>
+                  <li>Quiet environment for meditation and rest</li>
+                  <li>Attendant support for immediate post-treatment care</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
-            {panchkarma.map((src, index) => (
+            {panchakarma.map((src, index) => (
               <div key={index} className="overflow-hidden rounded-xl shadow-lg cursor-pointer group">
                 <div className="relative overflow-hidden">
                   <img
                     src={src}
-                    alt={`Gallery Image ${index + 1}`}
+                    alt={`Panchakarma Center ${index + 1}`}
                     className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
                     onClick={() => handleImageClick(src)}
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                    <p className="text-white text-lg font-semibold p-4">Panchakarma Room</p>
+                    <p className="text-white text-lg font-semibold p-4">Panchakarma Center</p>
                   </div>
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 px-12 xl:px-40 bg-gradient-to-b from-[#F3FFEA] to-white">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h1 className="font-bold text-[#394E29] text-4xl md:text-5xl mb-4">Panchakarma Therapy Theatre</h1>
-            <div className="w-24 h-1 bg-[#5FA02E] mx-auto mb-6"></div>
-          </div>
-          
-          <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
-            <h2 className="font-semibold text-[#394E29] text-2xl mb-4">Dedicated Panchakarma Therapy Theatre</h2>
-            <p className="text-[#757575] text-lg leading-relaxed">
-              Our specialized therapy theater is equipped with state-of-the-art facilities including:
-            </p>
-            <ul className="list-disc list-inside text-[#757575] mt-4 space-y-2">
-              <li>Traditional wooden Droni tables for authentic treatments</li>
-              <li>Modern steam chambers for Swedana therapy</li>
-              <li>Comprehensive range of medicated oils and herbal medicines</li>
-              <li>Specialized equipment for various Panchakarma procedures</li>
-              <li>Temperature-controlled environment for optimal therapy</li>
-            </ul>
-          </div>
-
-          <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
-            <h2 className="font-semibold text-[#394E29] text-2xl mb-4">Post-Treatment Recovery Lounge</h2>
-            <p className="text-[#757575] text-lg leading-relaxed">
-              A serene space designed for post-treatment relaxation and recovery, featuring:
-            </p>
-            <ul className="list-disc list-inside text-[#757575] mt-4 space-y-2">
-              <li>Comfortable reclining chairs and resting areas</li>
-              <li>Peaceful ambiance with soft lighting</li>
-              <li>Herbal tea and light refreshments</li>
-              <li>Quiet environment for meditation and rest</li>
-              <li>Attendant support for immediate post-treatment care</li>
-            </ul>
-          </div>
-
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
-            <div className="overflow-hidden rounded-xl shadow-lg cursor-pointer group">
-              <div className="relative overflow-hidden">
-                <img
-                  src="/facility/panchkarma/theater/image_1.png"
-                  alt="Panchakarma Therapy Theatre"
-                  className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-                  onClick={() => handleImageClick("/facility/panchkarma/theater/image_1.png")}
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white text-lg font-semibold p-4">Therapy Theatre</p>
-                </div>
-              </div>
-            </div>
-            <div className="overflow-hidden rounded-xl shadow-lg cursor-pointer group">
-              <div className="relative overflow-hidden">
-                <img
-                  src="/facility/panchkarma/theater/image_2.png"
-                  alt="Recovery Lounge"
-                  className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-                  onClick={() => handleImageClick("/facility/panchkarma/theater/image_2.png")}
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white text-lg font-semibold p-4">Recovery Lounge</p>
-                </div>
-              </div>
-            </div>
-            <div className="overflow-hidden rounded-xl shadow-lg cursor-pointer group">
-              <div className="relative overflow-hidden">
-                <img
-                  src="/facility/panchkarma/theater/image_3.png"
-                  alt="Therapy Equipment"
-                  className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-                  onClick={() => handleImageClick("/facility/panchkarma/theater/image_3.png")}
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white text-lg font-semibold p-4">Therapy Equipment</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -374,20 +323,6 @@ function Facilities() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <p className="text-white text-lg font-semibold p-4">Ayurvedic Supplements</p>
-                </div>
-              </div>
-            </div>
-            <div className="overflow-hidden rounded-xl shadow-lg cursor-pointer group">
-              <div className="relative overflow-hidden">
-                <img
-                  src="/facility/pharmacy/image_3.png"
-                  alt="Ayurvedic Oils"
-                  className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-                  onClick={() => handleImageClick("/facility/pharmacy/image_3.png")}
-                  loading="lazy"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <p className="text-white text-lg font-semibold p-4">Ayurvedic Oils</p>
                 </div>
               </div>
             </div>

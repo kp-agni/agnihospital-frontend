@@ -38,7 +38,7 @@ function For_stress() {
 
   return (
     <div>
-      <img src="/panchkarma/stress/stress.png" alt="" loading="eager"/>
+      <img src="/panchakarma/stress/stress.png" alt="" loading="eager"/>
       <div className="w-full mx-auto">
         {visibleFormId === "form1" && (
           <div className="fixed inset-0 flex justify-center items-center z-10">
@@ -50,7 +50,7 @@ function For_stress() {
 
         <section className="py-20 px-12 xl:px-40 bg-[#F3FFEA]">
           <div className="font-bold text-2xl text-[#394E29]">
-            Panchkarma for Stress Management{" "}
+            Panchakarma for Stress Management{" "}
           </div>
           <div className="text-[#757575] mt-8 text-justify">
             <p className="mb-4">

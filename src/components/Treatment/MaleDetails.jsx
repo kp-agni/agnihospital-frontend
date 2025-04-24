@@ -42,7 +42,7 @@ function JointDetails() {
       id: "infertility",
       title: "Male Infertility",
       description:
-        "Male infertility refers to a man's inability to impregnate a female partner after a year of regular, unprotected intercourse. Causes include hormonal imbalances, lifestyle factors, and reproductive system blockages.",
+        "Male infertility refers to a man's inability to impregnate a female partner after a year of regular, unprotected intercourse. Causes include hormonal imbalances, lifestyle factors, and reproductive system blockages.Male infertility is often linked to low sperm count, poor sperm motility, or structural issues.",
       ayurvedicApproach: [
         "Virechana (Purgation Therapy): Detoxifies the body and enhances reproductive health.",
         "Basti (Medicated Enema): Administered with herbs like Shatavari and Ashwagandha to improve sperm quality.",
@@ -156,7 +156,7 @@ function JointDetails() {
       </div>
       <div className="py-20 px-12 xl:px-36">
         <p className="text-[#757575] text-[32px] font-semibold">
-          What is {disorder.title} Treatment ?
+          What is {disorder.title} ?
         </p>
         <p className="text-[#757575] text-justify mt-4">
           {disorder.description}

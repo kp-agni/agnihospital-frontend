@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import Book_Appointment from "../../components/Appointment/Book_Appointment";
 
-function Basic_panchkarma() {
+function Basic_panchakarma() {
   const cardData = [
     {
       id: 1,
@@ -11,7 +11,7 @@ function Basic_panchkarma() {
       
             **Indications:** Diabetes, Asthma, Chronic Cold, Chronic sinusitis, Chronic indigestion, Skin diseases, Food poisoning, Epilepsy, Anorexia, Specific Abdominal disorders & In various "Kapha" predominant diseases.
           `,
-      image: "/panchkarma/basic-panch/card1.png",
+      image: "/panchkarma/basic-panch/vaman.png",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ function Basic_panchkarma() {
       
             **Indications:** Chronic fever, Skin diseases, Acne, Allergic disorders, Eczema, Psoriasis, Ascites, Arthritis, Jaundice, Infertility, Oligospermia, Hyper Acidity, Worms, Gout & in various "PITTA" predominant diseases.
           `,
-      image: "/panchkarma/basic-panch/card2.png",
+      image: "/panchkarma/basic-panch/virechan.png",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ function Basic_panchkarma() {
       
             **Indications:** Chronic constipation, Paralysis, Sciatica, Backache, Gynaec disorders, Infertility, Oligospermia, Arthritis, Heart disease & All types of pains.
           `,
-      image: "/panchkarma/basic-panch/card3.png",
+      image: "/panchkarma/basic-panch/basti.png",
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ function Basic_panchkarma() {
       
             **Indications:** Gout, Leucoderma, Skin diseases, Scabies, Chronic itching, Skin rashes, Alopecia, Urticaria, Hyper tension, Enlargement of liver & spleen.
           `,
-      image: "/panchkarma/basic-panch/card4.png",
+      image: "/panchkarma/basic-panch/raktmokshn.png",
     },
     {
       id: 5,
@@ -51,7 +51,7 @@ function Basic_panchkarma() {
       
             **Indications:** Various disease of eye, ear, nose, throat & head, Mental disorders, Epilepsy, Insomnia, Hair problems, Headache, Migraine, & To promote the intelligence and memory & mental functions.
           `,
-      image: "/panchkarma/basic-panch/card5.png",
+      image: "/panchkarma/basic-panch/nasya.png",
     },
     {
       id: 6,
@@ -61,7 +61,7 @@ function Basic_panchkarma() {
       
             **Indications:** Headache, Hyper tension, Dandruff, Grey hair, Sleeplessness, Paralysis, Mental disorders, Diseases of eye, Stress, Depression, Lack of confidence, Lack of concentration, Epilepsy, Dementia, Migraine, For relaxation of mind, To improve the function of 5 senses, To improve intelligence & To promote self esteem.
           `,
-      image: "/panchkarma/basic-panch/card6.png",
+      image: "/panchkarma/basic-panch/shirodhara.png",
     },
     {
       id: 7,
@@ -71,7 +71,7 @@ function Basic_panchkarma() {
       
             **Indications:** Diseases of head, Hair problems, Numbness in head, Facial paralysis, Myopia, Mental disorders & For mental relaxation.
           `,
-      image: "/panchkarma/basic-panch/card7.png",
+      image: "/panchkarma/basic-panch/shirobasti.png",
     },
     {
       id: 8,
@@ -81,7 +81,7 @@ function Basic_panchkarma() {
       
             **Indications:** Fresh Myopia & Hypermetropia, Eye strain, Redness of eyes, Dryness in eye, Watering of eyes, Burning of eyes & Diseases of retina.
           `,
-      image: "/panchkarma/basic-panch/card8.png",
+      image: "/panchkarma/basic-panch/netradhara.png",
     },
     {
       id: 9,
@@ -91,7 +91,7 @@ function Basic_panchkarma() {
       
             **Indications:** Polio myelitis, Muscular dystrophy, Arthritis, Stiffness of body, Paralysis, Cerebral Palsy & To increase vitality.
           `,
-      image: "/panchkarma/basic-panch/card9.png",
+      image: "/panchkarma/basic-panch/shastishalipind.png",
     },
     {
       id: 10,
@@ -101,7 +101,7 @@ function Basic_panchkarma() {
       
             **Indications:** Arthritic pain, Physical & sexual weakness, Exhaustion, Stiffness of body, Hypertension & To increase vitality.
           `,
-      image: "/panchkarma/basic-panch/card10.png",
+      image: "/panchkarma/basic-panch/pizhichil.png",
     },
     {
       id: 11,
@@ -111,7 +111,7 @@ function Basic_panchkarma() {
       
             **Indications:** Polio myelitis, Paralysis, Nervous disorders, Backache, Frozen shoulder, Arthritis, Fatigue & Various "Vatta" predominant diseases.
           `,
-      image: "/panchkarma/basic-panch/card11.png",
+      image: "/panchkarma/basic-panch/patrapind.png",
     },
     {
       id: 12,
@@ -121,7 +121,7 @@ function Basic_panchkarma() {
       
             **Indications:** Backache, Arthritis, Cervical Spondylitis, It relieves pain & oedema of joints, Removes muscular stiffness, Removes malas of body, Improves joint mobility & blood circulation.
           `,
-      image: "/panchkarma/basic-panch/card12.png",
+      image: "/panchkarma/basic-panch/nadisvedana.png",
     },
     {
       id: 13,
@@ -129,9 +129,9 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** An oil-retaining therapy applied over the chest to support heart health.
       
-            **Indications:** Paralysis, Arthritic pain, Exhaustion, Neuralgic pain, Stiffness of body, Various "Vatta" predominant diseases & Pre-treatment for panchkarma.
+            **Indications:** Paralysis, Arthritic pain, Exhaustion, Neuralgic pain, Stiffness of body, Various "Vatta" predominant diseases & Pre-treatment for panchakarma.
           `,
-      image: "/panchkarma/basic-panch/card13.png",
+      image: "/panchkarma/basic-panch/hridbadti.png",
     },
     {
       id: 14,
@@ -155,7 +155,7 @@ function Basic_panchkarma() {
     },
     {
       id: 16,
-      title: "Greeva Basti",
+      title: "Griva Basti",
       content: `
             **What It Is:** A targeted therapy for the neck using retained medicated oil to alleviate stiffness and pain.
       
@@ -175,7 +175,7 @@ function Basic_panchkarma() {
     },
     {
       id: 18,
-      title: "Steam Bath (Bashpa Swedana)",
+      title: "Steam Bath (Bashpa Svedana)",
       content: `
             **What It Is:** A therapeutic steam treatment to induce sweating and promote detoxification.
       
@@ -191,7 +191,7 @@ function Basic_panchkarma() {
       
             **Indications:** Tinnitus, Deafness, Earache, Chronic Sinusitis, Facial paralysis, Torticolis.
           `,
-      image: "/panchkarma/basic-panch/card19.png",
+      image: "/panchkarma/basic-panch/karanpuran.png",
     },
     {
       id: 20,
@@ -201,7 +201,7 @@ function Basic_panchkarma() {
       
             **Indications:** Vata vitiation, excessive weakness, in sexual intercourse, excessive travelling, excessive walking, excessive lifting of weights, excessive work, weakness.
           `,
-      image: "/panchkarma/basic-panch/card20.png",
+      image: "/panchkarma/basic-panch/matrabasti.png",
     },
     {
       id: 21,
@@ -211,7 +211,7 @@ function Basic_panchkarma() {
       
             **Indications:** Conjunctivitis, Watering, Dry eye, Eye strain, Eye Redness, Blepharitis.
           `,
-      image: "/panchkarma/basic-panch/card21.png",
+      image: "/panchkarma/basic-panch/netradhara.png",
     },
     {
       id: 22,
@@ -221,17 +221,17 @@ function Basic_panchkarma() {
       
             **Indications:** Conjunctivitis, Watering, Dry eye, Eye strain, Eye Redness, Blepharitis.
           `,
-      image: "/panchkarma/basic-panch/card22.png",
+      image: "/panchkarma/basic-panch/bidalak.png",
     },
     {
       id: 23,
-      title: "Dhoom Pan",
+      title: "Dhoompan",
       content: `
             **What It Is:** Traditional therapeutic method using therapeutic smoke for ears and nose.
       
             **Indications:** Treatment of vata and kapha.
           `,
-      image: "/panchkarma/basic-panch/card23.png",
+      image: "/panchkarma/basic-panch/dhoompan.png",
     },
     {
       id: 24,
@@ -241,17 +241,17 @@ function Basic_panchkarma() {
       
             **Indications:** For all type of skin diseases and beauty treatment.
           `,
-      image: "/panchkarma/basic-panch/card24.png",
+      image: "/panchkarma/basic-panch/mukhalepam.png",
     },
     {
       id: 25,
-      title: "Spine Basti",
+      title: "Prustha Basti",
       content: `
             **What It Is:** An important Ayurvedic treatment for pain management focusing on the spine.
       
             **Indications:** Backache (particularly the lumbar region), Degenerative spine changes, Compressed discs, Osteoporosis, Sciatica, Hip pain, Shoulder pain, Spinal cord compression.
           `,
-      image: "/panchkarma/basic-panch/card25.png",
+      image: "/panchkarma/basic-panch/prushtabasti.png",
     },
     {
       id: 26,
@@ -261,7 +261,7 @@ function Basic_panchkarma() {
       
             **Indications:** Relieves digestive symptoms such as irritable bowel, flatulence, poor appetite, constipation and abdominal discomfort.
           `,
-      image: "/panchkarma/basic-panch/card26.png",
+      image: "/panchkarma/basic-panch/nabhibasti.png",
     },
     {
       id: 27,
@@ -271,7 +271,7 @@ function Basic_panchkarma() {
       
             **Indications:** Gastritis, uncontrolled diarrhea, sproue, irritated bowl syndrome (IBS), abdominal pain.
           `,
-      image: "/panchkarma/basic-panch/card27.png",
+      image: "/panchkarma/basic-panch/nabhipuran.png",
     },
     {
       id: 28,
@@ -281,7 +281,7 @@ function Basic_panchkarma() {
       
             **Indications:** It is used mainly to provide relief from pain, inflammation, swelling and stiffness (catch) associated with heel pain.
           `,
-      image: "/panchkarma/basic-panch/card28.png",
+      image: "/panchkarma/basic-panch/valukasvedana.png",
     },
     {
       id: 29,
@@ -291,7 +291,7 @@ function Basic_panchkarma() {
       
             **Indications:** It is used mainly to provide relief from pain, inflammation, swelling and stiffness (catch) associated with heel pain and knee-joint pain.
           `,
-      image: "/panchkarma/basic-panch/card29.png",
+      image: "/panchkarma/basic-panch/upanahsvedana.png",
     },
     {
       id: 30,
@@ -301,7 +301,7 @@ function Basic_panchkarma() {
       
             **Indications:** All psychiatric disorder, Garbh Sanskar, Viral diseases, Stress and depression and multiple kind of pain.
           `,
-      image: "/panchkarma/basic-panch/card30.png",
+      image: "/panchkarma/basic-panch/musictherapy.png",
     },
     {
       id: 31,
@@ -311,7 +311,7 @@ function Basic_panchkarma() {
       
             **Indications:** Painful conditions of musculoskeletal disorders, Hard, elevated and desensitized vranas/ulcer, Granthi, Arsas, Bhagandara, Arbuda, Sleepada, Charmakeela and Antravridhi, Severe bleeding condition.
           `,
-      image: "/panchkarma/basic-panch/card31.png",
+      image: "/panchkarma/basic-panch/agnikarma.png",
     },
     {
       id: 32,
@@ -321,7 +321,7 @@ function Basic_panchkarma() {
       
             **Indications:** Menstrual problems like amenorrhea, dysmenorrhea, menorrhegia, leucorrhea, primary and secondary infertility, to remove Tubal blocks, recurrent abortions, PCOS.
           `,
-      image: "/panchkarma/basic-panch/card32.png",
+      image: "/panchkarma/basic-panch/uttarbasti.png",
     }
   ];
 
@@ -398,43 +398,47 @@ function Basic_panchkarma() {
             {cardData.map((card, index) => (
               <div
                 key={card.id}
-                className={`bg-white rounded-2xl shadow-sm overflow-hidden w-full  
+                className={`bg-white rounded-2xl shadow-lg overflow-hidden w-full transition-all duration-300 hover:shadow-xl hover:scale-[1.02]
       ${index % 2 === 0 ? "mt-4" : "mt-0"}`}
               >
                 {/* Image Section */}
-                <img
-                  src={card.image}
-                  alt={card.title}
-                  className="w-full h-[216px] object-cover"
-                  loading="lazy"
-                />
+                <div className="relative w-full h-[280px] overflow-hidden bg-gray-100">
+                  <img
+                    src={card.image}
+                    alt={card.title}
+                    className="w-full h-full object-contain p-4"
+                    loading="lazy"
+                  />
+                </div>
                 {/* Content Section */}
-                <div className="p-6 h-auto">
-                  <h2 className="text-xl font-bold mb-4 text-[#5FA02E]">{`${
+                <div className="p-8 h-auto">
+                  <h2 className="text-2xl font-bold mb-6 text-[#5FA02E] border-b-2 border-[#5FA02E] pb-2">{`${
                     index + 1
                   }. ${card.title}`}</h2>
-                  <p className="text-[#757575] mb-2">
-                    <span className="text-[20px] font-bold block">
-                      What It Is:
-                    </span>
-                    <span className="text-[#757575] text-[20px]">
-                      {card.content
-                        .split("\n")[1]
-                        ?.replace("**What It Is:**", "")
-                        .trim()}
-                    </span>
-                  </p>
-                  <p className="text-[#757575]">
-                    <span className="text-[20px] font-bold block">
-                      Indications:
-                    </span>
-                    <span className="text-[#757575] text-[20px]">
-                      {card.content
-                        .split("\n")[3]
-                        ?.replace("**Indications:**", "")
-                        .trim()}
-                    </span>
-                  </p>
+                  <div className="space-y-4">
+                    <div>
+                      <h3 className="text-xl font-semibold text-[#757575] mb-2">
+                        What It Is:
+                      </h3>
+                      <p className="text-[#757575] text-lg leading-relaxed">
+                        {card.content
+                          .split("\n")[1]
+                          ?.replace("**What It Is:**", "")
+                          .trim()}
+                      </p>
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-semibold text-[#757575] mb-2">
+                        Indications:
+                      </h3>
+                      <p className="text-[#757575] text-lg leading-relaxed">
+                        {card.content
+                          .split("\n")[3]
+                          ?.replace("**Indications:**", "")
+                          .trim()}
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
@@ -456,4 +460,4 @@ function Basic_panchkarma() {
   );
 }
 
-export default Basic_panchkarma;
+export default Basic_panchakarma;

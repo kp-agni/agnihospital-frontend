@@ -52,13 +52,16 @@ function Home() {
       >
         <div className="flex flex-col justify-center items-center text-center mx-auto py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-36 text-white">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[64px] font-semibold text-center mx-auto leading-tight max-w-4xl">
-            Rediscover The <br className="hidden sm:block" /> Healing Power of Nature
+            लोकाः समस्ताः सुखिनो भवन्तु ।।
           </h1>
 
           <div className="pt-4 sm:pt-5 text-center">
+            <p className="mx-auto max-w-2xl text-base sm:text-lg px-4 text-[#5FA02E] font-medium mb-4">
+              May all beings in all the worlds be happy.
+            </p>
             <p className="mx-auto max-w-2xl text-base sm:text-lg px-4">
-              Experience holistic care through traditional Ayurvedic therapies
-              tailored to <br className="hidden sm:block" /> rejuvenate your body, mind, and spirit.
+              Discover natural healing through Ayurveda—personalized care to refresh your body, 
+              calm your mind, and uplift your spirit.
             </p>
           </div>
 
@@ -82,15 +85,42 @@ function Home() {
 
       <div className="items-center justify-center mx-auto">
         <div className="flex flex-col item-center justify-center mx-auto py-20 px-12 xl:px-36 w-full overflow-hidden lg:flex-row gap-16">
-          <img src="/hero_image/Photos.png" alt="Facilities" className="rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300" />
-          <div className="flex flex-col item-center md:item-start mt-10 gap-5">
+          <div className="grid grid-cols-2 gap-4 w-full lg:w-1/2">
+            <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="/facility/opd1/image_2.png" 
+                alt="Facility" 
+                className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="/facility/panchkarma/image_6.png" 
+                alt="OPD 1" 
+                className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="/facility/reception/image_5.png" 
+                alt="OPD 2" 
+                className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="/facility/opd2/image_3.png" 
+                alt="Panchkarma Room" 
+                className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col item-center md:item-start mt-10 gap-5 lg:w-1/2">
             <h2 className="w-full font-bold text-[#394E29] text-3xl">
               World-Class Facilities For Holistic Healing
             </h2>
             <p className="text-[#757575] text-justify text-lg">
-              Experience the perfect blend of traditional Ayurvedic treatments
-              and panchkarma therapies (Yoga). From serene therapy rooms to expert-led Panchkarma therapies and yoga practices, every detail is designed to nurture your health and
-              wellness.
+              Experience the perfect mix of traditional Ayurvedic treatments and Panchkarma therapies. From peaceful therapy rooms to expert-led Panchkarma sessions and yoga practices, everything is designed to support your health and well-being.
             </p>
             <div className="lg:mt-36 mt-12">
               <button className="px-8 py-2 bg-[#5FA02E] rounded-full text-[#F3FFEA] hover:bg-[#4a7d24] transition-colors duration-300">
@@ -129,7 +159,7 @@ function Home() {
                         {treatment.name}
                       </h3>
                       <a
-                        href={`/basic-panchkarma`}
+                        href={`/basic-panchakarma`}
                         className="text-[#5FA02E] hover:text-[#4a7d24] transition-colors duration-300"
                       >
                         Learn More...
@@ -149,11 +179,11 @@ function Home() {
           <div className="flex flex-col md:flex-row max-[768px]:gap-10 items-center justify-center gap-28 mt-5">
             <div className="transform hover:scale-105 transition-transform duration-300">
               <p className="text-4xl font-medium text-white">10+</p>
-              <p className="text-white">year Of Healing Experience</p>
+              <p className="text-white">years Of Healing Experience</p>
             </div>
             <span className="text-white text-4xl">|</span>
             <div className="transform hover:scale-105 transition-transform duration-300">
-              <p className="text-4xl font-medium text-white">1299+</p>
+              <p className="text-4xl font-medium text-white">12999+</p>
               <p className="text-white">Happy Patient Treated</p>
             </div>
             <span className="text-white text-4xl">|</span>
@@ -165,28 +195,26 @@ function Home() {
         </div>
 
         <div className="bg-[#EDEDED] h-auto mx-auto py-20 px-12">
-          <div className="flex flex-wrap justify-center md:gap-28 gap-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {testimonialsData.map((testimonial, index) => (
               <div
                 key={index}
-                className={`bg-white p-6 rounded-xl shadow-lg transform transition-all duration-300 hover:scale-105 ${
-                  index === 1
-                    ? "w-full sm:w-2/3 lg:w-1/4 transform scale-110 z-2"
-                    : "w-full sm:w-2/3 lg:w-1/4"
-                }`}
+                className="bg-white p-6 rounded-xl shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
               >
                 <div className="flex justify-center items-center mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <span key={i} className="text-yellow-500 text-4xl">
+                    <span key={i} className="text-yellow-500 text-2xl">
                       ★
                     </span>
                   ))}
                 </div>
                 <div className="border-t-2 border-[#5FA02E] my-4 w-1/4 mx-auto"></div>
-                <h3 className="text-center text-xl font-semibold mb-2 text-[#394E29]">
+                <h3 className="text-center text-lg font-semibold mb-2 text-[#394E29]">
                   {testimonial.name}
                 </h3>
-                <p className="text-center text-[#757575]">{testimonial.text}</p>
+                <p className="text-center text-[#757575] text-sm leading-relaxed">
+                  {testimonial.text}
+                </p>
               </div>
             ))}
           </div>
@@ -198,8 +226,7 @@ function Home() {
           </h2>
           <div className="item-start md:item-start">
             <p className="text-[#757575] text-justify text-lg max-sm:py-10">
-              A dedicated team of skilled Ayurvedic doctors, therapists, and
-              wellness professionals committed to your health and well-being.
+            Your wellness is in expert hands. Our team includes three highly skilled Parayani Nadi Vaidyas — two Ayurveda Consultants and one Panchakarma Expert —dedicated to providing personalized care and guiding you on your journey to lasting health and balance.
             </p>
           </div>
         </div>
@@ -229,7 +256,7 @@ function Home() {
           </h2>
           <div className="item-start md:item-start">
             <p className="text-[#757575] text-justify text-lg max-sm:py-10">
-              At AGNI Ayurved, we're dedicated to being there for you when you
+            <span className="text-[#5FA02E] font-medium">At AGNI Ayurved Hospital</span>, we're dedicated to being there for you when you
               need us most. Our hospital operates from{" "}
               <span className="text-[#5FA02E] font-medium">8:00 AM to 9:00 PM</span>,
               ensuring ample time for treatments and consultations. For
@@ -278,32 +305,37 @@ function Home() {
   );
 }
 const treatments = [
-  { name: "Basti", image: "/homeslider/slider_1.png" },
-  { name: "Rakta Mokshan", image: "/homeslider/slider_2.png" },
-  { name: "Vamana", image: "/homeslider/slider_3.png" },
-  { name: "Virechana", image: "/homeslider/slider_4.png" },
-  { name: "Shirodhara", image: "/homeslider/slider_5.png" },
-  { name: "Netra Tarpana", image: "/homeslider/slider_6.png" },
-  { name: "Pizichil", image: "/homeslider/slider_7.png" },
-  { name: "Hrid Basti", image: "/homeslider/slider_8.png" },
+  { name: "Nadi Parikshan", image: "/panchkarma/basic-panch/nadisvedana.png" },
+  { name: "Suvarnaprashan", image: "/panchkarma/basic-panch/bidalak.png" },
+  { name: "Garbhasanskar", image: "/panchkarma/basic-panch/bidalak.png" },
+  { name: "Shirodhara", image: "/panchkarma/basic-panch/shirodhara.png" },
+  { name: "Vaman", image: "/panchkarma/basic-panch/vaman.png" },
+  { name: "Virechan", image: "/panchkarma/basic-panch/virechan.png" },
+  { name: "Basti", image: "/panchkarma/basic-panch/basti.png" },
+  { name: "Nasya", image: "/panchkarma/basic-panch/nasya.png" },
+  { name: "Raktamokshan", image: "/panchkarma/basic-panch/bidalak.png" },
+  { name: "Janu Basti", image: "/panchkarma/basic-panch/card15.png" },
+  { name: "Kati Basti", image: "/panchkarma/basic-panch/card14.png" },
+  { name: "Netra Tarpana", image: "/panchkarma/basic-panch/netradhara.png" },
+
 ];
 const person = [
   {
     name: `Dr.Dharmik Kachchhi`,
     img: `/person/dr_dharmik.png`,
-    designation: `Co-Founder & Ayurved Consultant,Parayani Nadi Vaidya and Ayurvedacharya`,
+    designation: `Co-Founder & Ayurved Consultant  (Ayurvedacharya)`,
     src:`/dr_dharmik`,
   },
   {
     name: `Dr.Darshan Dudhat`,
     img: `/person/dr_darshan.png`,
-    designation: `Co-Founder & Panchakarma Consultant Parayani Nadi Vaidya Ayurvedacharya`,
+    designation: `Co-Founder & Panchakarma Consultant (Ayurvedacharya)`,
     src:`/dr_darshan`,
   },
   {
     name: `Dr.Rushi Patel`,
     img: `/person/dr_rushi.png`,
-    designation: `Co-Founder & Ayurved Consultant,Parayani Nadi Vaidya and Ayurvedacharya`,
+    designation: `Co-Founder & Ayurved Consultant (Ayurvedacharya)`,
     src:`/dr_rushi`,
   },
 ];

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Book_Appointment from "../../components/Appointment/Book_Appointment";
 import { useNavigate } from "react-router-dom";
 
-function A_Z_panchkarma() {
+function A_Z_panchakarma() {
   const navigate = useNavigate();
   const treatments = [
     {
@@ -147,7 +147,7 @@ function A_Z_panchkarma() {
       {/* Hero Section */}
       <div className="relative animate-fade-in">
         <img 
-          src="/panchkarma/a-z/a-z.png" 
+          src="/panchakarma/a-z/a-z.png" 
           alt="Panchakarma Treatments" 
           className="w-full h-[300px] sm:h-[400px] object-cover"
         />
@@ -228,4 +228,4 @@ function A_Z_panchkarma() {
   );
 }
 
-export default A_Z_panchkarma;
+export default A_Z_panchakarma;

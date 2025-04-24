@@ -51,7 +51,7 @@ function FemaleDisorder() {
     },
     {
       id: "male-female-infertility",
-      title: "Male & Female Infertility",
+      title: "Infertility",
       description:
         "Infertility is the inability to conceive after a year of regular, unprotected intercourse. It can affect both men and women due to various...",
       link: "/female-disorder/male-female-infertility",
