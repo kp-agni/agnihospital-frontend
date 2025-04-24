@@ -1,16 +1,41 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import Book_Appointment from "../../components/Appointment/Book_Appointment";
+import { useNavigate } from "react-router-dom";
 
 function For_weight() {
   const [visibleFormId, setVisibleFormId] = useState(null);
+  const navigate = useNavigate();
 
   const handleButtonClick = (formId) => {
     setVisibleFormId(formId);
   };
 
+  const handleTreatmentClick = (treatmentId) => {
+    try {
+      // Map treatment names to their correct IDs in treatmentsContent
+      const treatmentIdMap = {
+        "vamana": "vamana",
+        "udvartana": "udvartana",
+        "swedana": "swedana",
+        "virechan": "virechan",
+        "basti": "anuvasan-basti"
+      };
+
+      const mappedId = treatmentIdMap[treatmentId] || treatmentId;
+      if (!mappedId) {
+        console.error(`Treatment ID not found for: ${treatmentId}`);
+        return;
+      }
+      navigate(`/treatments/${mappedId}`);
+    } catch (error) {
+      console.error('Error navigating to treatment:', error);
+    }
+  };
+
   const closeForm = () => {
     setVisibleFormId(null);
   };
+
   return (
     <div>
       <img src="/panchkarma/weight/weight.png" alt="" loading="eager" />
@@ -32,7 +57,7 @@ function For_weight() {
               Weight gain often occurs when the digestive fire (Agni) is weak,
               causing undigested food to accumulate as toxins, leading to
               sluggish metabolism and fat retention. This imbalance, known as
-              Ama, obstructs the body’s ability to process nutrients and waste
+              Ama, obstructs the body's ability to process nutrients and waste
               effectively.
             </p>
             <div className="mt-12">
@@ -40,15 +65,69 @@ function For_weight() {
               <ul className="list-disc list-inside text-gray-700 space-y-2 mt-8 text-[24px]">
                 <li>
                   <strong>Kapha Constitution:-</strong>
-                  <br /> <p className="ml-8 mt-2">Vaman, Udvartan, Swedan</p>
+                  <br /> 
+                  <div className="ml-8 mt-2 space-y-2">
+                    <p 
+                      className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                      onClick={() => handleTreatmentClick("vamana")}
+                    >
+                      Vaman
+                    </p>
+                    <p 
+                      className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                      onClick={() => handleTreatmentClick("udvartana")}
+                    >
+                      Udvartan
+                    </p>
+                    <p 
+                      className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                      onClick={() => handleTreatmentClick("swedana")}
+                    >
+                      Swedan
+                    </p>
+                  </div>
                 </li>
                 <li>
                   <strong>Pitta Constitution:-</strong>
-                  <br /> <p className="ml-8 mt-2">Virechan, Udvartan, Basti</p>
+                  <br /> 
+                  <div className="ml-8 mt-2 space-y-2">
+                    <p 
+                      className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                      onClick={() => handleTreatmentClick("virechan")}
+                    >
+                      Virechan
+                    </p>
+                    <p 
+                      className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                      onClick={() => handleTreatmentClick("udvartana")}
+                    >
+                      Udvartan
+                    </p>
+                    <p 
+                      className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                      onClick={() => handleTreatmentClick("basti")}
+                    >
+                      Basti
+                    </p>
+                  </div>
                 </li>
                 <li>
                   <strong>Vata Constitution:-</strong>
-                  <br /> <p className="ml-9 mt-2">Basti, Udvartan</p>
+                  <br /> 
+                  <div className="ml-8 mt-2 space-y-2">
+                    <p 
+                      className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                      onClick={() => handleTreatmentClick("basti")}
+                    >
+                      Basti
+                    </p>
+                    <p 
+                      className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                      onClick={() => handleTreatmentClick("udvartana")}
+                    >
+                      Udvartan
+                    </p>
+                  </div>
                 </li>
               </ul>
             </div>

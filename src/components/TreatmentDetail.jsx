@@ -30,6 +30,17 @@ const TreatmentDetail = () => {
         "  • Performed in a warm, serene environment, the therapy involves applying warm oil with long, rhythmic strokes, focusing on nerve endings in the scalp, hands, and feet.",
         "  • The process lasts 30 to 60 minutes, followed by a short rest and a warm bath or shower.",
       ],
+      indications: [
+        "Chronic fatigue and low energy levels",
+        "Muscle stiffness and joint pain",
+        "Poor circulation and cold extremities",
+        "Stress, anxiety, and sleep disorders",
+        "Dry skin and premature aging",
+        "Weakened immune system",
+        "Vata imbalance symptoms",
+        "Post-exercise recovery",
+        "General wellness maintenance"
+      ],
       whyChooseUs: `Our expert therapists are trained in traditional Ayurvedic techniques, ensuring a personalized experience tailored to your unique dosha and wellness needs. Step into our serene environment and experience the healing power of Ayurveda with Abhyanga.`,
     },
     "agni-karma": {
@@ -47,6 +58,16 @@ const TreatmentDetail = () => {
         "The heated instruments are applied to the affected areas of the body, where they are allowed to sit for a short duration.",
         "The heat from the instruments helps stimulate circulation and promotes deep tissue healing.",
       ],
+      indications: [
+        "Chronic pain conditions",
+        "Arthritis and joint inflammation",
+        "Musculoskeletal disorders",
+        "Stiffness and reduced mobility",
+        "Sports injuries",
+        "Post-surgical recovery",
+        "Nerve-related pain",
+        "Circulatory issues"
+      ],
       whyChooseUs: `Our trained therapists offer Agni Karma treatments with great precision, ensuring the right temperature and application methods are used for maximum effectiveness. We tailor each session to meet the needs of our clients, focusing on specific problem areas for relief and rejuvenation.`,
     },
     "anuvasan-basti": {
@@ -60,11 +81,21 @@ const TreatmentDetail = () => {
         "Balances Vata Dosha: Anuvasan Basti is ideal for individuals with a predominance of the Vata dosha, promoting overall balance and calmness in the body.",
       ],
       process: [
-        "Preparation: A specific herbal oil or medicated decoction is prepared based on the individual’s needs and imbalances.",
+        "Preparation: A specific herbal oil or medicated decoction is prepared based on the individual's needs and imbalances.",
         "Application: The treatment involves the gentle insertion of warm, medicated oils into the rectum through a small tube. The patient is asked to lie in a comfortable position to ensure the oils are absorbed effectively.",
         "Duration: The oils are held for a short period before being released naturally, typically lasting between 15-30 minutes, depending on the condition being treated.",
       ],
       whyChooseUs: `Our clinic offers a personalized approach to Anuvasan Basti, using high-quality, specially prepared oils tailored to your specific needs. Our experienced therapists guide you through each step of the process, ensuring comfort and effective results.`,
+      indications: [
+        "Chronic constipation",
+        "Vata imbalance",
+        "Digestive disorders",
+        "Irritable bowel syndrome",
+        "Abdominal bloating",
+        "Nervous system disorders",
+        "Lower back pain",
+        "Menstrual disorders"
+      ],
     },
     "avagaha-sweda": {
       name: "Avagaha Sweda",
@@ -80,6 +111,16 @@ const TreatmentDetail = () => {
         "The steam is infused with medicinal herbs tailored to the individual's needs, helping to purify the body and improve circulation.",
       ],
       whyChooseUs: `We provide a soothing, personalized experience with high-quality herbal blends designed to address your unique concerns. Our therapists ensure that the steam is applied at the perfect temperature to maximize the therapeutic benefits for your body.`,
+      indications: [
+        "Joint pain and stiffness",
+        "Muscle tension",
+        "Rheumatoid arthritis",
+        "Osteoarthritis",
+        "Sports injuries",
+        "Chronic pain conditions",
+        "Poor circulation",
+        "Skin disorders"
+      ],
     },
     "bashpa-swedan": {
       name: "Bashpa Swedan",
@@ -94,6 +135,16 @@ const TreatmentDetail = () => {
         "The patient sits in a steam chamber filled with herbal steam. The steam penetrates the skin, opening the pores and stimulating sweating. The duration varies based on individual needs, and the treatment helps release impurities and toxins from the body.",
       ],
       whyChooseUs: `Our therapists provide a tailored steam experience, using high-quality herbs for a truly therapeutic session. The environment is carefully managed to ensure comfort and maximum detoxification.`,
+      indications: [
+        "Respiratory conditions",
+        "Sinus congestion",
+        "Muscle stiffness",
+        "Joint pain",
+        "Poor circulation",
+        "Skin conditions",
+        "Stress and anxiety",
+        "Detoxification needs"
+      ],
     },
     "body-polishing": {
       name: "Body Polishing",
@@ -107,7 +158,17 @@ const TreatmentDetail = () => {
       process: [
         "The treatment begins with the application of herbal scrubs or powders on the body. The therapist uses gentle, circular motions to exfoliate the skin. Afterward, nourishing oils are massaged into the skin to provide deep hydration and smoothness.",
       ],
-      whyChooseUs: `We use organic, high-quality ingredients to ensure your skin is treated with care. Our therapists provide a relaxing, rejuvenating experience tailored to your skin’s needs, leaving you feeling refreshed and renewed.`,
+      whyChooseUs: `We use organic, high-quality ingredients to ensure your skin is treated with care. Our therapists provide a relaxing, rejuvenating experience tailored to your skin's needs, leaving you feeling refreshed and renewed.`,
+      indications: [
+        "Dull and dry skin",
+        "Dead skin accumulation",
+        "Poor skin texture",
+        "Uneven skin tone",
+        "Rough skin patches",
+        "Pre-wedding preparation",
+        "Special occasions",
+        "General skin rejuvenation"
+      ],
     },
     cupping: {
       name: "Cupping",
@@ -122,6 +183,16 @@ const TreatmentDetail = () => {
         "Special cups are placed on the skin, typically along the back or other areas of tension. A vacuum is created either by heating the cups or using a pump. The cups are left in place for a few minutes to allow the suction to improve circulation and stimulate healing.",
       ],
       whyChooseUs: `We ensure a comfortable and safe cupping experience by using clean, high-quality cups. Our trained therapists apply cupping with precision to target specific areas, ensuring effective results and a relaxing session.`,
+      indications: [
+        "Muscle pain and tension",
+        "Poor circulation",
+        "Respiratory conditions",
+        "Digestive disorders",
+        "Stress and anxiety",
+        "Sports injuries",
+        "Chronic fatigue",
+        "Detoxification needs"
+      ],
     },
     dhumpan: {
       name: "Dhumpan",
@@ -136,48 +207,16 @@ const TreatmentDetail = () => {
         "Herbal powders or plant materials are burned, producing smoke that the patient inhales. The smoke is believed to have healing properties that purify the body, especially the respiratory system.",
       ],
       whyChooseUs: `We use carefully selected herbs for the smoke therapy, ensuring the highest quality and safety. Our therapists guide you through the process to ensure that you experience the full benefits of Dhumpan.`,
-    },
-    "ekang-abhyanga": {
-      name: "Ekang Abhyanga",
-      title: "Understanding Ekang Abhyanga",
-      description1: `Ekang Abhyanga is a targeted Ayurvedic oil massage focused on specific areas of the body, typically used to treat localized pain, inflammation, or tension. This therapeutic technique helps balance the doshas and is effective in promoting overall physical health and mental clarity.`,
-      benefits: [
-        "Pain Relief: Eases localized muscle tension and joint pain.",
-        "Detoxification: Helps eliminate toxins from the body.",
-        "Relaxation: Reduces stress and promotes mental calm.",
+      indications: [
+        "Respiratory disorders",
+        "Sinus congestion",
+        "Allergies",
+        "Asthma",
+        "Chronic cough",
+        "Headaches",
+        "Stress and anxiety",
+        "Mental clarity issues"
       ],
-      process: [
-        "A special blend of oils is applied to targeted areas, followed by deep, rhythmic massage strokes. The oil is chosen based on the individual’s dosha and health needs.",
-      ],
-      whyChooseUs: `Our skilled therapists use a personalized approach, ensuring optimal therapeutic benefits for your specific condition.`,
-    },
-    "ekang-swedana": {
-      name: "Ekang Swedana",
-      title: "Understanding Ekang Swedana",
-      description1: `Ekang Swedana is an Ayurvedic steam therapy applied to specific body parts to release toxins, improve circulation, and relax muscles. The heat stimulates sweating, promoting detoxification and healing.`,
-      benefits: [
-        "Detoxification: Removes impurities through sweating.",
-        "Pain Reduction: Alleviates muscle stiffness and joint pain.",
-        "Enhanced Circulation: Boosts blood flow to specific areas for healing.",
-      ],
-      process: [
-        "A targeted steam is applied to the affected area, with the patient resting comfortably as the heat penetrates deep into the tissues.",
-      ],
-      whyChooseUs: `We provide a relaxing and effective steam therapy, focused on your specific needs, for maximum relief and rejuvenation.`,
-    },
-    "ekang-patrapind-pottali-swedan": {
-      name: "Ekang Patrapind Pottali Swedan",
-      title: "Understanding Ekang Patrapind Pottali Swedan",
-      description1: `This Ayurvedic treatment uses herbal compresses filled with medicated leaves that are steamed and applied to the body. The treatment focuses on specific areas, helping alleviate pain, stiffness, and inflammation.`,
-      benefits: [
-        "Pain Relief: Targets specific muscle and joint discomfort.",
-        "Inflammation Reduction: Helps reduce swelling and inflammation in targeted areas.",
-        "Relaxation and Detox: Promotes overall healing through sweating and detoxification.",
-      ],
-      process: [
-        "Herbal leaves are bundled and steamed, then applied directly to the body. The heat and herbal properties work together to soothe muscles and joints.",
-      ],
-      whyChooseUs: `Our expert therapists carefully select the right herbs for your treatment, ensuring maximum relief and a personalized approach to healing.`,
     },
     "greeva-basti": {
       name: "Greeva Basti",
@@ -192,6 +231,16 @@ const TreatmentDetail = () => {
         "A dough ring is placed around the neck, and warm herbal oil or decoction is poured into the ring. It is kept in place for a specified duration to allow absorption into the skin and tissues.",
       ],
       whyChooseUs: `We provide a customized experience with high-quality herbal oils, ensuring relief from neck pain and stiffness while promoting overall healing.`,
+      indications: [
+        "Neck pain and stiffness",
+        "Cervical spondylosis",
+        "Tension headaches",
+        "Shoulder pain",
+        "Poor posture",
+        "Whiplash injuries",
+        "Stress-related neck tension",
+        "Degenerative neck conditions"
+      ],
     },
     gandush: {
       name: "Gandush",
@@ -206,6 +255,16 @@ const TreatmentDetail = () => {
         "Medicated oil is placed in the mouth, and the patient is instructed to swish it around for a specific duration. The process helps in cleansing the mouth and improving overall oral health.",
       ],
       whyChooseUs: `Our Gandush therapy uses carefully selected herbal oils that provide optimal benefits for oral health and dosha balance, delivered by skilled practitioners.`,
+      indications: [
+        "Oral health issues",
+        "Gum diseases",
+        "Tooth sensitivity",
+        "Bad breath",
+        "Kapha imbalance",
+        "Throat infections",
+        "Mouth ulcers",
+        "Dental hygiene maintenance"
+      ],
     },
     "hrid-basti": {
       name: "Hrid Basti",
@@ -222,6 +281,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We offer a peaceful and therapeutic environment for Hrid Basti, using high-quality herbal oils to promote heart and chest health effectively.",
+      indications: [
+        "Heart-related anxiety",
+        "Chest tightness",
+        "Stress-related heart issues",
+        "Poor circulation",
+        "Emotional imbalance",
+        "Respiratory issues",
+        "High blood pressure",
+        "General heart health maintenance"
+      ],
     },
 
     "janu-basti": {
@@ -239,6 +308,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our experienced therapists provide personalized Janu Basti treatments using top-quality herbal oils, ensuring effective relief from knee pain and discomfort.",
+      indications: [
+        "Knee pain and stiffness",
+        "Osteoarthritis of knee",
+        "Sports injuries",
+        "Post-surgical recovery",
+        "Joint inflammation",
+        "Reduced mobility",
+        "Chronic knee conditions",
+        "Preventive knee care"
+      ],
     },
 
     "kati-basti": {
@@ -256,6 +335,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our experts use high-quality, soothing herbal oils to provide effective relief from lower back pain and promote flexibility.",
+      indications: [
+        "Lower back pain",
+        "Sciatica",
+        "Lumbar spondylosis",
+        "Muscle stiffness",
+        "Postural issues",
+        "Sports injuries",
+        "Chronic back conditions",
+        "Preventive back care"
+      ],
     },
 
     kaval: {
@@ -273,6 +362,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We ensure the use of pure, high-quality herbal solutions to improve your oral health while balancing your doshas.",
+      indications: [
+        "Oral health maintenance",
+        "Gum diseases",
+        "Tooth decay prevention",
+        "Bad breath",
+        "Throat infections",
+        "Kapha imbalance",
+        "Dental hygiene",
+        "General oral wellness"
+      ],
     },
 
     "ksheer-dhara": {
@@ -290,6 +389,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Ksheer Dhara treatment uses premium quality milk and herbs, providing a soothing and relaxing experience to calm the mind and rejuvenate the senses.",
+      indications: [
+        "Stress and anxiety",
+        "Insomnia",
+        "Mental fatigue",
+        "Headaches",
+        "Nervous system disorders",
+        "Emotional imbalance",
+        "Poor concentration",
+        "General mental wellness"
+      ],
     },
 
     "kesh-lepanam": {
@@ -307,6 +416,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our treatments use natural, high-quality herbs to provide your hair and scalp with the nourishment they need to grow strong and healthy.",
+      indications: [
+        "Hair loss",
+        "Dandruff",
+        "Dry scalp",
+        "Premature graying",
+        "Hair thinning",
+        "Scalp infections",
+        "Poor hair growth",
+        "General hair care"
+      ],
     },
 
     "karn-pooran": {
@@ -324,13 +443,23 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Karn Pooran treatment uses pure, medicated oils to promote ear health and improve hearing, delivered by experienced therapists.",
+      indications: [
+        "Ear pain",
+        "Tinnitus",
+        "Ear infections",
+        "Hearing issues",
+        "Ear wax buildup",
+        "Vata imbalance",
+        "Ear-related headaches",
+        "General ear health"
+      ],
     },
 
-    "karna-dhoopana": {
-      name: "Karna Dhoopana",
-      title: "Understanding Karna Dhoopana",
+    "karn-dhupana": {
+      name: "Karna Dhupana",
+      title: "Understanding Karna Dhupana",
       description1:
-        "Karna Dhoopana is an Ayurvedic ear treatment where medicated smoke or fumes are directed into the ears. It is primarily used to treat ear infections, improve hearing, and promote overall ear health.",
+        "Karna Dhupana is an Ayurvedic ear treatment where medicated smoke or fumes are directed into the ears. It is primarily used to treat ear infections, improve hearing, and promote overall ear health.",
       benefits: [
         "Cleanses the Ear: Removes blockages and toxins from the ear canal.",
         "Improves Hearing: Helps in restoring and enhancing hearing function.",
@@ -341,6 +470,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our treatment uses safe and effective medicated fumes to cleanse the ear, improve hearing, and treat infections, administered by skilled therapists.",
+      indications: [
+        "Ear infections",
+        "Hearing difficulties",
+        "Ear pain",
+        "Tinnitus",
+        "Ear blockages",
+        "Vata imbalance",
+        "Ear-related stress",
+        "General ear wellness"
+      ],
     },
 
     "kashaya-dhara": {
@@ -358,6 +497,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our expert therapists customize the Kashaya Dhara treatment to your specific needs, using the finest herbs to enhance detoxification and healing.",
+      indications: [
+        "Muscle pain",
+        "Joint disorders",
+        "Skin conditions",
+        "Poor circulation",
+        "Stress and anxiety",
+        "Detoxification needs",
+        "General body rejuvenation",
+        "Post-surgical recovery"
+      ],
     },
     "lepanam-dashang": {
       name: "Lepanam Dashang",
@@ -374,6 +523,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our experienced therapists use high-quality herbs and provide personalized treatments tailored to your needs for effective relief.",
+      indications: [
+        "Skin inflammation",
+        "Wound healing",
+        "Skin infections",
+        "Burns",
+        "Skin allergies",
+        "Dermatitis",
+        "Skin rejuvenation",
+        "General skin health"
+      ],
     },
 
     "matra-basti": {
@@ -391,6 +550,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Matra Basti treatment is customized to your specific dosha balance, offering deep detoxification and relief from digestive problems.",
+      indications: [
+        "Mild constipation",
+        "Vata imbalance",
+        "Digestive issues",
+        "Abdominal discomfort",
+        "Gas and bloating",
+        "Mild back pain",
+        "General detoxification",
+        "Preventive care"
+      ],
     },
 
     "mukha-lepam": {
@@ -408,6 +577,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We provide high-quality, customized herbal treatments that nourish and rejuvenate your skin, offering lasting results.",
+      indications: [
+        "Facial acne",
+        "Skin blemishes",
+        "Dull complexion",
+        "Premature aging",
+        "Skin pigmentation",
+        "Facial inflammation",
+        "Skin detoxification",
+        "General facial care"
+      ],
     },
 
     "niruha-basti": {
@@ -425,6 +604,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Niruha Basti treatment uses a combination of potent herbal formulations to cleanse your body and improve overall digestive health.",
+      indications: [
+        "Severe constipation",
+        "Pitta imbalance",
+        "Digestive disorders",
+        "Toxin accumulation",
+        "Chronic conditions",
+        "Autoimmune disorders",
+        "Detoxification needs",
+        "General wellness"
+      ],
     },
 
     "nabhi-basti": {
@@ -442,6 +631,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We specialize in Nabhi Basti with high-quality oils that provide targeted relief for digestive concerns and restore balance to your body.",
+      indications: [
+        "Digestive disorders",
+        "Abdominal pain",
+        "Vata imbalance",
+        "Poor digestion",
+        "Gas and bloating",
+        "Nervous system issues",
+        "General abdominal health",
+        "Preventive care"
+      ],
     },
 
     nasya: {
@@ -459,6 +658,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Nasya therapy uses the finest herbal oils tailored to your needs for optimal results in clearing sinuses and boosting mental clarity.",
+      indications: [
+        "Sinus congestion",
+        "Headaches",
+        "Respiratory issues",
+        "Mental clarity",
+        "Stress and anxiety",
+        "Sleep disorders",
+        "Vata imbalance",
+        "General nasal health"
+      ],
     },
 
     "nadi-swedan": {
@@ -476,6 +685,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Nadi Swedan treatment provides deep relaxation and thorough detoxification for both body and mind, promoting long-term health benefits.",
+      indications: [
+        "Joint pain",
+        "Muscle stiffness",
+        "Poor circulation",
+        "Detoxification needs",
+        "Stress relief",
+        "Skin conditions",
+        "General body wellness",
+        "Post-surgical recovery"
+      ],
     },
 
     "netra-parisheka": {
@@ -493,6 +712,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our specialized Netra Parisheka treatment uses quality herbs to ensure optimal relief and rejuvenation for your eyes.",
+      indications: [
+        "Eye strain",
+        "Dry eyes",
+        "Eye fatigue",
+        "Poor vision",
+        "Eye inflammation",
+        "Computer vision syndrome",
+        "General eye health",
+        "Preventive eye care"
+      ],
     },
 
     "netra-tarpan": {
@@ -510,6 +739,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Netra Tarpan treatment uses premium oils to nourish and relax your eyes, restoring natural balance and enhancing vision.",
+      indications: [
+        "Eye dryness",
+        "Eye strain",
+        "Poor vision",
+        "Eye fatigue",
+        "Computer vision syndrome",
+        "Eye inflammation",
+        "General eye health",
+        "Preventive eye care"
+      ],
     },
 
     "piccha-basti": {
@@ -527,13 +766,23 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Piccha Basti treatment uses specially crafted herbal formulations to ensure thorough detoxification and balance for your digestive health.",
+      indications: [
+        "Chronic constipation",
+        "Vata imbalance",
+        "Digestive disorders",
+        "Abdominal pain",
+        "Gas and bloating",
+        "Lower back pain",
+        "General detoxification",
+        "Preventive care"
+      ],
     },
 
-    "prushtha-basti": {
-      name: "Prushtha Basti",
-      title: "Understanding Prushtha Basti",
+    "prustha-basti": {
+      name: "Prustha Basti",
+      title: "Understanding Prustha Basti",
       description1:
-        "Prushtha Basti is a unique Ayurvedic therapy targeting the lower back and spine. Medicated oils are used to alleviate chronic back pain, muscle tension, and spinal issues. It is particularly effective in improving mobility and reducing discomfort in the lumbar region.",
+        "Prustha Basti is a unique Ayurvedic therapy targeting the lower back and spine. Medicated oils are used to alleviate chronic back pain, muscle tension, and spinal issues. It is particularly effective in improving mobility and reducing discomfort in the lumbar region.",
       benefits: [
         "Alleviates Back Pain: Eases chronic pain and discomfort in the lower back.",
         "Improves Mobility: Increases flexibility and movement in the spine.",
@@ -544,6 +793,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Prushtha Basti treatment is designed to bring comfort and healing to the lower back, helping you restore mobility and reduce chronic pain.",
+      indications: [
+        "Back pain",
+        "Spinal issues",
+        "Muscle stiffness",
+        "Poor posture",
+        "Sports injuries",
+        "Chronic back conditions",
+        "General back health",
+        "Preventive back care"
+      ],
     },
 
     pizhichil: {
@@ -560,6 +819,16 @@ const TreatmentDetail = () => {
         "Warm herbal oils are poured over the entire body while a gentle massage is performed to aid in absorption.",
       ],
       whyChooseUs: `Our Pizhichil treatment combines traditional techniques and high-quality herbal oils to provide deep relaxation and rejuvenation.`,
+      indications: [
+        "Chronic fatigue",
+        "Muscle pain",
+        "Poor circulation",
+        "Stress and anxiety",
+        "Skin conditions",
+        "Detoxification needs",
+        "General body wellness",
+        "Post-surgical recovery"
+      ],
     },
 
     "patrapind-pottali-swedan": {
@@ -575,6 +844,16 @@ const TreatmentDetail = () => {
         "Medicated bundles of leaves are heated and pressed onto the body, allowing the steam to penetrate the skin and provide relief.",
       ],
       whyChooseUs: `Our Patrapind Pottali Swedan therapy utilizes premium herbal leaves and traditional techniques for effective pain relief and detoxification.`,
+      indications: [
+        "Joint pain",
+        "Muscle stiffness",
+        "Poor circulation",
+        "Sports injuries",
+        "Chronic pain conditions",
+        "Detoxification needs",
+        "General body wellness",
+        "Post-surgical recovery"
+      ],
     },
     "raktamokshana-jalauka": {
       name: "Raktamokshana Jalauka",
@@ -591,12 +870,22 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our treatment uses certified leeches and follows safe, hygienic procedures to ensure optimal benefits for your health.",
+      indications: [
+        "Skin disorders",
+        "Blood toxicity",
+        "Poor circulation",
+        "Chronic conditions",
+        "Autoimmune disorders",
+        "Detoxification needs",
+        "General blood purification",
+        "Preventive care"
+      ],
     },
     "raktamokshana-syringe": {
       name: "Raktamokshana Syringe",
       title: "Understanding Raktamokshana Syringe",
       description1:
-        "Raktamokshana Syringe is an alternative bloodletting method where a syringe is used to remove stagnant blood, helping purify the body and enhance overall health. It’s particularly useful for conditions like skin disorders and blood toxicity.",
+        "Raktamokshana Syringe is an alternative bloodletting method where a syringe is used to remove stagnant blood, helping purify the body and enhance overall health. It's particularly useful for conditions like skin disorders and blood toxicity.",
       benefits: [
         "Detoxifies Blood: Removes toxins and purifies the bloodstream.",
         "Reduces Skin Disorders: Helps in treating acne, eczema, and other skin issues.",
@@ -607,6 +896,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Raktamokshana Syringe treatment is performed by trained professionals who ensure safety and effective detoxification.",
+      indications: [
+        "Skin disorders",
+        "Blood toxicity",
+        "Poor circulation",
+        "Chronic conditions",
+        "Autoimmune disorders",
+        "Detoxification needs",
+        "General blood purification",
+        "Preventive care"
+      ],
     },
     "ruksha-sweda": {
       name: "Ruksha Sweda",
@@ -622,13 +921,23 @@ const TreatmentDetail = () => {
         "In this dry heat therapy, the body is exposed to heat, helping to release tension and improve circulation, often followed by soothing measures.",
       ],
       whyChooseUs:
-        "Our Ruksha Sweda therapy is tailored to your body’s needs, ensuring effective pain relief and mobility enhancement.",
+        "Our Ruksha Sweda therapy is tailored to your body's needs, ensuring effective pain relief and mobility enhancement.",
+      indications: [
+        "Joint pain",
+        "Muscle stiffness",
+        "Poor circulation",
+        "Vata imbalance",
+        "Chronic pain conditions",
+        "Detoxification needs",
+        "General body wellness",
+        "Preventive care"
+      ],
     },
     swedana: {
       name: "Swedana",
       title: "Understanding Swedana",
       description1:
-        "Swedana is an Ayurvedic sweating therapy that involves the application of heat to induce sweating. It helps cleanse the body by expelling toxins and improving circulation. It’s especially effective for treating musculoskeletal conditions and balancing Vata dosha.",
+        "Swedana is an Ayurvedic sweating therapy that involves the application of heat to induce sweating. It helps cleanse the body by expelling toxins and improving circulation. It's especially effective for treating musculoskeletal conditions and balancing Vata dosha.",
       benefits: [
         "Detoxification: Flushes out toxins from the body.",
         "Improved Circulation: Enhances blood flow and nutrient delivery.",
@@ -639,12 +948,22 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Swedana therapy uses advanced techniques and high-quality herbal formulas to ensure deep detoxification and enhanced relaxation.",
+      indications: [
+        "Musculoskeletal conditions",
+        "Vata imbalance",
+        "Poor circulation",
+        "Detoxification needs",
+        "Stress relief",
+        "Skin conditions",
+        "General body wellness",
+        "Post-surgical recovery"
+      ],
     },
     "shashtika-shali-pinda-sweda": {
       name: "Shashtika Shali Pinda Sweda",
       title: "Understanding Shashtika Shali Pinda Sweda",
       description1:
-        "Shashtika Shali Pinda Sweda is a rejuvenating therapy involving warm, medicated rice bundles pressed onto the body to relieve pain, stiffness, and inflammation. It’s particularly beneficial for conditions like arthritis.",
+        "Shashtika Shali Pinda Sweda is a rejuvenating therapy involving warm, medicated rice bundles pressed onto the body to relieve pain, stiffness, and inflammation. It's particularly beneficial for conditions like arthritis.",
       benefits: [
         "Relieves Pain: Eases joint and muscle pain.",
         "Enhances Mobility: Improves flexibility and reduces stiffness.",
@@ -655,6 +974,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Shashtika Shali Pinda Sweda therapy is designed for deep pain relief and rejuvenation using traditional Ayurvedic methods and organic ingredients.",
+      indications: [
+        "Arthritis",
+        "Joint pain",
+        "Muscle stiffness",
+        "Poor circulation",
+        "Chronic pain conditions",
+        "Detoxification needs",
+        "General body wellness",
+        "Post-surgical recovery"
+      ],
     },
     "shiro-abhyanga": {
       name: "Shiro Abhyanga",
@@ -671,6 +1000,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Shiro Abhyanga therapy uses premium herbal oils and skilled practitioners to provide complete relaxation and mental rejuvenation.",
+      indications: [
+        "Stress and anxiety",
+        "Headaches",
+        "Poor sleep",
+        "Mental fatigue",
+        "Hair and scalp issues",
+        "Nervous system disorders",
+        "General head health",
+        "Preventive care"
+      ],
     },
     "shiro-basti": {
       name: "Shiro Basti",
@@ -687,6 +1026,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Shiro Basti therapy is performed by trained Ayurvedic specialists, ensuring a calming and therapeutic experience.",
+      indications: [
+        "Headaches",
+        "Stress and anxiety",
+        "Poor sleep",
+        "Mental fatigue",
+        "Vata imbalance",
+        "Nervous system disorders",
+        "General head health",
+        "Preventive care"
+      ],
     },
     "shiro-pichu": {
       name: "Shiro Pichu",
@@ -703,8 +1052,18 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We provide personalized Shiro Pichu therapy with high-quality oils to ensure deep relaxation and scalp health.",
+      indications: [
+        "Headaches",
+        "Stress and anxiety",
+        "Poor sleep",
+        "Mental fatigue",
+        "Vata imbalance",
+        "Nervous system disorders",
+        "General head health",
+        "Preventive care"
+      ],
     },
-    shirodhara: {
+    "shirodhara": {
       name: "Shirodhara",
       title: "Understanding Shirodhara",
       description1:
@@ -716,6 +1075,16 @@ const TreatmentDetail = () => {
       ],
       process: [
         "Warm medicated oil is poured in a steady stream on the forehead, aiding in deep relaxation and stress relief.",
+      ],
+      indications: [
+        "Stress and anxiety",
+        "Insomnia and sleep disorders",
+        "Headaches and migraines",
+        "Mental fatigue",
+        "Nervous system disorders",
+        "Emotional imbalance",
+        "Poor concentration",
+        "General mental wellness"
       ],
       whyChooseUs:
         "Our Shirodhara therapy uses pure, herbal oils, performed in a serene setting to offer a tranquil and healing experience.",
@@ -733,6 +1102,16 @@ const TreatmentDetail = () => {
       process: [
         "Herbal oils are gently applied to the affected area, providing relief from burns and promoting skin regeneration.",
       ],
+      indications: [
+        "Burn injuries",
+        "Skin inflammation",
+        "Wound healing",
+        "Skin infections",
+        "Burns and scalds",
+        "Skin allergies",
+        "Dermatitis",
+        "General skin health"
+      ],
       whyChooseUs:
         "We use high-quality, soothing oils that are safe and effective for treating burn injuries and enhancing skin recovery.",
     },
@@ -749,10 +1128,20 @@ const TreatmentDetail = () => {
       process: [
         "Buttermilk infused with herbal ingredients is poured over the forehead in a steady stream to create a calming effect.",
       ],
+      indications: [
+        "Stress and anxiety",
+        "Mental fatigue",
+        "Scalp disorders",
+        "Dandruff",
+        "Hair loss",
+        "Poor concentration",
+        "Nervous system disorders",
+        "General mental wellness"
+      ],
       whyChooseUs:
         "Our Takra Dhara therapy is customized using fresh, organic buttermilk for effective relaxation and rejuvenation.",
     },
-    udvartana: {
+    "udvartana": {
       name: "Udvartana",
       title: "Understanding Udvartana",
       description1:
@@ -764,6 +1153,16 @@ const TreatmentDetail = () => {
       ],
       process: [
         "Herbal powders are massaged onto the body in specific directions to exfoliate the skin, increase circulation, and promote toxin elimination.",
+      ],
+      indications: [
+        "Cellulite reduction",
+        "Poor circulation",
+        "Skin detoxification",
+        "Obesity",
+        "Kapha imbalance",
+        "Skin conditions",
+        "Lymphatic drainage",
+        "General body wellness"
       ],
       whyChooseUs:
         "Our Udvartana therapy combines traditional techniques and premium herbal ingredients to provide rejuvenation and improve skin health.",
@@ -781,8 +1180,54 @@ const TreatmentDetail = () => {
       process: [
         "Medicated pastes are applied to the affected area, followed by warm compresses to promote healing and pain relief.",
       ],
+      indications: [
+        "Joint pain",
+        "Muscle stiffness",
+        "Arthritis",
+        "Sports injuries",
+        "Chronic pain conditions",
+        "Poor circulation",
+        "Inflammation",
+        "General body wellness"
+      ],
       whyChooseUs:
         "Our Upanaha Sweda therapy uses potent herbs and therapeutic warmth to ensure effective pain relief and improved mobility.",
+    },
+    "uttara-basti": {
+      name: "Uttara Basti",
+      title: "Understanding Uttara Basti",
+      description1: "Uttara Basti is a specialized Ayurvedic treatment that involves the administration of medicated oils or decoctions through the vaginal or urethral route. This therapy is particularly beneficial for treating gynecological and urological disorders, helping to restore reproductive health and balance.",
+      description2: "The treatment works by directly delivering therapeutic substances to the reproductive organs, promoting healing, and restoring proper function. It is especially effective for conditions related to the female reproductive system and urinary tract.",
+      benefits: [
+        "Improves Reproductive Health: Enhances fertility and addresses menstrual disorders.",
+        "Strengthens Reproductive Organs: Nourishes and tones the uterus and surrounding tissues.",
+        "Balances Hormones: Helps regulate hormonal imbalances and menstrual cycles.",
+        "Treats Gynecological Issues: Effective for conditions like infertility, irregular periods, and uterine disorders.",
+        "Enhances Overall Well-being: Promotes general reproductive and urinary health."
+      ],
+      process: [
+        "Preparation:",
+        "  • Selection of appropriate medicated oil or decoction based on the condition",
+        "  • Preparation of the treatment area and necessary equipment",
+        "Application:",
+        "  • Gentle insertion of the medicated substance through the vaginal or urethral route",
+        "  • Retention of the medicine for a specific duration",
+        "  • Proper positioning and relaxation during the procedure",
+        "Post-Treatment:",
+        "  • Rest and observation period",
+        "  • Follow-up care and recommendations"
+      ],
+      indications: [
+        "Infertility",
+        "Irregular menstrual cycles",
+        "Uterine disorders",
+        "Hormonal imbalances",
+        "Urinary tract disorders",
+        "Menopausal symptoms",
+        "Reproductive health maintenance",
+        "Post-partum care"
+      ],
+      whyChooseUs: "Our experienced practitioners provide Uttara Basti treatment with utmost care and precision, using high-quality medicated substances tailored to your specific needs. We ensure a comfortable and safe environment for this specialized therapy."
     },
     "vrukka-basti": {
       name: "Vrukka Basti",
@@ -799,6 +1244,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We ensure the use of high-quality herbal formulations, personalized care, and effective treatment for kidney wellness.",
+      indications: [
+        "Kidney disorders",
+        "Urinary tract issues",
+        "Kidney stones",
+        "Poor kidney function",
+        "Vata imbalance",
+        "Pitta imbalance",
+        "General kidney health",
+        "Preventive kidney care"
+      ],
     },
     vamana: {
       name: "Vamana",
@@ -815,6 +1270,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "Our Vamana therapy follows safe, hygienic practices and uses natural, effective herbs for detoxification.",
+      indications: [
+        "Kapha imbalance",
+        "Obesity",
+        "Asthma",
+        "Respiratory disorders",
+        "Poor digestion",
+        "Toxin accumulation",
+        "General detoxification",
+        "Preventive care"
+      ],
     },
     virechan: {
       name: "Virechan",
@@ -831,6 +1296,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We tailor the therapy based on your unique constitution, ensuring safe and effective detoxification.",
+      indications: [
+        "Pitta imbalance",
+        "Acidity",
+        "Skin disorders",
+        "Indigestion",
+        "Liver disorders",
+        "Toxin accumulation",
+        "General detoxification",
+        "Preventive care"
+      ],
     },
     "valuka-sweda": {
       name: "Valuka Sweda",
@@ -847,6 +1322,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We ensure safe, controlled application of warm sand for effective pain relief and enhanced mobility.",
+      indications: [
+        "Joint pain",
+        "Arthritis",
+        "Muscle stiffness",
+        "Poor circulation",
+        "Sports injuries",
+        "Chronic pain conditions",
+        "General body wellness",
+        "Post-surgical recovery"
+      ],
     },
     "viddha-karma": {
       name: "Viddha Karma",
@@ -863,6 +1348,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We ensure a professional, safe approach with skilled practitioners for effective pain relief and wellness.",
+      indications: [
+        "Chronic pain",
+        "Inflammation",
+        "Poor circulation",
+        "Muscle tension",
+        "Sports injuries",
+        "Nerve disorders",
+        "General body wellness",
+        "Preventive care"
+      ],
     },
     "yapana-basti": {
       name: "Yapana Basti",
@@ -879,6 +1374,16 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We use safe, personalized herbal mixtures tailored to your digestive needs for optimal health benefits.",
+      indications: [
+        "Digestive disorders",
+        "Constipation",
+        "Bloating",
+        "Vata imbalance",
+        "Poor nutrient absorption",
+        "Toxin accumulation",
+        "General digestive health",
+        "Preventive care"
+      ],
     },
     "yavani-dham-nasya": {
       name: "Yavani Dham Nasya",
@@ -895,7 +1400,18 @@ const TreatmentDetail = () => {
       ],
       whyChooseUs:
         "We provide a therapeutic and rejuvenating experience with high-quality natural ingredients to ensure long-lasting results.",
+      indications: [
+        "Sinus congestion",
+        "Headaches",
+        "Poor mental clarity",
+        "Respiratory issues",
+        "Facial puffiness",
+        "Acne",
+        "General nasal health",
+        "Preventive care"
+      ],
     },
+    
   };
 
   // Retrieve the treatment object using the lowercase treatmentId
@@ -959,6 +1475,16 @@ const TreatmentDetail = () => {
           );
         })}
       </ol>
+
+      {/* Indications Section */}
+      <h2 className="font-bold text-[#394E29] mb-8 mt-16">
+        Indications for {treatment.name}
+      </h2>
+      <ul className="list-disc list-inside space-y-2 text-[#757575] text-[24px]">
+        {treatment.indications.map((indication, index) => (
+          <li key={index}>{indication}</li>
+        ))}
+      </ul>
 
       {/* Why Choose Us Section */}
       <h2 className="font-bold text-[#394E29] mb-4 mt-20">

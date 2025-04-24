@@ -248,8 +248,8 @@ function MobileNavbar() {
                       { name: "Pediatrics Disorder", link: "/pediatrics-disorder" },
                       { name: "Liver Disorder", link: "/liver-disorder" },
                       { name: "Male Disorder", link: "/male-disorder" },
-                      { name: "Psychiatric Disorder", link: "/psychiatric-disorder" },
-                      { name: "Kidney & Urinary Disorders", link: "/kidney-urinary-disorder" },
+                      { name: "Psychiatric Disorder", link: "/psycatric-disorder" },
+                      { name: "Kidney & Urinary Disorders", link: "/kidney-disorder" },
                     ].map((treatment) => (
                       <li key={treatment.link}>
                         <button

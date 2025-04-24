@@ -9,7 +9,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A detoxifying therapy involving induced vomiting to expel toxins and excess Kapha dosha from the body. It begins with preparatory treatments like oleation and steaming.
       
-            **When It Works:** Effective for respiratory conditions, chronic allergies, skin disorders, and digestive issues like indigestion and bloating.
+            **Indications:** Diabetes, Asthma, Chronic Cold, Chronic sinusitis, Chronic indigestion, Skin diseases, Food poisoning, Epilepsy, Anorexia, Specific Abdominal disorders & In various "Kapha" predominant diseases.
           `,
       image: "/panchkarma/basic-panch/card1.png",
     },
@@ -19,7 +19,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A therapy aimed at cleansing the liver and intestines through induced purgation, focusing on expelling Pitta-related toxins.
       
-            **When It Works:** Helpful for hyperacidity, liver disorders, skin conditions like eczema, and hormonal imbalances.
+            **Indications:** Chronic fever, Skin diseases, Acne, Allergic disorders, Eczema, Psoriasis, Ascites, Arthritis, Jaundice, Infertility, Oligospermia, Hyper Acidity, Worms, Gout & in various "PITTA" predominant diseases.
           `,
       image: "/panchkarma/basic-panch/card2.png",
     },
@@ -29,7 +29,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A colon-cleansing therapy using medicated oils or herbal decoctions to balance Vata dosha.
       
-            **When It Works:** Addresses joint pain, constipation, arthritis, and neurological disorders.
+            **Indications:** Chronic constipation, Paralysis, Sciatica, Backache, Gynaec disorders, Infertility, Oligospermia, Arthritis, Heart disease & All types of pains.
           `,
       image: "/panchkarma/basic-panch/card3.png",
     },
@@ -39,7 +39,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A purification therapy involving controlled removal of impure blood to detoxify and balance the body. It can be done using leeches or instruments.
       
-            **When It Works:** Beneficial for conditions like skin diseases (psoriasis, eczema), gout, hypertension, and blood-related disorders.
+            **Indications:** Gout, Leucoderma, Skin diseases, Scabies, Chronic itching, Skin rashes, Alopecia, Urticaria, Hyper tension, Enlargement of liver & spleen.
           `,
       image: "/panchkarma/basic-panch/card4.png",
     },
@@ -49,7 +49,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A therapy focused on cleansing and nourishing the nasal passages using herbal oils or powders.
       
-            **When It Works:** Effective for sinusitis, migraines, nasal congestion, and neurological disorders.
+            **Indications:** Various disease of eye, ear, nose, throat & head, Mental disorders, Epilepsy, Insomnia, Hair problems, Headache, Migraine, & To promote the intelligence and memory & mental functions.
           `,
       image: "/panchkarma/basic-panch/card5.png",
     },
@@ -59,7 +59,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A relaxing therapy where warm herbal oils are gently poured on the forehead, promoting mental clarity and calmness.
       
-            **When It Works:** Helpful for insomnia, stress, anxiety, and memory loss.
+            **Indications:** Headache, Hyper tension, Dandruff, Grey hair, Sleeplessness, Paralysis, Mental disorders, Diseases of eye, Stress, Depression, Lack of confidence, Lack of concentration, Epilepsy, Dementia, Migraine, For relaxation of mind, To improve the function of 5 senses, To improve intelligence & To promote self esteem.
           `,
       image: "/panchkarma/basic-panch/card6.png",
     },
@@ -69,7 +69,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A therapy where warm herbal oils are retained in a cap placed over the head, targeting neurological health and mental wellness.
       
-            **When It Works:** Effective for migraines, chronic headaches, neurological disorders, and insomnia.
+            **Indications:** Diseases of head, Hair problems, Numbness in head, Facial paralysis, Myopia, Mental disorders & For mental relaxation.
           `,
       image: "/panchkarma/basic-panch/card7.png",
     },
@@ -79,7 +79,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A rejuvenating therapy where medicated ghee is poured over the eyes to nourish and improve eye health.
       
-            **When It Works:** Helpful for eye strain, dry eyes, vision improvement, and early signs of glaucoma or cataracts.
+            **Indications:** Fresh Myopia & Hypermetropia, Eye strain, Redness of eyes, Dryness in eye, Watering of eyes, Burning of eyes & Diseases of retina.
           `,
       image: "/panchkarma/basic-panch/card8.png",
     },
@@ -89,7 +89,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A nourishing therapy using boluses of cooked rice dipped in herbal milk to massage the body.
       
-            **When It Works:** Used for muscle strengthening, joint pain relief, paralysis, and degenerative conditions like arthritis.
+            **Indications:** Polio myelitis, Muscular dystrophy, Arthritis, Stiffness of body, Paralysis, Cerebral Palsy & To increase vitality.
           `,
       image: "/panchkarma/basic-panch/card9.png",
     },
@@ -99,7 +99,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A luxurious therapy where warm herbal oils are continuously poured over the body with gentle massage.
       
-            **When It Works:** Beneficial for nervous disorders, rheumatic conditions, and overall rejuvenation.
+            **Indications:** Arthritic pain, Physical & sexual weakness, Exhaustion, Stiffness of body, Hypertension & To increase vitality.
           `,
       image: "/panchkarma/basic-panch/card10.png",
     },
@@ -109,7 +109,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A sweat-inducing therapy using bundles of medicinal leaves to massage the body, relieving stiffness and pain.
       
-            **When It Works:** Effective for arthritis, muscle stiffness, and inflammatory conditions.
+            **Indications:** Polio myelitis, Paralysis, Nervous disorders, Backache, Frozen shoulder, Arthritis, Fatigue & Various "Vatta" predominant diseases.
           `,
       image: "/panchkarma/basic-panch/card11.png",
     },
@@ -119,7 +119,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A localized steam therapy using herbal decoctions for deep tissue penetration.
       
-            **When It Works:** Ideal for pain relief, swelling reduction, and joint mobility improvement.
+            **Indications:** Backache, Arthritis, Cervical Spondylitis, It relieves pain & oedema of joints, Removes muscular stiffness, Removes malas of body, Improves joint mobility & blood circulation.
           `,
       image: "/panchkarma/basic-panch/card12.png",
     },
@@ -129,7 +129,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** An oil-retaining therapy applied over the chest to support heart health.
       
-            **When It Works:** Addresses cardiac disorders, respiratory issues, and emotional well-being.
+            **Indications:** Paralysis, Arthritic pain, Exhaustion, Neuralgic pain, Stiffness of body, Various "Vatta" predominant diseases & Pre-treatment for panchkarma.
           `,
       image: "/panchkarma/basic-panch/card13.png",
     },
@@ -139,7 +139,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A therapy involving medicated oil retention over the lower back for pain relief.
       
-            **When It Works:** Helpful for sciatica, lumbar spondylosis, and chronic back pain.
+            **Indications:** Backache (particularly the lumbar region), Degenerative spine changes, Compressed discs, Osteoporosis, Sciatica, Hip pain, Shoulder pain, Spinal cord compression.
           `,
       image: "/panchkarma/basic-panch/card14.png",
     },
@@ -149,7 +149,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A similar therapy focusing on the knees to relieve joint pain and stiffness.
       
-            **When It Works:** Effective for osteoarthritis, ligament injuries, and degenerative joint conditions.
+            **Indications:** Knee pain and stiffness, Osteoarthritis of knee, Sports injuries, Post-surgical recovery, Joint inflammation, Reduced mobility, Chronic knee conditions, Preventive knee care.
           `,
       image: "/panchkarma/basic-panch/card15.png",
     },
@@ -159,7 +159,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A targeted therapy for the neck using retained medicated oil to alleviate stiffness and pain.
       
-            **When It Works:** Addresses cervical spondylosis, neck pain, and frozen shoulder.
+            **Indications:** Neck pain and stiffness, Cervical spondylosis, Tension headaches, Shoulder pain, Poor posture, Whiplash injuries, Stress-related neck tension, Degenerative neck conditions.
           `,
       image: "/panchkarma/basic-panch/card16.png",
     },
@@ -169,7 +169,7 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A full-body Ayurvedic massage using warm herbal oils to promote relaxation and rejuvenation.
       
-            **When It Works:** Effective for stress relief, improving circulation, skin health, and muscle relaxation.
+            **Indications:** Chronic fatigue and low energy levels, Muscle stiffness and joint pain, Poor circulation and cold extremities, Stress, anxiety, and sleep disorders, Dry skin and premature aging, Weakened immune system, Vata imbalance symptoms, Post-exercise recovery, General wellness maintenance.
           `,
       image: "/panchkarma/basic-panch/card17.png",
     },
@@ -179,10 +179,150 @@ function Basic_panchkarma() {
       content: `
             **What It Is:** A therapeutic steam treatment to induce sweating and promote detoxification.
       
-            **When It Works:** Ideal for weight loss, improving skin health, and promoting relaxation.
+            **Indications:** Respiratory conditions, Sinus congestion, Muscle stiffness, Joint pain, Poor circulation, Skin conditions, Stress and anxiety, Detoxification needs.
           `,
       image: "/panchkarma/basic-panch/card18.png",
     },
+    {
+      id: 19,
+      title: "Karna Purana",
+      content: `
+            **What It Is:** The ayurvedic procedure of instilling medicated oils or clarified butter (ghee) in the ears.
+      
+            **Indications:** Tinnitus, Deafness, Earache, Chronic Sinusitis, Facial paralysis, Torticolis.
+          `,
+      image: "/panchkarma/basic-panch/card19.png",
+    },
+    {
+      id: 20,
+      title: "Matra Basti",
+      content: `
+            **What It Is:** Daily oil enema used for vata vitiation and weakness.
+      
+            **Indications:** Vata vitiation, excessive weakness, in sexual intercourse, excessive travelling, excessive walking, excessive lifting of weights, excessive work, weakness.
+          `,
+      image: "/panchkarma/basic-panch/card20.png",
+    },
+    {
+      id: 21,
+      title: "Netra Dhara",
+      content: `
+            **What It Is:** A special therapy for the eye using medicated decoction or oils.
+      
+            **Indications:** Conjunctivitis, Watering, Dry eye, Eye strain, Eye Redness, Blepharitis.
+          `,
+      image: "/panchkarma/basic-panch/card21.png",
+    },
+    {
+      id: 22,
+      title: "Bidalak Lepam",
+      content: `
+            **What It Is:** A special therapy for the eye using medicated lepam (mixture of water and medicated powder).
+      
+            **Indications:** Conjunctivitis, Watering, Dry eye, Eye strain, Eye Redness, Blepharitis.
+          `,
+      image: "/panchkarma/basic-panch/card22.png",
+    },
+    {
+      id: 23,
+      title: "Dhoom Pan",
+      content: `
+            **What It Is:** Traditional therapeutic method using therapeutic smoke for ears and nose.
+      
+            **Indications:** Treatment of vata and kapha.
+          `,
+      image: "/panchkarma/basic-panch/card23.png",
+    },
+    {
+      id: 24,
+      title: "Mukh Lepam (Ayurvedic Facial)",
+      content: `
+            **What It Is:** Ayurvedic facial treatment using special herbal oils or creams.
+      
+            **Indications:** For all type of skin diseases and beauty treatment.
+          `,
+      image: "/panchkarma/basic-panch/card24.png",
+    },
+    {
+      id: 25,
+      title: "Spine Basti",
+      content: `
+            **What It Is:** An important Ayurvedic treatment for pain management focusing on the spine.
+      
+            **Indications:** Backache (particularly the lumbar region), Degenerative spine changes, Compressed discs, Osteoporosis, Sciatica, Hip pain, Shoulder pain, Spinal cord compression.
+          `,
+      image: "/panchkarma/basic-panch/card25.png",
+    },
+    {
+      id: 26,
+      title: "Nabhi Basti",
+      content: `
+            **What It Is:** A therapy where a small compartment is constructed around the navel with wet flour of black gram.
+      
+            **Indications:** Relieves digestive symptoms such as irritable bowel, flatulence, poor appetite, constipation and abdominal discomfort.
+          `,
+      image: "/panchkarma/basic-panch/card26.png",
+    },
+    {
+      id: 27,
+      title: "Nabhi Puran",
+      content: `
+            **What It Is:** An Ayurvedic treatment method where navel pit is filled with medicaments, mainly medicated oils.
+      
+            **Indications:** Gastritis, uncontrolled diarrhea, sproue, irritated bowl syndrome (IBS), abdominal pain.
+          `,
+      image: "/panchkarma/basic-panch/card27.png",
+    },
+    {
+      id: 28,
+      title: "Valuka Sveda",
+      content: `
+            **What It Is:** A treatment using heated sand for fomentation of painful parts.
+      
+            **Indications:** It is used mainly to provide relief from pain, inflammation, swelling and stiffness (catch) associated with heel pain.
+          `,
+      image: "/panchkarma/basic-panch/card28.png",
+    },
+    {
+      id: 29,
+      title: "Upanah Sveda",
+      content: `
+            **What It Is:** A treatment using multiple medicinal powder for fomentation of painful parts.
+      
+            **Indications:** It is used mainly to provide relief from pain, inflammation, swelling and stiffness (catch) associated with heel pain and knee-joint pain.
+          `,
+      image: "/panchkarma/basic-panch/card29.png",
+    },
+    {
+      id: 30,
+      title: "Ayurvedic Music and Sound Therapy",
+      content: `
+            **What It Is:** Therapy using traditional "Raagas" and special voices like Shankh, Sowing bowl, Omkaar, Mantras, Ghantnaad (Bell).
+      
+            **Indications:** All psychiatric disorder, Garbh Sanskar, Viral diseases, Stress and depression and multiple kind of pain.
+          `,
+      image: "/panchkarma/basic-panch/card30.png",
+    },
+    {
+      id: 31,
+      title: "Agni Karm",
+      content: `
+            **What It Is:** An Ancient Medical Technique derived from Ayurveda for thermal cautery.
+      
+            **Indications:** Painful conditions of musculoskeletal disorders, Hard, elevated and desensitized vranas/ulcer, Granthi, Arsas, Bhagandara, Arbuda, Sleepada, Charmakeela and Antravridhi, Severe bleeding condition.
+          `,
+      image: "/panchkarma/basic-panch/card31.png",
+    },
+    {
+      id: 32,
+      title: "Uttar Basti",
+      content: `
+            **What It Is:** A Panchakarma treatment where liquid medicines are administered through urethral or vaginal routes.
+      
+            **Indications:** Menstrual problems like amenorrhea, dysmenorrhea, menorrhegia, leucorrhea, primary and secondary infertility, to remove Tubal blocks, recurrent abortions, PCOS.
+          `,
+      image: "/panchkarma/basic-panch/card32.png",
+    }
   ];
 
   const [visibleFormId, setVisibleFormId] = useState(null);
@@ -286,12 +426,12 @@ function Basic_panchkarma() {
                   </p>
                   <p className="text-[#757575]">
                     <span className="text-[20px] font-bold block">
-                      When It Works:
+                      Indications:
                     </span>
                     <span className="text-[#757575] text-[20px]">
                       {card.content
                         .split("\n")[3]
-                        ?.replace("**When It Works:**", "")
+                        ?.replace("**Indications:**", "")
                         .trim()}
                     </span>
                   </p>

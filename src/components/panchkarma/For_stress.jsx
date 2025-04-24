@@ -1,21 +1,46 @@
 import React, { useState, useRef, useEffect } from "react";
 import Book_Appointment from "../../components/Appointment/Book_Appointment";
+import { useNavigate } from "react-router-dom";
 
 function For_stress() {
   const [visibleFormId, setVisibleFormId] = useState(null);
+  const navigate = useNavigate();
   
-    const handleButtonClick = (formId) => {
-      setVisibleFormId(formId);
-    };
-  
-    const closeForm = () => {
-      setVisibleFormId(null);
-    };
+  const handleButtonClick = (formId) => {
+    setVisibleFormId(formId);
+  };
+
+  const handleTreatmentClick = (treatmentId) => {
+    try {
+      // Map treatment names to their correct IDs in treatmentsContent
+      const treatmentIdMap = {
+        "shirodhara": "shirodhara",
+        "shiro-basti": "shiro-basti",
+        "nasya": "nasya",
+        "abhyanga": "abhyanga",
+        "swedana": "swedana"
+      };
+
+      const mappedId = treatmentIdMap[treatmentId] || treatmentId;
+      if (!mappedId) {
+        console.error(`Treatment ID not found for: ${treatmentId}`);
+        return;
+      }
+      navigate(`/treatments/${mappedId}`);
+    } catch (error) {
+      console.error('Error navigating to treatment:', error);
+    }
+  };
+
+  const closeForm = () => {
+    setVisibleFormId(null);
+  };
+
   return (
     <div>
       <img src="/panchkarma/stress/stress.png" alt="" loading="eager"/>
       <div className="w-full mx-auto">
-      {visibleFormId === "form1" && (
+        {visibleFormId === "form1" && (
           <div className="fixed inset-0 flex justify-center items-center z-10">
             <div className="relative">
               <Book_Appointment closeForm={closeForm} />
@@ -43,23 +68,38 @@ function For_stress() {
             </p>
             <div className="mt-12">
               <ul className="list-disc list-inside text-gray-700 space-y-2 text-[24px]">
-                <li>
+                <li 
+                  className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                  onClick={() => handleTreatmentClick("shirodhara")}
+                >
                   <strong>Shirodhara:-</strong> Calms the mind by gently pouring
                   oil over the forehead.
                 </li>
-                <li>
+                <li 
+                  className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                  onClick={() => handleTreatmentClick("shiro-basti")}
+                >
                   <strong>Shirobasti:-</strong> Relieves mental strain through
                   medicated oil treatments on the head.
                 </li>
-                <li>
+                <li 
+                  className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                  onClick={() => handleTreatmentClick("nasya")}
+                >
                   <strong>Nasya:-</strong> Clears blocked energies and
                   rejuvenates the brain.
                 </li>
-                <li>
+                <li 
+                  className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                  onClick={() => handleTreatmentClick("abhyanga")}
+                >
                   <strong>Abhyanga:-</strong> Full-body massage that relaxes the
                   nervous system.
                 </li>
-                <li>
+                <li 
+                  className="cursor-pointer hover:text-[#5FA02E] transition-colors"
+                  onClick={() => handleTreatmentClick("swedana")}
+                >
                   <strong>Swedana:-</strong> Full-body steam therapy that helps
                   detoxify and relax.
                 </li>
@@ -75,7 +115,6 @@ function For_stress() {
             </div>
           </div>
           <p className="text-[#757575] mt-8 text-justify">These therapies work together to reduce stress, enhance mental clarity, and improve overall wellness.</p>
-
         </section>
       </div>
       <div className="bg-[#F5F5F5] md:min-w-max max-[768px]:min-w-full max-w-fit flex flex-row mx-auto gap-8 px-10 pt-2 pb-2 rounded-full absolute left-[50%] transform -translate-x-[50%] -translate-y-[50%]">

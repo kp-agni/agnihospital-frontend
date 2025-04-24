@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Book_Appointment from "../../components/Appointment/Book_Appointment";
+import { useNavigate } from "react-router-dom";
 
 function A_Z_panchkarma() {
+  const navigate = useNavigate();
   const treatments = [
     {
       letter: "A",
@@ -10,19 +12,13 @@ function A_Z_panchkarma() {
     { letter: "B", items: ["Bashpa Swedan", "Body Polishing"] },
     { letter: "C", items: ["Cupping"] },
     { letter: "D", items: ["Dhumpan"] },
-    {
-      letter: "E",
-      items: [
-        "Ekang Abhyanga",
-        "Ekang Swedana",
-        "Ekang Patrapind Pottali Swedan",
-      ],
-    },
-    { letter: "G", items: ["Greeva Basti"] },
-    { letter: "H", items: ["Hrld Basti"] },
+
+    { letter: "G", items: ["Greeva Basti","Gandush"] },
+    { letter: "H", items: ["Hrid Basti"] },
+    { letter: "J", items: ["Janu Basti"] },
     {
       letter: "K",
-      items: ["Kati Basti", "Kaval", "Ksheer Dhara", "Kesh Lepanam"],
+      items: ["Kati Basti", "Kaval", "Ksheer Dhara", "Kesh Lepanam", "Karn pooran", "Karn dhupana"],
     },
     { letter: "L", items: ["Lepanam Dashang"] },
     { letter: "M", items: ["Matra Basti", "Mukha Lepam"] },
@@ -62,7 +58,7 @@ function A_Z_panchkarma() {
       ],
     },
     { letter: "T", items: ["Takra Dhara"] },
-    { letter: "U", items: ["Udvartana", "Upanaha Sweda"] },
+    { letter: "U", items: ["Udvartana", "Upanaha Sweda","Uttara Basti"] },
     {
       letter: "V",
       items: [
@@ -77,7 +73,63 @@ function A_Z_panchkarma() {
   ];
 
   const handleLinkClick = (item) => {
-    window.location.href = `/treatments/${item.toLowerCase().replace(/\s+/g, "-")}`;
+    // Map treatment names to their correct IDs in treatmentsContent
+    const treatmentIdMap = {
+      "Abhyanga": "abhyanga",
+      "Agni Karma": "agni-karma",
+      "Anuvasan Basti": "anuvasan-basti",
+      "Avagaha Sweda": "avagaha-sweda",
+      "Bashpa Swedan": "bashpa-swedan",
+      "Body Polishing": "body-polishing",
+      "Cupping": "cupping",
+      "Dhumpan": "dhumpan",
+      "Greeva Basti": "greeva-basti",
+      "Gandush": "gandush",
+      "Hrid Basti": "hrid-basti",
+      "Janu Basti": "janu-basti",
+      "Kati Basti": "kati-basti",
+      "Kaval": "kaval",
+      "Ksheer Dhara": "ksheer-dhara",
+      "Kesh Lepanam": "kesh-lepanam",
+      "Karn pooran": "karn-pooran",
+      "Karn dhupana": "karn-dhupana",
+      "Lepanam Dashang": "lepanam-dashang",
+      "Matra Basti": "matra-basti",
+      "Mukha Lepam": "mukha-lepam",
+      "Niruha Basti": "niruha-basti",
+      "Nabhi Basti": "nabhi-basti",
+      "Nasya": "nasya",
+      "Netra Parisheka": "netra-parisheka",
+      "Netra Tarpan": "netra-tarpan",
+      "Piccha Basti": "piccha-basti",
+      "Prustha Basti": "prustha-basti",
+      "Pizhichil": "pizhichil",
+      "Patrapind Pottali Swedan": "patrapind-pottali-swedan",
+      "Raktamokshana Jalauka": "raktamokshana-jalauka",
+      "Raktamokshana Syringe": "raktamokshana-syringe",
+      "Ruksha Sweda": "ruksha-sweda",
+      "Swedana": "swedana",
+      "Shashtika Shali Pinda Sweda": "shashtika-shali-pinda-sweda",
+      "Shiro Abhyanga": "shiro-abhyanga",
+      "Shiro Basti": "shiro-basti",
+      "Shiro Pichu": "shiro-pichu",
+      "Shirodhara": "shirodhara",
+      "Snigdha Dagdha": "snigdha-dagdha",
+      "Takra Dhara": "takra-dhara",
+      "Udvartana": "udvartana",
+      "Upanaha Sweda": "upanaha-sweda",
+      "Uttara Basti": "uttara-basti",
+      "Vrukka Basti": "vrukka-basti",
+      "Vamana": "vamana",
+      "Virechan": "virechan",
+      "Valuka Sweda": "valuka-sweda",
+      "Viddha Karma": "viddha-karma",
+      "Yapana Basti": "yapana-basti",
+      "Yavani Dham Nasya": "yavani-dham-nasya"
+    };
+
+    const treatmentId = treatmentIdMap[item] || item.toLowerCase().replace(/\s+/g, "-");
+    navigate(`/treatments/${treatmentId}`);
   };
 
   const [visibleFormId, setVisibleFormId] = useState(null);
