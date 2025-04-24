@@ -106,23 +106,6 @@ function Gallary() {
 
   return (
     <div className="w-full mx-auto bg-[#F3FFEA]">
-      {/* Hero Section */}
-      <section className="py-16 px-4 sm:px-8 md:px-12 xl:px-40 overflow-hidden">
-        <div className="max-w-6xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold text-[#394E29] mb-6">
-            लोकाः समस्ताः सुखिनो भवन्तु ।।
-          </h1>
-          <p className="text-[#5FA02E] text-lg sm:text-xl font-medium mb-4">
-            May all beings in all the worlds be happy.
-          </p>
-          <p className="text-[#757575] text-lg sm:text-xl leading-relaxed">
-            Discover natural healing through Ayurveda—personalized care to refresh your body, 
-            calm your mind, and uplift your spirit. Step into our world of holistic wellness, 
-            where ancient wisdom meets modern care, and every treatment is a step towards 
-            complete harmony and well-being.
-          </p>
-        </div>
-      </section>
 
       {/* Trust and Recognition Section */}
       <section className="py-20 px-12 xl:px-40 bg-gradient-to-b from-white to-[#F3FFEA]">
