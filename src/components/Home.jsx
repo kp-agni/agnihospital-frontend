@@ -92,14 +92,7 @@ function Home() {
                 alt="Facility" 
                 className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
                 loading="lazy"
-                onLoad={(e) => {
-                  e.target.classList.add('opacity-100');
-                  e.target.classList.remove('opacity-0');
-                }}
-                onError={(e) => {
-                  e.target.src = '/placeholder.png';
-                }}
-                style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
@@ -108,14 +101,7 @@ function Home() {
                 alt="OPD 1" 
                 className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
                 loading="lazy"
-                onLoad={(e) => {
-                  e.target.classList.add('opacity-100');
-                  e.target.classList.remove('opacity-0');
-                }}
-                onError={(e) => {
-                  e.target.src = '/placeholder.png';
-                }}
-                style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
+               
               />
             </div>
             <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
@@ -124,14 +110,7 @@ function Home() {
                 alt="OPD 2" 
                 className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
                 loading="lazy"
-                onLoad={(e) => {
-                  e.target.classList.add('opacity-100');
-                  e.target.classList.remove('opacity-0');
-                }}
-                onError={(e) => {
-                  e.target.src = '/placeholder.png';
-                }}
-                style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
@@ -140,14 +119,7 @@ function Home() {
                 alt="Panchkarma Room" 
                 className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
                 loading="lazy"
-                onLoad={(e) => {
-                  e.target.classList.add('opacity-100');
-                  e.target.classList.remove('opacity-0');
-                }}
-                onError={(e) => {
-                  e.target.src = '/placeholder.png';
-                }}
-                style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
+                
               />
             </div>
           </div>
@@ -190,14 +162,6 @@ function Home() {
                       alt={treatment.name}
                       className="w-full h-52 mx-auto px-4 py-2 object-cover"
                       loading="lazy"
-                      onLoad={(e) => {
-                        e.target.classList.add('opacity-100');
-                        e.target.classList.remove('opacity-0');
-                      }}
-                      onError={(e) => {
-                        e.target.src = '/placeholder.png';
-                      }}
-                      style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
                     />
                     <div className="p-4 text-left">
                       <h3 className="text-lg font-semibold text-[#394E29]">
@@ -285,14 +249,6 @@ function Home() {
                   alt={d.name}
                   className="rounded-xl mt-5 object-cover w-full h-96 group-hover:shadow-xl transition-all duration-300"
                   loading="lazy"
-                  onLoad={(e) => {
-                    e.target.classList.add('opacity-100');
-                    e.target.classList.remove('opacity-0');
-                  }}
-                  onError={(e) => {
-                    e.target.src = '/placeholder.png';
-                  }}
-                  style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-[#394E29] to-transparent h-1/3 rounded-b-xl"></div>
                 <div className="absolute bottom-4 text-center text-white px-4 w-full group-hover:bottom-6 transition-all duration-300">
@@ -331,14 +287,6 @@ function Home() {
                 alt={`Gallery Image ${index + 1}`}
                 className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
                 loading="lazy"
-                onLoad={(e) => {
-                  e.target.classList.add('opacity-100');
-                  e.target.classList.remove('opacity-0');
-                }}
-                onError={(e) => {
-                  e.target.src = '/placeholder.png';
-                }}
-                style={{ opacity: 0, transition: 'opacity 0.5s ease-in-out' }}
               />
             </div>
           ))}
