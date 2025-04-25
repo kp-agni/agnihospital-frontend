@@ -6,7 +6,6 @@ import Book_Appointment from "../components/Appointment/Book_Appointment";
 function Gallary() {
   const images = [
     { src: "/gallary/image_0.png", cols: 2, rows: 1 },
-    { src: "/gallary/image_01.png", cols: 2, rows: 1 },
     { src: "/gallary/image_13.png", cols: 2, rows: 1 },
     { src: "/gallary/image_15.png", cols: 2, rows: 1 },
     { src: "/gallary/image_16.png", cols: 2, rows: 1 },
@@ -131,7 +130,7 @@ function Gallary() {
               <div className="text-[#5FA02E] text-4xl mb-4">🌍</div>
               <h3 className="text-xl font-semibold text-[#394E29] mb-4">International Reach</h3>
               <p className="text-[#757575] leading-relaxed">
-                With patients visiting from USA, Japan, Australia, Ghana, and Canada, we've earned global recognition as a center for authentic, effective Ayurvedic treatment.
+                With patients visiting from USA, Japan, Australia, Ghana, UK, Canada, and many more countries, we've earned global recognition as a center for authentic, effective Ayurvedic treatment.
               </p>
             </div>
 

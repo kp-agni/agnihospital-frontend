@@ -15,7 +15,7 @@ function Home() {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 1024,
@@ -88,7 +88,7 @@ function Home() {
           <div className="grid grid-cols-2 gap-4 w-full lg:w-1/2">
             <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="/facility/opd1/image_2.png" 
+                src="/homeslider/image_1.png" 
                 alt="Facility" 
                 className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
                 loading="lazy"
@@ -106,7 +106,7 @@ function Home() {
             </div>
             <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="/facility/reception/image_5.png" 
+                src="/homeslider/image_2.png" 
                 alt="OPD 2" 
                 className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
                 loading="lazy"
@@ -115,7 +115,7 @@ function Home() {
             </div>
             <div className="overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="/facility/opd2/image_3.png" 
+                src="/homeslider/image_3.png" 
                 alt="Panchkarma Room" 
                 className="w-full h-64 object-cover transform hover:scale-105 transition-transform duration-300"
                 loading="lazy"
@@ -167,12 +167,21 @@ function Home() {
                       <h3 className="text-lg font-semibold text-[#394E29]">
                         {treatment.name}
                       </h3>
-                      <a
-                        href={`/basic-panchakarma`}
-                        className="text-[#5FA02E] hover:text-[#4a7d24] transition-colors duration-300"
-                      >
-                        Learn More...
-                      </a>
+                      {treatment.route ? (
+                        <a
+                          href={treatment.route}
+                          className="text-[#5FA02E] hover:text-[#4a7d24] transition-colors duration-300"
+                        >
+                          Learn More...
+                        </a>
+                      ) : (
+                        <a
+                          href={`/treatments/${treatment.id}`}
+                          className="text-[#5FA02E] hover:text-[#4a7d24] transition-colors duration-300"
+                        >
+                          Learn More...
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -316,19 +325,18 @@ function Home() {
   );
 }
 const treatments = [
-  { name: "Nadi Parikshan", image: "/panchkarma/basic-panch/nadisvedana.png" },
-  { name: "Suvarnaprashan", image: "/panchkarma/basic-panch/bidalak.png" },
-  { name: "Garbhasanskar", image: "/panchkarma/basic-panch/bidalak.png" },
-  { name: "Shirodhara", image: "/panchkarma/basic-panch/shirodhara.png" },
-  { name: "Vaman", image: "/panchkarma/basic-panch/vaman.png" },
-  { name: "Virechan", image: "/panchkarma/basic-panch/virechan.png" },
-  { name: "Basti", image: "/panchkarma/basic-panch/basti.png" },
-  { name: "Nasya", image: "/panchkarma/basic-panch/nasya.png" },
-  { name: "Raktamokshan", image: "/panchkarma/basic-panch/bidalak.png" },
-  { name: "Janu Basti", image: "/panchkarma/basic-panch/card15.png" },
-  { name: "Kati Basti", image: "/panchkarma/basic-panch/card14.png" },
-  { name: "Netra Tarpana", image: "/panchkarma/basic-panch/netradhara.png" },
-
+  { name: "Nadi Parikshan", image: "/panchkarma/basic-panch/nadiparikshan.png", id: "nadi-parikshan", route: "/treatment/nadi-parikshan" },
+  { name: "Suvarnaprashan", image: "/panchkarma/basic-panch/suvarnprashan.png", id: "suvarnaprashan", route: "/treatment/suvarnaprashan" },
+  { name: "Garbhasanskar", image: "/panchkarma/basic-panch/garbhsanskar.png", id: "garbhasanskar", route: "/treatment/garbhasanskar" },
+  { name: "Shirodhara", image: "/panchkarma/basic-panch/shirodhara.png", id: "shirodhara" },
+  { name: "Vaman", image: "/panchkarma/basic-panch/vaman.png", id: "vamana" },
+  { name: "Virechan", image: "/panchkarma/basic-panch/virechan.png", id: "virechan" },
+  { name: "Basti", image: "/panchkarma/basic-panch/basti.png", id: "anuvasan-basti" },
+  { name: "Nasya", image: "/panchkarma/basic-panch/nasya.png", id: "nasya" },
+  { name: "Raktamokshan", image: "/panchkarma/basic-panch/raktmokshn.png", id: "raktamokshana-jalauka" },
+  { name: "Janu Basti", image: "/panchkarma/basic-panch/card15.png", id: "janu-basti" },
+  { name: "Kati Basti", image: "/panchkarma/basic-panch/card14.png", id: "kati-basti" },
+  { name: "Netra Tarpana", image: "/panchkarma/basic-panch/netratarpan.png", id: "netra-tarpan" },
 ];
 const person = [
   {

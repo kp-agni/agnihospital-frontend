@@ -197,7 +197,7 @@ function MobileNavbar() {
                       </button>
                       <ul className="pl-4 mt-2 space-y-2">
                         {[
-                          { name: "Dr. Dharmik Kachachhi", path: "/dr_dharmik" },
+                          { name: "Dr. Dharmik Kachchhi", path: "/dr_dharmik" },
                           { name: "Dr. Rushi Patel", path: "/dr_rushi" },
                           { name: "Dr. Darshan Dudhat", path: "/dr_darshan" },
                         ].map((doctor) => (
@@ -273,7 +273,7 @@ function MobileNavbar() {
                 >
                   <div className="flex items-center">
                     <span className="w-2 h-2 bg-[#5FA02E] rounded-full mr-3 group-hover:scale-150 transition-transform"></span>
-                    <span>Panchkarma</span>
+                    <span>Panchakarma</span>
                   </div>
                   <FontAwesomeIcon
                     icon={faCaretDown}
@@ -285,11 +285,11 @@ function MobileNavbar() {
                 {openDropdown === "panchkarma" && (
                   <ul className="mt-2 pl-8 space-y-2 border-l-2 border-green-200 ml-4">
                     {[
-                      { name: "Basic Panchkarma For all Diseases", path: "/basic-panchkarma" },
-                      { name: "Panchkarma For Pain", path: "/panchkarma-pain" },
-                      { name: "Panchkarma For Stress Management", path: "/panchkarma-stress-management" },
-                      { name: "Panchkarma For Weight Loss", path: "/panchkarma-weight-loss" },
-                      { name: "A to Z Panchkarma", path: "/a-to-z-panchkarma" },
+                      { name: "Basic Panchakarma For all Diseases", path: "/basic-panchkarma" },
+                      { name: "Panchakarma For Pain", path: "/panchkarma-pain" },
+                      { name: "Panchakarma For Stress Management", path: "/panchkarma-stress-management" },
+                      { name: "Panchakarma For Weight Loss", path: "/panchkarma-weight-loss" },
+                      { name: "A to Z Panchakarma", path: "/a-to-z-panchkarma" },
                     ].map((item) => (
                       <li key={item.path}>
                         <button

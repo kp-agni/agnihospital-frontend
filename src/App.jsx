@@ -46,6 +46,9 @@ import PsycatricDetails from './components/Treatment/PsycatricDetails';
 import PediatricsDisorder from './components/Treatment/PediatricsDisorder';
 import PediatricsDetails from './components/Treatment/PediatricsDetails';
 import Testimonials from "./components/Testimonials";
+import NadiParikshan from "./components/Treatment/NadiParikshan";
+import Suvarnaprashan from "./components/Treatment/Suvarnaprashan";
+import Garbhasanskar from "./components/Treatment/Garbhasanskar";
 
 
 const App = () => {
@@ -98,6 +101,9 @@ const App = () => {
           <Route path="/pediatrics-disorder" element={<PediatricsDisorder/>}/> {/* ENT Disorder page route */}
           <Route path="/pediatrics-disorder/:disorderId" element={<PediatricsDetails />} /> {/* Dynamic Route */}
           <Route path="/testimonials" element={<Testimonials />} />
+          <Route path="/treatment/nadi-parikshan" element={<NadiParikshan />} />
+          <Route path="/treatment/suvarnaprashan" element={<Suvarnaprashan />} />
+          <Route path="/treatment/garbhasanskar" element={<Garbhasanskar />} />
 
           {/* Add more routes as needed */}
         </Routes>

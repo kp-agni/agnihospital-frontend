@@ -59,10 +59,10 @@ function About_doctor() {
                 <h3 className="text-[24px] font-semibold text-white">
                   Dr. Dharmik Kachchhi
                 </h3>
-                <p className="text-[14px] text-gray-200 mt-2">
-                  Co-Founder & Ayurved Consultant,
+                <p className="text-[18px] text-gray-200 mt-2">
+                Ayurveda Consultant                
                   <br />
-                  Parayani Nadi Vaidya and Ayurvedacharya
+                  (Ayurvedacharya)
                 </p>
               </div>
             </div>
@@ -82,10 +82,10 @@ function About_doctor() {
                 <h3 className="text-[24px] font-semibold text-white">
                   Dr. Rushi Patel
                 </h3>
-                <p className="text-[14px] text-gray-200 mt-2">
-                  Co-Founder & Ayurved Consultant,
+                <p className="text-[18px] text-gray-200 mt-2">
+                Ayurveda Consultant
                   <br />
-                  Parayani Nadi Vaidya and Ayurvedacharya
+                  (Ayurvedacharya)
                 </p>
               </div>
             </div>
@@ -126,10 +126,10 @@ function About_doctor() {
                 <h3 className="text-[24px] font-semibold text-white">
                   Dr. Darshan Dudhat
                 </h3>
-                <p className="text-[14px] text-gray-200 mt-2">
-                  Co-Founder & Ayurved Consultant,
+                <p className="text-[18px] text-gray-200 mt-2">
+                Panchakarma Consultant
                   <br />
-                  Parayani Nadi Vaidya and Ayurvedacharya
+                  (Ayurvedacharya)
                 </p>
               </div>
             </div>

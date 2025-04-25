@@ -327,6 +327,61 @@ function SkinHairDetails() {
         "By following Ayurvedic treatments, a proper diet, and a mindful lifestyle, vitiligo can be managed effectively, helping restore skin pigmentation and balance.",
       ],
     },
+    {
+      id: "hairfall",
+      title: "Hairfall",
+      description:
+        "Hair fall, known as Khalitya in Ayurveda, is a common condition that can affect both men and women. Ayurveda takes a holistic approach to hair fall by focusing on balancing the doshas (Vata, Pitta, Kapha), improving digestion (Agni), and nourishing the scalp and hair from the inside out. The condition is most often linked to Pitta dosha imbalance, which causes inflammation in the scalp and weakens hair roots, though Vata (dryness, stress) and Kapha (oiliness, congestion) can also contribute.",
+      ayurvedicApproach: {
+        herbsremedies: [
+          "Amla (Indian Gooseberry): Rich in vitamin C and antioxidants, strengthens hair follicles.",
+          "Bhringraj: Promotes hair growth and reduces hair fall through its rejuvenating properties.",
+          "Brahmi: Calms the mind and reduces stress-related hair loss.",
+          "Ashwagandha: An adaptogen that balances stress hormones affecting hair health.",
+          "Triphala: Detoxifies the body and improves digestion for better nutrient absorption.",
+          "Bhringraj oil: Rejuvenates scalp and promotes healthy hair growth.",
+          "Neeli (Indigo) oil: Cools the scalp and helps maintain hair color.",
+          "Coconut oil with curry leaves: Nourishes and strengthens hair from root to tip.",
+          "Castor oil: Thickens hair and supports strong hair roots."
+        ],
+        panchkarmatreatment: [
+          "Shirodhara: Warm oil poured on the forehead to calm the mind and reduce stress-related hair fall.",
+          "Nasya: Herbal oils administered through the nose to balance doshas affecting hair health.",
+          "Basti: Detoxification via medicated enemas to balance doshas internally.",
+          "Abhyanga: Therapeutic oil massage focusing on the scalp to improve circulation.",
+          "Shiro Abhyanga: Specialized head massage with medicated oils to strengthen hair roots."
+        ],
+      },
+      dietRecommendations: {
+        recommand: [
+          "Pitta-pacifying foods: Cooling foods like coconut, amla, cucumber, and leafy greens.",
+          "Buttermilk and yogurt for their cooling properties.",
+          "Fresh fruits and vegetables rich in vitamins and minerals.",
+          "Herbal teas, especially Brahmi or Bhringraj tea.",
+          "Plenty of water to stay hydrated and flush out toxins."
+        ],
+        avoid: [
+          "Spicy, oily, and fried foods that aggravate Pitta.",
+          "Alcohol and caffeine that can dehydrate the scalp.",
+          "Red meat and processed foods that increase inflammation.",
+          "Excess salt and sugar that can disrupt mineral balance.",
+          "Hot and spicy foods that can increase body heat."
+        ],
+        lifestyle: [
+          "Practice stress management through yoga and meditation.",
+          "Perform pranayama, especially Anulom Vilom and Bhramari.",
+          "Maintain regular sleep schedule and avoid late nights.",
+          "Use natural hair care products like Shikakai and Reetha.",
+          "Avoid harsh chemical treatments and heat styling.",
+          "Comb hair gently and avoid tight hairstyles.",
+          "Let hair air-dry naturally when possible.",
+          "Protect hair from excessive sun exposure."
+        ],
+      },
+      conclusion: [
+        "By following these Ayurvedic treatments, dietary modifications, and lifestyle changes, hair fall can be effectively managed. The key is to address the root cause through a balanced approach that includes proper nutrition, stress management, and gentle hair care practices. Regular use of herbal remedies and oils, combined with appropriate Panchakarma treatments, can help restore hair health and promote natural growth."
+      ],
+    },
   ];
 
   const disorder = disorders.find((d) => d.id === disorderId);

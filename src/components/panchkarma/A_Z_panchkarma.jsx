@@ -147,7 +147,7 @@ function A_Z_panchakarma() {
       {/* Hero Section */}
       <div className="relative animate-fade-in">
         <img 
-          src="/panchakarma/a-z/a-z.png" 
+          src="/hero_image/A_Z_hero.png" 
           alt="Panchakarma Treatments" 
           className="w-full h-[300px] sm:h-[400px] object-cover"
         />

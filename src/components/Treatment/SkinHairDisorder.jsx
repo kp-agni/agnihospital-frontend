@@ -65,6 +65,14 @@ function SkinHairDisorder() {
       link: "/skin&hair-disorder/vitiligo",
       icon: "🩺",
     },
+    {
+      id: "hairfall",
+      title: "Hairfall",
+      description:
+        "Hair fall, known as Khalitya in Ayurveda, is a common condition that can affect both men and women. It occurs due to various factors...",
+      link: "/skin&hair-disorder/hairfall",
+      icon: "🦠",
+    },
   ];
 
   return (

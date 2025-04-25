@@ -120,7 +120,7 @@ const Navbar = () => {
           }  py-4 px-10 mx-auto transition-all w-full z-50 `}
         >
           <div className="container flex justify-between items-center mx-auto">
-            <ul className="hidden xl:flex gap-20  text-white mx-auto">
+            <ul className="hidden xl:flex gap-16  text-white mx-auto">
               <span
                 onClick={() => handleLinkClick("/")}
                 className="cursor-pointer hover:text-[#2d4918] "
@@ -167,7 +167,7 @@ const Navbar = () => {
                             }}
                             className="block px-4 py-2  hover:text-[#5FA02E]"
                           >
-                            - Dr. Dharmik Kachachhi
+                            - Dr. Dharmik Kachchhi
                           </li>
                           <li
                             onClick={(e) => {
@@ -318,7 +318,7 @@ const Navbar = () => {
                   }`}
                 >
                   <FontAwesomeIcon icon={faCaretDown} />
-                  Panchkarma
+                  Panchakarma
                 </span>
                 {openDropdown === "panchkarma" && (
                   <div className="absolute bg-white text-white shadow-md rounded-b-md w-auto mt-0 z-10">
@@ -327,13 +327,13 @@ const Navbar = () => {
                         onClick={() => handleLinkClick("/basic-panchkarma")}
                         className="block px-4 py-2"
                       >
-                        - Basic Panchkarma For all Diseases
+                        - Basic Panchakarma For all Diseases
                       </span>
                       <span
                         onClick={() => handleLinkClick("/panchkarma-pain")}
                         className="block px-4 py-2"
                       >
-                        - Panchkarma For Pain
+                        - Panchakarma For Pain
                       </span>
                       <span
                         onClick={() =>
@@ -341,7 +341,7 @@ const Navbar = () => {
                         }
                         className="block px-4 py-2"
                       >
-                        - Panchkarma For Stress Management
+                        - Panchakarma For Stress Management
                       </span>
                       <span
                         onClick={() =>
@@ -349,13 +349,13 @@ const Navbar = () => {
                         }
                         className="block px-4 py-2"
                       >
-                        - Panchkarma For Weight Loss
+                        - Panchakarma For Weight Loss
                       </span>
                       <span
                         onClick={() => handleLinkClick("/a-to-z-panchkarma")}
                         className="block px-4 py-2"
                       >
-                        - A to Z Panchkarma
+                        - A to Z Panchakarma
                       </span>
                     </ul>
                   </div>

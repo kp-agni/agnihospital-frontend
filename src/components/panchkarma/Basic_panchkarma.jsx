@@ -81,7 +81,7 @@ function Basic_panchakarma() {
       
             **Indications:** Fresh Myopia & Hypermetropia, Eye strain, Redness of eyes, Dryness in eye, Watering of eyes, Burning of eyes & Diseases of retina.
           `,
-      image: "/panchkarma/basic-panch/netradhara.png",
+      image: "/panchkarma/basic-panch/netratarpan.png",
     },
     {
       id: 9,

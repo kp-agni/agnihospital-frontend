@@ -94,13 +94,13 @@ function Footer() {
                     9:00 AM to 1:00 PM
                   </p>
                   <p className="text-white/90 text-sm sm:text-base">
-                    5:00 PM to 8:00 PM
+                    5:00 PM to 9:00 PM
                   </p>
                 </div>
                 <div className="bg-white/10 p-4 rounded-lg">
                   <h4 className="text-base sm:text-lg font-medium">Sunday</h4>
                   <p className="text-white/90 text-sm sm:text-base">
-                    8:00 AM to 1:00 PM
+                    9:00 AM to 1:00 PM
                   </p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ function Footer() {
                   />
                   <p className="text-white/90 text-sm sm:text-base leading-relaxed">
                     <a
-                      href="https://maps.google.com/?q=205 Palm Arcade, Shukan Char Rasta, Nikol, Ahmedabad, Gujarat-382350"
+                      href="https://www.google.com/maps/place/Agni+Ayurved+Hospital+-+Best+Ayurveda+%26+Panchakarma+Center+in+Nikol,+Ahmedabad/@23.0465418,72.645273,14z/data=!4m10!1m2!2m1!1s205+Palm+Arcade,+Shukan+Char+Rasta,+Nikol,+Ahmedabad,+Gujarat-382350!3m6!1s0x395e87f8a657423f:0xc4e1be06d790e0d!8m2!3d23.0503248!4d72.6642421!15sCkQyMDUgUGFsbSBBcmNhZGUsIFNodWthbiBDaGFyIFJhc3RhLCBOaWtvbCwgQWhtZWRhYmFkLCBHdWphcmF0LTM4MjM1MFpCIkAyMDUgcGFsbSBhcmNhZGUgc2h1a2FuIGNoYXIgcmFzdGEgbmlrb2wgYWhtZWRhYmFkIGd1amFyYXQgMzgyMzUwkgEIaG9zcGl0YWyqAX4QASoTIg8yMDUgcGFsbSBhcmNhZGUoADIfEAEiG9rZMaP4nBz_4thCDIPisOhKxxCHhbfD1_1VcjJEEAIiQDIwNSBwYWxtIGFyY2FkZSBzaHVrYW4gY2hhciByYXN0YSBuaWtvbCBhaG1lZGFiYWQgZ3VqYXJhdCAzODIzNTDgAQA!16s%2Fg%2F11ss6zr88v?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:underline"

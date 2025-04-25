@@ -50,6 +50,14 @@ function JointDisorder() {
       icon: "🔄",
     },
     {
+      id: "osteomyelitis",
+      title: "Osteomyelitis",
+      description:
+        "Osteomyelitis is a serious bone infection that involves inflammation of the bone or bone marrow, often resulting from a...",
+      link: "/ent-disorder/osteomyelitis",
+      icon: "⚖️",
+    },
+    {
       id: "knee-pain",
       title: "Knee Pain",
       description:

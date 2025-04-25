@@ -8,6 +8,7 @@ function Facilities() {
     "/facility/opd2/image_1.png",
     "/facility/opd2/image_2.png",
     "/facility/opd2/image_3.png",
+    "/facility/opd2/image_5.png",
     "/facility/opd2/image_6.png",
 
 
@@ -16,6 +17,8 @@ function Facilities() {
     "/facility/opd1/image_2.png",
     "/facility/opd1/image_3.png",
     "/facility/opd1/image_4.png",
+    "/facility/opd1/image_7.png",
+
 
   ];
   const receptionarea = [
@@ -26,6 +29,8 @@ function Facilities() {
     "/facility/reception/image_4.png",
     "/facility/reception/image_5.png",
     "/facility/reception/image_6.png",
+    "/facility/reception/image_7.png",
+    "/facility/reception/image_8.png",
 
   ];
   const panchakarma = [

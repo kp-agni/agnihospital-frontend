@@ -40,7 +40,15 @@ function Contact_us() {
     <div>
       <div
         className="min-h-screen bg-cover bg-center flex items-center w-full overflow-hidden"
-        style={{ backgroundImage: `url(/hero_image/contact_hero.png)` }}
+        style={{ 
+          backgroundImage: `url(/hero_image/contact_hero2.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          imageRendering: 'crisp-edges',
+          WebkitBackfaceVisibility: 'hidden',
+          backfaceVisibility: 'hidden'
+        }}
         id="Header"
       >
         {visibleFormId === "form1" && (
@@ -69,12 +77,37 @@ function Contact_us() {
         </div>
       </div>
 
-      <section className="bg-gray-100 py-20 px-12 text-center">
-        <h2 className="font-bold text-3xl text-[#394E29]">Why Choose Us?</h2>
-        <p className="mt-4 text-[#757575] max-w-3xl mx-auto">
-          At Agni Ayurved, we combine ancient Ayurvedic wisdom with modern care
-          to provide holistic healing tailored to your unique needs.
+      <section className="bg-gray-100 py-20 px-12">
+        <h2 className="font-bold text-3xl text-[#394E29] text-center mb-8">Why Choose Us?</h2>
+        <p className="text-[#757575] text-center max-w-3xl mx-auto mb-12">
+          At our Agni Ayurved hospital, we blend the wisdom of ancient healing with the care and attention you deserve. Here's what makes us different:
         </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <h3 className="text-[#5FA02E] font-semibold text-xl mb-3">1. Experienced Ayurvedic Doctors</h3>
+            <p className="text-gray-600">Our team of Parayani Nadi Vaidya certified Ayurvedic practitioners brings years of experience in treating a wide range of health conditions with personalized care and deep expertise with Nadi Parikshana.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <h3 className="text-[#5FA02E] font-semibold text-xl mb-3">2. Authentic Treatments</h3>
+            <p className="text-gray-600">We follow classical Ayurvedic texts and time-tested procedures, using only high-quality, herbal, and natural ingredients in all treatments and medications.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <h3 className="text-[#5FA02E] font-semibold text-xl mb-3">3. Customized Healing Plans</h3>
+            <p className="text-gray-600">Every individual is unique. We create tailored treatment plans based on your body constitution (Prakriti), lifestyle, and health concerns—for effective, lasting results.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <h3 className="text-[#5FA02E] font-semibold text-xl mb-3">4. Specialized in Panchakarma</h3>
+            <p className="text-gray-600">Our signature Panchakarma therapies offer deep detoxification and rejuvenation under expert supervision in a serene, hygienic environment.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <h3 className="text-[#5FA02E] font-semibold text-xl mb-3">5. Focus on Prevention & Wellness</h3>
+            <p className="text-gray-600">We don't just treat illness—we guide you towards a healthier, balanced lifestyle with diet, yoga, and wellness routines aligned with Ayurvedic principles.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <h3 className="text-[#5FA02E] font-semibold text-xl mb-3">6. Positive Patient Outcomes</h3>
+            <p className="text-gray-600">Hundreds of satisfied patients have found relief and recovery through our treatments. Your health and satisfaction are our biggest achievements.</p>
+          </div>
+        </div>
       </section>
 
       <section className="bg-[#5FA02E] grid grid-cols-1 md:grid-cols-3 gap-8 py-20 px-8 text-white text-center">
@@ -101,7 +134,7 @@ function Contact_us() {
           />
           <p>
             <a
-              href="https://maps.google.com/?q=205 Palm Arcade, Shukan Char Rasta, Nikol, Ahmedabad, Gujarat-382350"
+              href="https://www.google.com/maps/place/Agni+Ayurved+Hospital+-+Best+Ayurveda+%26+Panchakarma+Center+in+Nikol,+Ahmedabad/@23.0465418,72.645273,14z/data=!4m10!1m2!2m1!1s205+Palm+Arcade,+Shukan+Char+Rasta,+Nikol,+Ahmedabad,+Gujarat-382350!3m6!1s0x395e87f8a657423f:0xc4e1be06d790e0d!8m2!3d23.0503248!4d72.6642421!15sCkQyMDUgUGFsbSBBcmNhZGUsIFNodWthbiBDaGFyIFJhc3RhLCBOaWtvbCwgQWhtZWRhYmFkLCBHdWphcmF0LTM4MjM1MFpCIkAyMDUgcGFsbSBhcmNhZGUgc2h1a2FuIGNoYXIgcmFzdGEgbmlrb2wgYWhtZWRhYmFkIGd1amFyYXQgMzgyMzUwkgEIaG9zcGl0YWyqAX4QASoTIg8yMDUgcGFsbSBhcmNhZGUoADIfEAEiG9rZMaP4nBz_4thCDIPisOhKxxCHhbfD1_1VcjJEEAIiQDIwNSBwYWxtIGFyY2FkZSBzaHVrYW4gY2hhciByYXN0YSBuaWtvbCBhaG1lZGFiYWQgZ3VqYXJhdCAzODIzNTDgAQA!16s%2Fg%2F11ss6zr88v?entry=ttu&g_ep=EgoyMDI1MDQyMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"

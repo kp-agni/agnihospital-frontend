@@ -1076,6 +1076,8 @@ const TreatmentDetail = () => {
       process: [
         "Warm medicated oil is poured in a steady stream on the forehead, aiding in deep relaxation and stress relief.",
       ],
+      whyChooseUs:
+        "Our Shirodhara therapy uses pure, herbal oils, performed in a serene setting to offer a tranquil and healing experience.",
       indications: [
         "Stress and anxiety",
         "Insomnia and sleep disorders",
@@ -1086,8 +1088,6 @@ const TreatmentDetail = () => {
         "Poor concentration",
         "General mental wellness"
       ],
-      whyChooseUs:
-        "Our Shirodhara therapy uses pure, herbal oils, performed in a serene setting to offer a tranquil and healing experience.",
     },
     "snigdha-dagdha": {
       name: "Snigdha Dagdha",
@@ -1102,6 +1102,8 @@ const TreatmentDetail = () => {
       process: [
         "Herbal oils are gently applied to the affected area, providing relief from burns and promoting skin regeneration.",
       ],
+      whyChooseUs:
+        "We use high-quality, soothing oils that are safe and effective for treating burn injuries and enhancing skin recovery.",
       indications: [
         "Burn injuries",
         "Skin inflammation",
@@ -1112,8 +1114,6 @@ const TreatmentDetail = () => {
         "Dermatitis",
         "General skin health"
       ],
-      whyChooseUs:
-        "We use high-quality, soothing oils that are safe and effective for treating burn injuries and enhancing skin recovery.",
     },
     "takra-dhara": {
       name: "Takra Dhara",
@@ -1128,6 +1128,8 @@ const TreatmentDetail = () => {
       process: [
         "Buttermilk infused with herbal ingredients is poured over the forehead in a steady stream to create a calming effect.",
       ],
+      whyChooseUs:
+        "Our Takra Dhara therapy is customized using fresh, organic buttermilk for effective relaxation and rejuvenation.",
       indications: [
         "Stress and anxiety",
         "Mental fatigue",
@@ -1138,8 +1140,6 @@ const TreatmentDetail = () => {
         "Nervous system disorders",
         "General mental wellness"
       ],
-      whyChooseUs:
-        "Our Takra Dhara therapy is customized using fresh, organic buttermilk for effective relaxation and rejuvenation.",
     },
     "udvartana": {
       name: "Udvartana",
@@ -1154,6 +1154,8 @@ const TreatmentDetail = () => {
       process: [
         "Herbal powders are massaged onto the body in specific directions to exfoliate the skin, increase circulation, and promote toxin elimination.",
       ],
+      whyChooseUs:
+        "Our Udvartana therapy combines traditional techniques and premium herbal ingredients to provide rejuvenation and improve skin health.",
       indications: [
         "Cellulite reduction",
         "Poor circulation",
@@ -1164,8 +1166,6 @@ const TreatmentDetail = () => {
         "Lymphatic drainage",
         "General body wellness"
       ],
-      whyChooseUs:
-        "Our Udvartana therapy combines traditional techniques and premium herbal ingredients to provide rejuvenation and improve skin health.",
     },
     "upanaha-sweda": {
       name: "Upanaha Sweda",
@@ -1180,6 +1180,8 @@ const TreatmentDetail = () => {
       process: [
         "Medicated pastes are applied to the affected area, followed by warm compresses to promote healing and pain relief.",
       ],
+      whyChooseUs:
+        "Our Upanaha Sweda therapy uses potent herbs and therapeutic warmth to ensure effective pain relief and improved mobility.",
       indications: [
         "Joint pain",
         "Muscle stiffness",
@@ -1190,8 +1192,6 @@ const TreatmentDetail = () => {
         "Inflammation",
         "General body wellness"
       ],
-      whyChooseUs:
-        "Our Upanaha Sweda therapy uses potent herbs and therapeutic warmth to ensure effective pain relief and improved mobility.",
     },
     "uttara-basti": {
       name: "Uttara Basti",
@@ -1419,78 +1419,99 @@ const TreatmentDetail = () => {
 
   if (!treatment) {
     return (
-      <div className="bg-gray-900 text-white p-6">
-        <h1 className="text-3xl font-bold text-red-500">Treatment Not Found</h1>
-        <p className="text-gray-300">Please select a valid treatment.</p>
+      <div className="bg-gray-900 text-white p-6 min-h-screen flex items-center justify-center">
+        <div className="bg-gray-800 p-8 rounded-lg shadow-lg max-w-md text-center">
+          <h1 className="text-3xl font-bold text-red-500 mb-4">Treatment Not Found</h1>
+          <p className="text-gray-300">Please select a valid treatment.</p>
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="p-6 w-full mx-auto py-20 px-12 xl:px-36">
-      <h1 className="font-bold text-[#394E29] mb-12">{treatment.title}</h1>
-      <p className="mb-6 text-[#757575] text-justify">
-        {treatment.description1}
-      </p>
-      <p className="mb-6 text-[#757575] text-justify">
-        {treatment.description2}
-      </p>
+    <div className="p-6 w-full mx-auto py-20 px-12 xl:px-36 bg-gray-50">
+      <h1 className="font-bold text-[#394E29] mb-12 text-3xl border-b-2 border-green-200 pb-4">{treatment.title}</h1>
+      
+      <div className="bg-white rounded-lg shadow-sm p-8 mb-10">
+        <p className="mb-6 text-[#757575] text-justify leading-relaxed">
+          {treatment.description1}
+        </p>
+        <p className="mb-6 text-[#757575] text-justify leading-relaxed">
+          {treatment.description2}
+        </p>
+      </div>
+
+       {/* Indications Section */}
+       <div className="bg-white rounded-lg shadow-sm p-8 mb-10">
+        <h2 className="font-bold text-[#394E29] mb-8 text-2xl border-b-2 border-green-200 pb-3">
+          Indications for {treatment.name}
+        </h2>
+        <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[#757575] text-lg">
+          {treatment.indications.map((indication, index) => (
+            <li key={index} className="flex items-center">
+              <span className="text-[#394E29] mr-2">✓</span>
+              {indication}
+            </li>
+          ))}
+        </ul>
+      </div>
 
       {/* Benefits Section */}
-      <h2 className="font-bold text-[#394E29] mb-10 mt-12">
-        Benefits of {treatment.name}
-      </h2>
-      <ol className="list-decimal list-inside space-y-4 text-[#757575] text-[24px]">
-        {treatment.benefits.map((benefit, index) => {
-          const [title, ...content] = benefit.split(":");
-          return (
-            <li key={index} className="space-y-2">
-              <span className="font-bold">{title.trim()}:</span>
-              <ul className="list-disc list-inside pl-4">
-                <li>{content.join(":").trim()}</li>
-              </ul>
-            </li>
-          );
-        })}
-      </ol>
+      <div className="bg-white rounded-lg shadow-sm p-8 mb-10">
+        <h2 className="font-bold text-[#394E29] mb-8 text-2xl border-b-2 border-green-200 pb-3">
+          Benefits of {treatment.name}
+        </h2>
+        <ol className="list-decimal list-inside space-y-6 text-[#757575] text-lg">
+          {treatment.benefits.map((benefit, index) => {
+            const [title, ...content] = benefit.split(":");
+            return (
+              <li key={index} className="space-y-2">
+                <span className="font-bold text-[#394E29]">{title.trim()}:</span>
+                <ul className="list-disc list-inside pl-4">
+                  <li>{content.join(":").trim()}</li>
+                </ul>
+              </li>
+            );
+          })}
+        </ol>
+      </div>
 
       {/* Process Section */}
-      <h2 className="font-bold text-[#394E29] mb-8 mt-16">
-        The {treatment.name} Process
-      </h2>
-      <ol className="list-decimal list-inside space-y-4 text-[#757575] text-[24px]">
-        {treatment.process.map((step, index) => {
-          const isSubItem = step.startsWith("  •");
-          if (isSubItem) {
+      <div className="bg-white rounded-lg shadow-sm p-8 mb-10">
+        <h2 className="font-bold text-[#394E29] mb-8 text-2xl border-b-2 border-green-200 pb-3">
+          The {treatment.name} Process
+        </h2>
+        <ol className="list-decimal list-inside space-y-6 text-[#757575] text-lg">
+          {treatment.process.map((step, index) => {
+            const isSubItem = step.startsWith("  •");
+            if (isSubItem) {
+              return (
+                <ul key={index} className="list-disc list-inside pl-8">
+                  <li>{step.trim().substring(2)}</li>
+                </ul>
+              );
+            }
             return (
-              <ul key={index} className="list-disc list-inside pl-8">
-                <li>{step.trim().substring(2)}</li>
-              </ul>
+              <li key={index} className="flex items-start">
+                <span className="bg-[#394E29] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1">{index + 1}</span>
+                <span className="font-bold">{step}</span>
+              </li>
             );
-          }
-          return (
-            <li key={index}>
-              <span className="font-bold">{step}</span>
-            </li>
-          );
-        })}
-      </ol>
+          })}
+        </ol>
+      </div>
 
-      {/* Indications Section */}
-      <h2 className="font-bold text-[#394E29] mb-8 mt-16">
-        Indications for {treatment.name}
-      </h2>
-      <ul className="list-disc list-inside space-y-2 text-[#757575] text-[24px]">
-        {treatment.indications.map((indication, index) => (
-          <li key={index}>{indication}</li>
-        ))}
-      </ul>
+     
 
       {/* Why Choose Us Section */}
-      <h2 className="font-bold text-[#394E29] mb-4 mt-20">
-        Why Choose Us for {treatment.name}
-      </h2>
-      <p className="text-[#757575]">{treatment.whyChooseUs}</p>
+      <div className="bg-white rounded-lg shadow-sm p-8">
+        <h2 className="font-bold text-[#394E29] mb-6 text-2xl border-b-2 border-green-200 pb-3">
+          Why Choose Us for {treatment.name}
+        </h2>
+        <div className="border-l-4 border-[#394E29] pl-4 py-2">
+          <p className="text-[#757575] italic text-lg">{treatment.whyChooseUs}</p>
+        </div>
+      </div>
     </div>
   );
 };

@@ -44,12 +44,6 @@ function AboutHospital() {
         </div>
         <div className="text-[#757575] mt-10 text-justify  leading-8">
           <p className="mb-4">
-            We take pride in cultivating a strong doctor-patient relationship
-            through responsible, personalized care. Our aim is to become a
-            symbol of trust and compassion in the healthcare industry of
-            Ahmedabad.
-          </p>
-          <p className="mb-4">
             Our expert Vaidyas focuses on the holistic well-being of our
             patients, addressing their physical, mental, and social wellness.
             Our entire staff is committed to providing a caring and nurturing
