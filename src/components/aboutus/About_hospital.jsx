@@ -71,7 +71,11 @@ function AboutHospital() {
         </div>
       </section>
       <div className="mb-10">
-        <img src="/hero_image/ourvision.png" alt="" />
+        <img 
+          src="/hero_image/ourvision2.png" 
+          alt="Our Vision" 
+          className="w-full  object-cover"
+        />
       </div>
       <section className="py-20 px-12 xl:px-36 border-b-2 border-[#5FA02E]">
         <div>

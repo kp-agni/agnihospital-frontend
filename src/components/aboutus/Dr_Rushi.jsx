@@ -29,9 +29,9 @@ function Dr_Rushi() {
             <br /> Parayani Nadi Vaidya and Ayurvedacharya
           </p>
           <p className="text-lg mt-4 text-[#757575] font-bold">
-            B.A.M.S., F.A.A.S.S. MBA in
+            B.A.M.S., F.A.A.S.S.,
           </p>
-          <p className="text-[#757575]">HealthCare & Hospital Administration</p>
+          <p className="text-[#757575]">MBA in HealthCare & Hospital Administration</p>
           <div className="mt-6 text-[#757575]">
             <h3 className="text-lg font-bold mb-4">OPD Timings</h3>
             <p className="mb-4">
@@ -49,19 +49,18 @@ function Dr_Rushi() {
           <h2 className="text-2xl font-bold text-[#757575]">
             Summary of Education
           </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li className="mb-4">
-              * Ayurvedacharya from Shree Swaminarayan Ayurvedic
-              College,Kalol-Gandhinagar.
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Ayurvedacharya from Shree Swaminarayan Ayurvedic College,Kalol-Gandhinagar.</span>
             </li>
-            <li className="mb-4">
-              * Fellowship in Applied Ayurvedic Science at SGVP (F.A.A.S.S.)
-              from SGVP Holistic Hospital, Ahemdabad.
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Fellowship in Applied Ayurvedic Science at SGVP (F.A.A.S.S.) from SGVP Holistic Hospital, Ahemdabad.</span>
             </li>
-            <li className="mb-4">
-              * Master of Business Administration (M.B.A.) in Healthcare &
-              Hospital Administration From Ahmedabad Management Association
-              associated with CSUSB.
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Master of Business Administration (M.B.A.) in Healthcare & Hospital Administration From Ahmedabad Management Association associated with CSUSB.</span>
             </li>
           </ul>
         </div>
@@ -74,18 +73,14 @@ function Dr_Rushi() {
           <h2 className="text-2xl font-bold text-[#757575]">
             Summary of Experience
           </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li className="mb-4">
-              * Co- Founder & Ayurved Consultation & treatments Since 2023 at
-              Agni Ayurved Hospital.
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Co- Founder & Ayurved Consultant Since 2023 at Agni Ayurved Hospital.</span>
             </li>
-            <li className="mb-4">
-              * Ayurvedic Gastroenterologist at Pavitram Ayurvedic Panchakarma
-              Clinic since 2024.
-            </li>
-            <li className="mb-4">
-              * Ayurvedic Dermatologist (Hair & Skin) at Pavitram Ayurved
-              Panchakarma Clinic Since Inception.
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Ayurvedic Dermatologist (Hair & Skin) at Pavitram Ayurved Panchakarma Clinic Since Inception.</span>
             </li>
           </ul>
         </div>
@@ -95,26 +90,56 @@ function Dr_Rushi() {
           <h2 className="text-2xl font-bold text-[#757575]">
             Services and Treatments
           </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li>* Specialist of Nadi Parikshana </li>
-            <li>* Consultation with Care</li>
-            <li>* Counselling</li>
-            <li>* Personalised Diet Plan</li>
-            <li>* Lifestyle Recommendation</li>
-            <li>* Chronic Illness Management</li>
-            <li>* Seasonal Guidance</li>
-            <li>* Wellness</li>
-            <li>* Spiritual Health Guidance</li>
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Specialist of Nadi Parikshana</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Consultation with Care</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Counselling</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Personalised Diet Plan</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Lifestyle Recommendation</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Chronic Illness Management</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Seasonal Guidance</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Wellness</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Spiritual Health Guidance</span>
+            </li>
           </ul>
         </div>
       </section>
-      <section className="py-8 px-12 xl:px-56 ">
+      <section className="py-8 xl:pb-16 px-12 xl:px-56 ">
         <div>
           <h2 className="text-2xl font-bold text-[#757575]">
             Achievement & Awards
           </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li className="mb-4">* World Book of Record 2023 </li>
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>World Book of Record 2023</span>
+            </li>
           </ul>
         </div>
       </section>

@@ -92,7 +92,8 @@ function SkinHairDisorder() {
           </div>
         )}
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-[#394E29] font-bold  max-[450px]:text-[16px]">
+        <h1 className="text-[#394E29] font-bold text-3xl md:text-4xl lg:text-5xl max-[450px]:text-xl px-4 text-center">
+
             Skin & Hair Disorders
           </h1>
         </div>

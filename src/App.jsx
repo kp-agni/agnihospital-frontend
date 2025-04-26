@@ -49,6 +49,7 @@ import Testimonials from "./components/Testimonials";
 import NadiParikshan from "./components/Treatment/NadiParikshan";
 import Suvarnaprashan from "./components/Treatment/Suvarnaprashan";
 import Garbhasanskar from "./components/Treatment/Garbhasanskar";
+import WhatsAppButton from './components/WhatsAppButton'; // Import the WhatsApp button component
 
 
 const App = () => {
@@ -107,6 +108,7 @@ const App = () => {
 
           {/* Add more routes as needed */}
         </Routes>
+        <WhatsAppButton /> {/* Add the WhatsApp button component here */}
         <Footer />
       </div>
     </Router>

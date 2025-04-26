@@ -27,18 +27,18 @@ function Dr_Darshan() {
             Dr. Darshan Dudhat
           </h1>
           <p className="mt-2 text-lg  text-[#757575]">
-            Co-Founder & Ayurved Consultant,
+            Co-Founder & Panchakarma Consultant,
             <br /> Parayani Nadi Vaidya and Ayurvedacharya
           </p>
           <p className="text-lg mt-4 text-[#757575] font-bold">
-            B.A.M.S., F.A.A.S.S., F.I.P., MBA in
+            B.A.M.S., F.A.A.S.S., F.I.P., 
           </p>
-          <p className="text-[#757575]">Healthcare & Hospital Administration</p>
+          <p className="text-[#757575]"> MBA in Healthcare & Hospital Administration</p>
           <div className="mt-6 text-[#757575]">
             <h3 className="text-lg font-bold mb-4">OPD Timings</h3>
             <p className="font-semibold">Monday to Saturday</p>
             <p className="mb-4">
-              Morning :- 9:00 am to 1:00 pm <br /> Evening :- 4:00 pm to 9:00 pm
+              Morning :- 9:00 am to 1:00 pm <br /> Evening :- 5:00 pm to 9:00 pm
             </p>
             <p className="font-semibold">Sunday: Prior Appointment Only</p>
             <p> 9:00 AM to 1:00 PM</p>
@@ -51,22 +51,22 @@ function Dr_Darshan() {
           <h2 className="text-2xl font-bold text-[#757575]">
             Summary of Education
           </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li className="mb-4">
-              * Bachelor of Ayurvedic Medicine and Surgery (B.A.M.S.) from Rajiv
-              Gandhi University of Health Science, karnataka.
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Bachelor of Ayurvedic Medicine and Surgery (B.A.M.S.) from Rajiv Gandhi University of Health Science, karnataka.</span>
             </li>
-            <li className="mb-4">
-              * Fellowship in Applied Ayurvedic Science at sgvp (F.A.A.S.S.)
-              From SGVP Holistic Hospital.
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Fellowship in Applied Ayurvedic Science at sgvp (F.A.A.S.S.) From SGVP Holistic Hospital.</span>
             </li>
-            <li className="mb-4">
-              * Fellowship In Panchakarma (F.I.P) from Dhanvantari Ayurved
-              Shikshan Sanshodhan Sanstha, Dhule, Maharashtra.
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Fellowship In Panchakarma (F.I.P) from Dhanvantari Ayurved Shikshan Sanshodhan Sanstha, Dhule, Maharashtra.</span>
             </li>
-            <li>
-              * MBA in Healthcare & Hospital Management From AMA Associated with
-              California State University, San Bernardino.
+            <li className="flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>MBA in Healthcare & Hospital Management From AMA Associated with California State University, San Bernardino.</span>
             </li>
           </ul>
         </div>
@@ -79,15 +79,19 @@ function Dr_Darshan() {
           <h2 className="text-2xl font-bold text-[#757575]">
             Summary of Experience
           </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li className="mb-4">
-              * Co Founder & Panchakarma Consultant at Agni Ayurved Hospital
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Co- Founder & Panchakarma Consultant Since 2023 at Agni Ayurved Hospital.</span>
             </li>
-            <li className="mb-4">
-              * Panchakarma Consultant at Pavitram Ayurvedic Panchakarma Clinic
-              since inception
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Panchakarma Consultant at Pavitram Ayurvedic Panchakarma Clinic since inception</span>
             </li>
-            <li>* Intern Doctor at CBG Ayurveda Hospital</li>
+            <li className="flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Intern Doctor at CBG Ayurveda Hospital</span>
+            </li>
           </ul>
         </div>
       </section>
@@ -97,38 +101,79 @@ function Dr_Darshan() {
             Services and Treatments
           </h2>
           <ul className="mt-4 list-inside text-[#757575]">
-            <li>* Specialist of Nadi Parikshan</li>
-            <li>* Panchkarma & Rejuvenation Therapy</li>
-            <li>* Detox Therapy & Wellness</li>
-            <li>
-              * Vaman, Virechan, Basti, Nasya & Raktmokshan (Leech Therapy)
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Specialist of Nadi Parikshan</span>
             </li>
-            <li>* Shirodhara, Shirovirechan, Shiropichu, etc.</li>
-            <li>* Spiritual & Mantra Therapy</li>
-            <li>* Consulting & Counselling</li>
-            <li>* Agnikarma, Viddhakarma, Cupping Therapy & Snigadhadagdha</li>
-            <li>
-              * Body Polishing, Herbal Ayurvedic Facial, Herbal Ayurvedic Kesh
-              Shringar
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Panchkarma & Rejuvenation Therapy</span>
             </li>
-            <li>* Kriyakalpa, Karna Pooran & Karna Dhoopana, etc.</li>
-            <li>* Diet Designing According to Ayurveda Principles</li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Detox Therapy & Wellness</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Vaman, Virechan, Basti, Nasya & Raktmokshan (Leech Therapy)</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Shirodhara, Shirovirechan, Shiropichu, etc.</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Spiritual & Mantra Therapy</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Consulting & Counselling</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Agnikarma, Viddhakarma, Cupping Therapy & Snigadhadagdha</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Body Polishing, Herbal Ayurvedic Facial, Herbal Ayurvedic Kesh Shringar</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Kriyakalpa, Karna Pooran & Karna Dhoopana, etc.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Diet Designing According to Ayurveda Principles</span>
+            </li>
           </ul>
         </div>
       </section>
-      <section className="py-8 px-12 xl:px-56 ">
+      <section className="py-8 xl:pb-16 px-12 xl:px-56 ">
         <div>
           <h2 className="text-2xl font-bold text-[#757575]">
             Achievement & Awards{" "}
           </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li className="mb-2">
-            * Youth Vaidya Rising Award 2023 
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-2 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Youth Vaidya Rising Award 2023</span>
             </li>
-            <li className="mb-2">* World Book of Record 2023 </li>
-            <li className="mb-2">* Ayurvda Shiromani Award 2024</li>
-            <li className="mb-2">* Kshaar paani Award 2024 </li>
-            <li>* International Book of Record 2024</li>
+            <li className="mb-2 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>World Book of Record 2023</span>
+            </li>
+            <li className="mb-2 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Ayurvda Shiromani Award 2024</span>
+            </li>
+            <li className="mb-2 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Kshaar paani Award 2024</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>International Book of Record 2024</span>
+            </li>
           </ul>
         </div>
       </section>

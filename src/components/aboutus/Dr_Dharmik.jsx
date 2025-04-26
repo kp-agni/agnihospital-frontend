@@ -32,13 +32,13 @@ function Dr_Dharmik() {
             <br /> Parayani Nadi Vaidya and Ayurvedacharya
           </p>
           <p className="text-lg mt-4 text-[#757575] font-bold">
-            B.A.M.S., C.Y.S., F.A.A.S.S., MBA in
+            B.A.M.S., C.Y.S., F.A.A.S.S.,
           </p>
-          <p className="text-[#757575]">Healthcare & Hospital Administration</p>
+          <p className="text-[#757575]">MBA in Healthcare & Hospital Administration</p>
           <div className="mt-6 text-[#757575]">
             <h3 className="text-lg font-bold mb-4">OPD Timings</h3>
             <p className="mb-4">
-              Monday to Saturday <br /> 4:00 PM to 9:00 PM
+              Monday to Saturday <br /> 5:00 PM to 9:00 PM
             </p>
             <p>
               Sunday: Prior Appointment Only <br /> 9:00 AM to 1:00 PM
@@ -52,47 +52,58 @@ function Dr_Dharmik() {
           <h2 className="text-2xl font-bold text-[#757575]">
             Summary of Education
           </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li className="mb-4">Ayurvedacharya from Gujarat Ayurved University, Jamnagar.</li>
-            <li className="mb-4">
-              * Fellowship in Applied Ayurvedic Science at SGVP Holistic Hospital,
-              Ahmedabad.
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Ayurvedacharya from world renowned institute Gujarat Ayurved University, Jamnagar.</span>
             </li>
-            <li className="mb-4">
-            * Certificate in Yoga Science (C.Y.S.) from Ambedkar Open
-              University, Ahmedabad.
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Fellowship in Applied Ayurvedic Science at SGVP (F.A.A.S.S.) from SGVP Holistic Hospital, Ahmedabad.</span>
             </li>
-            <li>
-            * MBA in Healthcare and Hospital Administration from AMA, California
-              State University.
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Certificate in Yoga Science (C.Y.S.) from Doctor Babasaheb Ambedkar Open University, Ahmedabad.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Master of Business Administration (M.B.A.) in Healthcare and Hospital Administration from AMA associated with California State University - San Bernardino.</span>
             </li>
           </ul>
         </div>
 
         {/* Vertical Line */}
-        <div className="hidden md:block absolute top-20 right-1/2 h-64 border-l-2 border-[#5FA02E]"></div>
+        <div className="hidden md:block absolute top-12 right-1/2 h-96 border-l-2 border-[#5FA02E]"></div>
 
         {/* Right Column */}
         <div className="ml-2">
           <h2 className="text-2xl font-bold text-[#757575]">
             Summary of Experience
           </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li className="mb-4">
-            * Co-Founder & Ayurvedic Consultant at Agni Ayurved Hospital,
-              Ahmedabad.
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Co-Founder & Ayurved Consultant (Parayani Nadi Vaidya) since inception at Agni Ayurved Hospital, Ahmedabad.</span>
             </li>
-            <li className="mb-4">
-            * Ayurvedic Gastroenterologist at Pavitram Ayurvedic Panchakarma
-              Clinic since 2024.
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Ayurvedic Gastroenterologist at Pavitram Ayurvedic Panchakarma Clinic since 2024.</span>
             </li>
-            <li className="mb-4">
-            * Chief Ayurved Consultant at Shree Aashapura Maa Jain Hospital,
-              Ahmedabad.
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Chief Ayurved Consultant since 2023 at Shree Aashapura Maa (Gadhakada) Jain Hospital, Ahmedabad.</span>
             </li>
-            <li>
-            * Medical Officer at Monark Ayurved Medical College and Hospital
-              (2023).
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Yoga Instructor at Faculty of Homoeopathy (Shree Swaminarayan Homoeopathy College) Swaminarayan University - Gandhinagar since March 2025.</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Medical Officer at Monark Ayurved Medical College and Hospital (Jan 2023- Dec 2023).</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Intern Doctor at PSAM Hospital, Gandhinagar (Sep 2021- Sep 2022).</span>
             </li>
           </ul>
         </div>
@@ -100,17 +111,47 @@ function Dr_Dharmik() {
       <section className="py-8 px-12 xl:px-56 ">
       <div>
           <h2 className="text-2xl font-bold text-[#757575]">Services and Treatments</h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li>* A Rare Specialist of Nadi Parikshan</li>
-            <li>* Consulting and Counselling</li>
-            <li>* Daivavyapashraya Chikitsa</li>
-            <li>* Diet According to Prakriti & Vikriti</li>
-            <li>* Personalized Health Assessment</li>
-            <li>* Lifestyle & Diet Recommendation</li>
-            <li>* Herbal Medicine Prescriptions</li>
-            <li>* Chronic Disease Management</li>
-            <li>* Wellness & Holistic Health</li>
-            <li>* Lectures and Training</li>
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>A Rare Specialist of Nadi Parikshan</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Consulting and Counselling</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Daivavyapashraya Chikitsa</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Diet According to Prakriti & Vikriti</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Personalized Health Assessment</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Lifestyle & Diet Recommendation</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Herbal Medicine Prescriptions</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Chronic Disease Management</span>
+            </li>
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Wellness & Holistic Health</span>
+            </li>
+            <li className="flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Lectures and Training</span>
+            </li>
           </ul>
         </div>
       </section>
@@ -118,30 +159,35 @@ function Dr_Dharmik() {
       <div>
           <h2 className="text-2xl font-bold text-[#757575]">
           Teaching & Training Experience          </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li className="mb-4">
-            * Guest Speaker for Transitional Curriculum of 1st year B.A.M.S. students during December 2023 at Himalay Ayurved Chikitsalay  & Mahavidhyalay, Vadasma.
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Guest Speaker for Transitional Curriculum of 1st year B.A.M.S. students during December 2023 at Himalay Ayurved Chikitsalay & Mahavidhyalay, Vadasma.</span>
             </li>
-            <li className="mb-4">
-            * Guest Eminent Speaker for Motivational Lecture for new B.A.M.S. students during November 2023 at Shree Swaminarayan Ayurvedic College abd Premswarup Swami Ayurvedic Multispeciality Hospital - Kalol, Gandhinagar.
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Guest Eminent Speaker for Motivational Lecture for new B.A.M.S. students during November 2023 at Shree Swaminarayan Ayurvedic College abd Premswarup Swami Ayurvedic Multispeciality Hospital - Kalol, Gandhinagar.</span>
             </li>
-            <li>
-            * Guest Speaker for Motivational Lecture for new B.A.M.S. students (Transitional Curriculum) on 8th November 2024 at Shree Swaminarayan Ayurvedic College (Swaminarayan University).
+            <li className="flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Guest Speaker for Motivational Lecture for new B.A.M.S. students (Transitional Curriculum) on 8th November 2024 at Shree Swaminarayan Ayurvedic College (Swaminarayan University).</span>
             </li>
           </ul>
         </div>
       </section>
-      <section className="py-8 px-12 xl:px-56 ">
+      <section className="py-10 xl:pb-20 px-12 xl:px-56 ">
       <div>
           <h2 className="text-2xl font-bold text-[#757575]">
           Achievement & Awards          </h2>
-          <ul className="mt-4  list-inside text-[#757575]">
-            <li className="mb-4">
-            * Member of BOS (Board of Study)
-            At Swaminarayan University, Gandhinagar.
+          <ul className="mt-4 list-inside text-[#757575]">
+            <li className="mb-4 flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>Member of BOS (Board of Study) At Swaminarayan University, Gandhinagar.</span>
             </li>
-            <li className="mb-4">
-            * World Book of Record 2023            </li>
+            <li className="flex items-start">
+              <span className="text-[#5FA02E] mr-2">•</span>
+              <span>World Book of Record 2023</span>
+            </li>
           </ul>
         </div>
       </section>

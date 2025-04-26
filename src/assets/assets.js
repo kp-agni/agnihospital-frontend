@@ -19,9 +19,6 @@ import honesty from "./svg/honesty.svg";
 import quality from "./svg/quality.svg";
 import timing from "./svg/Timing.svg";
 import call from "./svg/Call.svg";
-import profile_img_1 from "./png/profile_img_1.png";
-import profile_img_2 from "./png/profile_img_2.png";
-import profile_img_3 from "./png/profile_img_3.png";
 import treatment_hero from "./png/treatment_hero.png";
 
 
