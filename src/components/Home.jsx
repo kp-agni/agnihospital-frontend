@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { testimonialsData } from "../assets/assets";
 import Book_Appointment from "../components/Appointment/Book_Appointment";
 import useAppointmentForm from "../hook/useAppointmentForm";
-// import "./Home.css";
+
 
 function Home() {
   const settings = {
@@ -32,14 +32,14 @@ function Home() {
     ],
   };
   const images = [
-    "/homeslider/slider_1.png",
-    "/homeslider/slider_2.png",
-    "/homeslider/slider_3.png",
-    "/homeslider/slider_4.png",
-    "/homeslider/slider_5.png",
-    "/homeslider/slider_6.png",
-    "/homeslider/slider_7.png",
-    "/homeslider/slider_8.png",
+    "/homeslider/slide_1.png",
+    "/homeslider/slide_2.png",
+    "/homeslider/slide_3.png",
+    "/homeslider/slide_4.png",
+    "/homeslider/slide_5.png",
+    "/homeslider/slide_6.png",
+    "/homeslider/slide_7.png",
+    "/homeslider/slide_8.png",
   ];
   const { visibleFormId, handleButtonClick, closeForm } = useAppointmentForm();
 

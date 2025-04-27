@@ -22,9 +22,9 @@ function Testimonials() {
 
     },
     {
-      name: "Gopal Suratwala",
+      name: "Sachin Patel",
       role: "Patient",
-      review: "I really appreciate and highly recommend Dr. Rushi Sir for Piles and Fissures Ayurvedic treatment. He is very gentle& friendly . He made me comfortable in all aspects.I am really thankful and grateful to him to check my health condition almost every week.",
+      review: "Agni Ayurved Hospital doctor, Dr. Dharmik well experienced and truly believers of aayurveda. I have recently visited the clinic for my father’s (58years) knee pain. They have investigated the pain area very patiently and accurately. The doctor is giving the sufficient time to understand the patient history before finalizing the treatment. They have in clinic treatment facilities for day to day treatment sessions as well. My father’s pain reduced to 60-70% after the treatment and one month of medications. Medication was quite costy but very effectively without any side effects. We are really satisfied with the outcome as knee replacement was not the option.Thank you 🙏🏻",
     },
     {
       name: "Sheikh Tayyab Raja",
@@ -94,7 +94,17 @@ function Testimonials() {
       src: "https://drive.google.com/file/d/1iH95gcz3r_cBGpn-baU22_fSsii9qdm5/view?usp=sharing",
       thumbnail: "/testimonials/thumbnails/thumb_6.png",
       title: "Skin Treatment Journey"
-    }
+    },
+    {
+      src: "https://drive.google.com/file/d/1eFiCJfYJ-wXC4Wv0qP6yy_QJGTk7wHDS/view?usp=sharing",
+      thumbnail: "/testimonials/thumbnails/thumb_7.png",
+      title: "Skin Treatment Journey"
+    },
+    {
+      src: "https://drive.google.com/file/d/15r7MUK1ha61hPayho4NsCTzIP4Yp_IwF/view?usp=sharing",
+      thumbnail: "/testimonials/thumbnails/thumb_5.png",
+      title: "Skin Treatment Journey"
+    },
   ];
 
   const sliderSettings = {
