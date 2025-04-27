@@ -27,7 +27,7 @@ function Contact_us() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://agnihospital-backend.vercel.app/api/contact-us", formData);
+      await axios.post("https://api.agniayurvedhospital.com/api/contact-us", formData);
       setMessage("Message sent successfully!");
       setFormData({ name: "", email: "", phone: "", message: "" });
     } catch (error) {
