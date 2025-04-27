@@ -32,7 +32,7 @@ function Home() {
     ],
   };
   const images = [
-    "/homeslider/slide_1.png",
+    "/facility/reception/image_8.png",
     "/homeslider/slide_2.png",
     "/homeslider/slide_3.png",
     "/homeslider/slide_4.png",
