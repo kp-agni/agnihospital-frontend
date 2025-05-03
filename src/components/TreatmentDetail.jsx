@@ -1454,7 +1454,7 @@ const TreatmentDetail = () => {
             </li>
           ))}
         </ul>
-      </div>
+      </div>  
 
       {/* Benefits Section */}
       <div className="bg-white rounded-lg shadow-sm p-8 mb-10">
